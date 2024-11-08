@@ -1,7 +1,9 @@
 import json
-from machine import Machine
+
+from machine import MachineSystem
 from task import TaskSystem
 from position import PositionSystem
+from schedule import Schedule
 
 from config import DEBUG
 
@@ -11,7 +13,7 @@ def load_machines_from_json(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
 
-    machine_system = Machine()
+    machine_system = MachineSystem()
 
     for assay in data['assaysmodel']:
         for machine_data in assay['machines']:
@@ -48,28 +50,33 @@ def load_positions_from_json(file_path):
 
 if __name__ == "__main__":
     file_path = 'test.json'  # 替换正确的JSON文件路径
+
     machine_system = load_machines_from_json(file_path)
     task_system = load_tasks_from_json(file_path)
     position_system = load_positions_from_json(file_path)
 
-    # 打印所有加载的机器
-    if DEBUG:
-        all_machines = machine_system.get_all_machines()
-        for machine in all_machines:
-            print(f"ID: {machine.id}, Name: {machine.name}, Type: {machine.type}")
+    schedule = Schedule(task_system, machine_system)
 
-        print("----------------------------------------------------------------------------------")
-        i = 0
-        for task in task_system.get_all_tasks():
-            print(task)
-            i = i + 1
-            if i > 10:
-                break
+    print(schedule)
 
-        print("\n----------------------------------------------------------------------------------")
-        i = 0
-        for position in position_system.get_all_positions():
-            print(position)
-            i = i + 1
-            if i > 10:
-                break
+    # # 打印所有加载的机器
+    # if DEBUG:
+    #     all_machines = machine_system.get_all_machines()
+    #     for machine in all_machines:
+    #         print(f"ID: {machine.id}, Name: {machine.name}, Type: {machine.type}")
+    #
+    #     print("----------------------------------------------------------------------------------")
+    #     i = 0
+    #     for task in task_system.get_all_tasks():
+    #         print(task)
+    #         i = i + 1
+    #         if i > 10:
+    #             break
+    #
+    #     print("\n----------------------------------------------------------------------------------")
+    #     i = 0
+    #     for position in position_system.get_all_positions():
+    #         print(position)
+    #         i = i + 1
+    #         if i > 10:
+    #             break

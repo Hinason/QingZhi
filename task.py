@@ -54,3 +54,6 @@ class TaskSystem:
 
     def get_all_tasks(self):
         return self.tasks
+
+    def __str__(self):
+        return f"TaskNumber: {len(self.tasks)}"
