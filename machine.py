@@ -9,6 +9,8 @@ class Machine:
         self.instrumentcategory = category
         self.instrumentcategorytext = category_text
         self.taskstoragedetail = []
+        self.positions = []
+        self.occupied = False
 
 
 class MachineSystem:
@@ -23,6 +25,12 @@ class MachineSystem:
 
     def get_all_machines(self):
         return self.machines
+
+    def add_position(self, position):
+        for machine in self.machines:
+            if machine.id == position.machine:
+                machine.positions.append(position)
+                break
 
     def __str__(self):
         return f"MachineNumber: {len(self.machines)}"

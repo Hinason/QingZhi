@@ -8,6 +8,7 @@ class Position:
         self.positionname = position_data.get('positionname', '')
         self.machinename = position_data.get('machinename', '')
         self.sourcetype = position_data.get('sourcetype', '')
+        self.occupied = False
 
     def __str__(self):
         return f"Position: {self.positionname} (ID: {self.id})"

@@ -1,0 +1,244 @@
+{
+    "assaysmodel": [
+        {
+            "name": "Transcriptome",
+            "tasks": [
+                {
+                    "id": "a4389c1d88194dbca0a1d94626450e57",
+                    "occupy": [
+                        [
+                            "e93ef43bc4b3493e9b7cd27252dc0331"
+                        ],
+                        [
+                            "6ED7448DEA49411981D06807F4656F27"
+                        ]
+                    ],
+                    "release": [
+                        [
+                            "e93ef43bc4b3493e9b7cd27252dc0331"
+                        ],
+                        [
+                            "6ED7448DEA49411981D06807F4656F27"
+                        ]
+                    ],
+                    "occupy_dependency": [],
+                    "release_dependency": [],
+                    "dependency2": -1,
+                    "status": 0,
+                    "priority": 0,
+                    "time": 30,
+                    "robotgettime": 7,
+                    "robotputtime": 0,
+                    "estduration": 30,
+                    "pre": [],
+                    "next": [
+                        "11a7fd397e2c45a1b37b0b7b5bdafc25"
+                    ],
+                    "machine": "",
+                    "position": "",
+                    "release_machine": [],
+                    "release_position": [],
+                    "dependency": -1,
+                    "available": 0,
+                    "start_time": 0,
+                    "heuristic": 0,
+                    "taskname": "Get From Hotel",
+                    "plateprocess": "EA37DC6C26444165AEB6B2B854471970",
+                    "stepplatename": "",
+                    "taskplatename": "mRNASample",
+                    "stepname": "",
+                    "sequnceid": "",
+                    "steps": [],
+                    "sequncestepid": "",
+                    "procedurids": [],
+                    "nodeid": "4EFC9E7D2E844183B14BE4B35C63714A",
+                    "processtype": 2,
+                    "processtypetext": "抓板工艺",
+                    "taskplates": [
+                        "EA37DC6C26444165AEB6B2B854471970"
+                    ],
+                    "timeout": 60,
+                    "zone": "TranmRNASampleZone"
+                },
+                {
+                    "id": "11a7fd397e2c45a1b37b0b7b5bdafc25",
+                    "occupy": [
+                        [
+                            "4E43EF8C7F154ADBBEE4DDEDAC66DE5A"
+                        ],
+                        [
+                            "0672F2FEB135489CB952D8AAED313EF8"
+                        ]
+                    ],
+                    "release": [
+                        [
+                            "4E43EF8C7F154ADBBEE4DDEDAC66DE5A"
+                        ],
+                        [
+                            "6ED7448DEA49411981D06807F4656F27"
+                        ]
+                    ],
+                    "occupy_dependency": [],
+                    "release_dependency": [],
+                    "dependency2": -1,
+                    "status": 0,
+                    "priority": 0,
+                    "time": 22,
+                    "robotgettime": 15,
+                    "robotputtime": 15,
+                    "estduration": 22,
+                    "pre": [
+                        "a4389c1d88194dbca0a1d94626450e57"
+                    ],
+                    "next": [
+                        "31e096523e114b08b6b6eb96a621c828"
+                    ],
+                    "machine": "",
+                    "position": "",
+                    "release_machine": [],
+                    "release_position": [],
+                    "dependency": -1,
+                    "available": 0,
+                    "start_time": 0,
+                    "heuristic": 0,
+                    "taskname": "robot",
+                    "plateprocess": "EA37DC6C26444165AEB6B2B854471970",
+                    "stepplatename": "",
+                    "taskplatename": "mRNASample",
+                    "stepname": "",
+                    "sequnceid": "",
+                    "steps": [],
+                    "sequncestepid": "",
+                    "procedurids": [],
+                    "nodeid": "044C254103344813967B5554E7E7E6BD",
+                    "processtype": 0,
+                    "processtypetext": "标准工艺",
+                    "taskplates": [
+                        "EA37DC6C26444165AEB6B2B854471970"
+                    ],
+                    "timeout": 60,
+                    "zone": ""
+                },
+                {
+                    "id": "31e096523e114b08b6b6eb96a621c828",
+                    "occupy": [
+                        [
+                            "5b0482266a2f467da9bc387740da22de"
+                        ]
+                    ],
+                    "release": [
+                        [
+                            "5b0482266a2f467da9bc387740da22de"
+                        ]
+                    ],
+                    "occupy_dependency": [],
+                    "release_dependency": [],
+                    "dependency2": -1,
+                    "status": 0,
+                    "priority": 0,
+                    "time": 30,
+                    "robotgettime": 15,
+                    "robotputtime": 15,
+                    "estduration": 30,
+                    "pre": [
+                        "11a7fd397e2c45a1b37b0b7b5bdafc25"
+                    ],
+                    "next": [],
+                    "machine": "",
+                    "position": "",
+                    "release_machine": [],
+                    "release_position": [],
+                    "dependency": -1,
+                    "available": 0,
+                    "start_time": 0,
+                    "heuristic": 0,
+                    "taskname": "XPeel",
+                    "plateprocess": "EA37DC6C26444165AEB6B2B854471970",
+                    "stepplatename": "",
+                    "taskplatename": "mRNASample",
+                    "stepname": "",
+                    "sequnceid": "",
+                    "steps": [],
+                    "sequncestepid": "",
+                    "procedurids": [],
+                    "nodeid": "044C254103344813967B5554E7E7E6BD",
+                    "processtype": 0,
+                    "processtypetext": "标准工艺",
+                    "taskplates": [
+                        "EA37DC6C26444165AEB6B2B854471970"
+                    ],
+                    "timeout": 60,
+                    "zone": ""
+                }
+            ],
+            "positions": [
+                {
+                    "id": "6ED7448DEA49411981D06807F4656F27",
+                    "status": 0,
+                    "machine": "2A1ED471BA87491A9349656CBF55CDF8",
+                    "positionname": "StorageCarousel_1",
+                    "machinename": "StorageCarousel_1",
+                    "sourcetype": "plate"
+                },
+                {
+                    "id": "e93ef43bc4b3493e9b7cd27252dc0331",
+                    "status": 0,
+                    "machine": "2A1ED471BA87491A9349656CBF55CDF8",
+                    "positionname": "StorageCarousel_1 work",
+                    "machinename": "StorageCarousel_1",
+                    "sourcetype": "work"
+                },
+                {
+                    "id": "0672F2FEB135489CB952D8AAED313EF8",
+                    "status": 0,
+                    "machine": "8DA254642C2C4FFF94C39B298B65A9BE",
+                    "positionname": "XPeel Brooks_1",
+                    "machinename": "XPeel Brooks_1",
+                    "sourcetype": "plate"
+                },
+                {
+                    "id": "4E43EF8C7F154ADBBEE4DDEDAC66DE5A",
+                    "status": 0,
+                    "machine": "AA8E524389BE4EAB9D1BFE626C7937A7",
+                    "positionname": "DENSO RC8_1",
+                    "machinename": "DENSO RC8_1",
+                    "sourcetype": "plate"
+                },
+                {
+                    "id": "5b0482266a2f467da9bc387740da22de",
+                    "status": 0,
+                    "machine": "8DA254642C2C4FFF94C39B298B65A9BE",
+                    "positionname": "XPeel Brooks_1 work",
+                    "machinename": "XPeel Brooks_1",
+                    "sourcetype": "work"
+                }
+            ],
+            "machines": [
+                {
+                    "id": "2A1ED471BA87491A9349656CBF55CDF8",
+                    "name": "a4S Sealer_1",
+                    "type": "a4S Sealer",
+                    "instrumentcategory": 9,
+                    "instrumentcategorytext": "封膜、撕膜",
+                    "taskstoragedetail": []
+                },
+                {
+                    "id": "8DA254642C2C4FFF94C39B298B65A9BE",
+                    "name": "PCRSimulator_5",
+                    "type": "PCRSimulator",
+                    "instrumentcategory": 8,
+                    "instrumentcategorytext": "热循环器",
+                    "taskstoragedetail": []
+                },
+                {
+                    "id": "AA8E524389BE4EAB9D1BFE626C7937A7",
+                    "name": "CentrifugeLoader_1",
+                    "type": "CentrifugeLoader",
+                    "instrumentcategory": 5,
+                    "instrumentcategorytext": "离心机",
+                    "taskstoragedetail": []
+                }
+            ]
+        }
+    ]
+}
