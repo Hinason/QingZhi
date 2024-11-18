@@ -39,5 +39,18 @@ class ScheduledTask:
         self.occupy_position_id = occupy_position_id
         self.release_machine_id = release_machine_id
         self.release_position_id = release_position_id
+        self.status = False
+
+        '''
+        start_time : 开始时间
+        task_id : 任务ID
+        prev_task_id : 该任务所有前置任务
+        next_task_id : 该任务的后续任务
+        occupy_machine_id : 执行该任务需要哪些机器
+        occupy_position_id : 执行该任务需要哪些位置
+        release_machine_id : 执行完毕后释放哪些机器
+        release_position_id : 执行完毕后释放哪些位置
+        status : 该任务是否已经完成
+        '''
 
 
