@@ -1,4 +1,4 @@
-def simulate(schedule, scheduled_tasks):
+def task_simulate(schedule, scheduled_tasks):
     for scheduled_task in scheduled_tasks:
         # 当前时间设置为任务开始时间
         schedule.current_time = scheduled_task.start_time
@@ -6,13 +6,13 @@ def simulate(schedule, scheduled_tasks):
         # 找到当前任务的所有前置任务，前置任务必须全部已经完成
         prev_tasks = []
         for prev_task_id in scheduled_task.prev_task_id:
-            for p in scheduled_tasks:
-                if p.task_id == prev_task_id:
-                    if not p.status:
-                        print(f"Error: Task {p.task_id} is not completed, can't run Task {scheduled_task.task_id}")
+            for prev_task in scheduled_tasks:
+                if prev_task.task_id == prev_task_id:
+                    if not prev_task.status or schedule.current_time - prev_task.start_time < prev_task.duration:
+                        print(f"Error: Task {prev_task.task_id} is not completed, can't run Task {scheduled_task.task_id} at time {schedule.current_time}")
                         prev_tasks.clear()
                         return
-                    prev_tasks.append(p)
+                    prev_tasks.append(prev_task)
                     break
 
         # 检查任务是否可以执行,task中的occupied_machine_id和occupied_position_id是一个列表,可能包含多个,也可能为空

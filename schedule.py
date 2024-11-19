@@ -4,6 +4,8 @@ class Schedule:
         self.machine_system = machine_system
         self.position_system = position_system
         self.current_time = 0
+        self.remain_tasks_num = task_system.get_tasks_num()
+
 
 
     def get_task_by_id(self, task_id):
@@ -30,9 +32,11 @@ class Schedule:
 
 
 class ScheduledTask:
-    def __init__(self, start_time, task_id, prev_task_id, next_task_id, occupy_machine_id, occupy_position_id, release_machine_id, release_position_id):
-        self.start_time = start_time
+    def __init__(self, task_id, start_time, duration, end_time, prev_task_id, next_task_id, occupy_machine_id, occupy_position_id, release_machine_id, release_position_id):
         self.task_id = task_id
+        self.start_time = start_time
+        self.duration = duration
+        self.end_time = end_time
         self.prev_task_id = prev_task_id
         self.next_task_id = next_task_id
         self.occupy_machine_id = occupy_machine_id
@@ -42,8 +46,10 @@ class ScheduledTask:
         self.status = False
 
         '''
-        start_time : 开始时间
         task_id : 任务ID
+        start_time : 开始时间
+        duration : 持续时间
+        end_time : 结束时间
         prev_task_id : 该任务所有前置任务
         next_task_id : 该任务的后续任务
         occupy_machine_id : 执行该任务需要哪些机器
