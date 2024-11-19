@@ -27,7 +27,7 @@ class Schedule:
         return None
 
     def __str__(self):
-        return f"Schedule(taskNumber: {self.task_system}, machines: {self.machine_system}, current_time: {self.current_time})"
+        return f"Schedule({self.task_system}, {self.machine_system}, {self.position_system}, current_time: {self.current_time})"
 
 
 

@@ -30,3 +30,6 @@ class PositionSystem:
             if position.id == position_id:
                 return position
         return None
+
+    def __str__(self):
+        return f"PositionNumber: {len(self.positions)}"

@@ -20,6 +20,7 @@ def time_simulate(schedule, scheduled_tasks):
                 position = schedule.get_position_by_id(position_id)
                 position.occupied = False
             # 当一个任务到达 end_time, 说明该任务已经执行完毕, 剩余任务数量 - 1
+            task.status = True
             schedule.remain_tasks_num = schedule.remain_tasks_num - 1
             print(f"task {task.task_id} is completed")
 
@@ -30,7 +31,7 @@ def time_simulate(schedule, scheduled_tasks):
             for prev_task_id in task.prev_task_id:
                 for prev_task in scheduled_tasks:
                     if prev_task.task_id == prev_task_id:
-                        if not prev_task.status or schedule.current_time - prev_task.start_time < prev_task.duration:
+                        if not prev_task.status:
                             print(f"Error: Task {prev_task.task_id} is not completed, can't run Task {task.task_id} at time {schedule.current_time}")
                             prev_tasks.clear()
                             return
@@ -57,7 +58,6 @@ def time_simulate(schedule, scheduled_tasks):
                     occupied_position.append(position)
 
             # 执行任务,占用资源
-            task.status = True
             for machine in occupied_machine:
                 machine.occupied = True
                 machine.occupied_task_id = task.task_id
