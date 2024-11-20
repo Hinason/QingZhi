@@ -2,6 +2,8 @@
     "assaysmodel": [
         {
             "name": "Transcriptome",
+            "projectid": "454B134393544695BACFD38351ECD602",
+            "assaysid": "3426392A4D16413E87819B003585EE82",
             "tasks": [
                 {
                     "id": "a4389c1d88194dbca0a1d94626450e57",

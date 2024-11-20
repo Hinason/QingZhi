@@ -32,7 +32,7 @@ class Schedule:
 
 
 class ScheduledTask:
-    def __init__(self, task_id, start_time, duration, end_time, prev_task_id, next_task_id, occupy_machine_id, occupy_position_id, release_machine_id, release_position_id):
+    def __init__(self, task_id, start_time, duration, end_time, prev_task_id, next_task_id, occupy_machine_id, occupy_position_id, release_machine_id, release_position_id, assays_id):
         self.task_id = task_id
         self.start_time = start_time
         self.duration = duration
@@ -44,6 +44,8 @@ class ScheduledTask:
         self.release_machine_id = release_machine_id
         self.release_position_id = release_position_id
         self.status = False
+        self.time_limit = 100
+        self.assays_id = assays_id
 
         '''
         task_id : 任务ID
@@ -57,6 +59,8 @@ class ScheduledTask:
         release_machine_id : 执行完毕后释放哪些机器
         release_position_id : 执行完毕后释放哪些位置
         status : 该任务是否已经完成
+        time_limit : 该任务的时间约束关系，要求该任务必须在前置任务开始后的限定时间内开始
+        assays_id : 该 task 所属的整个工序的标识ID
         '''
 
 

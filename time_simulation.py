@@ -26,14 +26,16 @@ def time_simulate(schedule, scheduled_tasks):
 
         # 然后处理到达 start_time 的任务，这里需要判断前置任务是否全部完成
         for task in ready_tasks:
-            # 找到当前任务的所有前置任务，前置任务必须全部已经完成
+            # 找到当前任务的所有前置任务, 要求前置任务全部完成且要满足时间约束
             prev_tasks = []
             for prev_task_id in task.prev_task_id:
                 for prev_task in scheduled_tasks:
                     if prev_task.task_id == prev_task_id:
                         if not prev_task.status:
                             print(f"Error: Task {prev_task.task_id} is not completed, can't run Task {task.task_id} at time {schedule.current_time}")
-                            prev_tasks.clear()
+                            return
+                        if schedule.current_time - prev_task.start_time > task.time_limit:
+                            print(f"Error: Task {prev_task.task_id} and Task {task.task_id} don't satisfy time limit at time {schedule.current_time}")
                             return
                         prev_tasks.append(prev_task)
                         break
@@ -44,14 +46,14 @@ def time_simulate(schedule, scheduled_tasks):
             occupied_position = []
             for machine_id in task.occupy_machine_id:
                 machine = schedule.get_machine_by_id(machine_id)
-                if machine.occupied and machine.occupied_task_id not in task.prev_task_id:
+                if machine.occupied and machine.occupied_assays_id != task.assays_id:
                     print(f"Error: Machine {machine_id} is occupied at time {schedule.current_time}")
                     return
                 else:
                     occupied_machine.append(machine)
             for position_id in task.occupy_position_id:
                 position = schedule.get_position_by_id(position_id)
-                if position.occupied and position.occupied_task_id not in task.prev_task_id:
+                if position.occupied and position.occupied_assays_id != task.assays_id:
                     print(f"Error: Position {position_id} is occupied at time {schedule.current_time}")
                     return
                 else:
@@ -60,10 +62,10 @@ def time_simulate(schedule, scheduled_tasks):
             # 执行任务,占用资源
             for machine in occupied_machine:
                 machine.occupied = True
-                machine.occupied_task_id = task.task_id
+                machine.occupied_assays_id = task.assays_id
             for position in occupied_position:
                 position.occupied = True
-                position.occupied_task_id = task.task_id
+                position.occupied_assays_id = task.assays_id
 
             print(f"task {task.task_id} is working")
 

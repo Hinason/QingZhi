@@ -2,7 +2,7 @@ from config import DEBUG
 
 
 class Task:
-    def __init__(self, task_data):
+    def __init__(self, task_data, assays_id):
         self.id = task_data.get('id', '')
         self.occupy = task_data.get('occupy', [])
         self.release = task_data.get('release', [])
@@ -40,6 +40,7 @@ class Task:
         self.taskplates = task_data.get('taskplates', [])
         self.timeout = task_data.get('timeout', 0)
         self.zone = task_data.get('zone', '')
+        self.assays_id = assays_id
 
     def __str__(self):
         return f"Task: {self.taskname} (ID: {self.id})"
@@ -48,8 +49,8 @@ class TaskSystem:
     def __init__(self):
         self.tasks = []
 
-    def add_task(self, task_data):
-        task = Task(task_data)
+    def add_task(self, task_data, assays_id):
+        task = Task(task_data, assays_id)
         self.tasks.append(task)
 
     def get_all_tasks(self):

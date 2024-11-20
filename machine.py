@@ -11,7 +11,7 @@ class Machine:
         self.taskstoragedetail = []
         self.positions = []
         self.occupied = False
-        self.occupied_task_id = None
+        self.occupied_assays_id = None
 
 
 class MachineSystem:

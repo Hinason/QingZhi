@@ -10,7 +10,6 @@ def task_simulate(schedule, scheduled_tasks):
                 if prev_task.task_id == prev_task_id:
                     if not prev_task.status or schedule.current_time - prev_task.start_time < prev_task.duration:
                         print(f"Error: Task {prev_task.task_id} is not completed, can't run Task {scheduled_task.task_id} at time {schedule.current_time}")
-                        prev_tasks.clear()
                         return
                     prev_tasks.append(prev_task)
                     break
@@ -21,18 +20,15 @@ def task_simulate(schedule, scheduled_tasks):
         occupied_position = []
         for machine_id in scheduled_task.occupy_machine_id:
             machine = schedule.get_machine_by_id(machine_id)
-            if machine.occupied and machine.occupied_task_id not in scheduled_task.prev_task_id:
+            if machine.occupied and machine.occupied_assays_id != scheduled_task.assays_id:
                 print(f"Error: Machine {machine_id} is occupied at time {schedule.current_time}")
-                occupied_machine.clear()
                 return
             else:
                 occupied_machine.append(machine)
-
         for position_id in scheduled_task.occupy_position_id:
             position = schedule.get_position_by_id(position_id)
-            if position.occupied and position.occupied_task_id not in scheduled_task.prev_task_id:
+            if position.occupied and position.occupied_task_id != scheduled_task.assays_id:
                 print(f"Error: Position {position_id} is occupied at time {schedule.current_time}")
-                occupied_position.clear()
                 return
             else:
                 occupied_position.append(position)
@@ -50,10 +46,10 @@ def task_simulate(schedule, scheduled_tasks):
         scheduled_task.status = True
         for machine in occupied_machine:
             machine.occupied = True
-            machine.occupied_task_id = scheduled_task.task_id
+            machine.occupied_assays_id = scheduled_task.assays_id
         for position in occupied_position:
             position.occupied = True
-            position.occupied_task_id = scheduled_task.task_id
+            position.occupied_assays_id = scheduled_task.assays_id
 
         print(f"Executing task {scheduled_task.task_id} at time {schedule.current_time}")
 
