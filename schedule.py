@@ -1,3 +1,4 @@
+# Schedule 类是中间的一层抽象, 用于处理一些调度需要的属性
 class Schedule:
     def __init__(self, task_system, machine_system, position_system):
         self.task_system = task_system
@@ -5,8 +6,6 @@ class Schedule:
         self.position_system = position_system
         self.current_time = 0
         self.remain_tasks_num = task_system.get_tasks_num()
-
-
 
     def get_task_by_id(self, task_id):
         for task in self.task_system.tasks:
@@ -26,11 +25,23 @@ class Schedule:
                 return position
         return None
 
+    def get_schedule_tasks(self):
+        schedule_tasks = []
+        for task in self.task_system.get_all_tasks():
+            schedule_task = ScheduledTask(task.id,
+                                          task.start_time, task.time, task.start_time+task.time,
+                                          task.pre, task.next,
+                                          task.machine, task.position,
+                                          task.release_machine, task.release_position,
+                                          task.assays_id)
+            schedule_tasks.append(schedule_task)
+        return schedule_tasks
+
     def __str__(self):
         return f"Schedule({self.task_system}, {self.machine_system}, {self.position_system}, current_time: {self.current_time})"
 
 
-
+# ScheduleTask 是算法和仿真中实际模拟的 task, Task类只是用于存储 json 文件中读取的内容
 class ScheduledTask:
     def __init__(self, task_id, start_time, duration, end_time, prev_task_id, next_task_id, occupy_machine_id, occupy_position_id, release_machine_id, release_position_id, assays_id):
         self.task_id = task_id
