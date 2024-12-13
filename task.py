@@ -48,16 +48,22 @@ class Task:
 class TaskSystem:
     def __init__(self):
         self.tasks = []
+        self.taskDic = {}
+
 
     def add_task(self, task_data, assays_id):
         task = Task(task_data, assays_id)
         self.tasks.append(task)
+        self.taskDic[task.id] = task
 
     def get_all_tasks(self):
         return self.tasks
 
     def get_tasks_num(self):
         return len(self.tasks)
+
+    def get_task(self,taskID):
+        return self.taskDic[taskID]
 
     def __str__(self):
         return f"TaskNumber: {len(self.tasks)}"

@@ -1,4 +1,6 @@
 import json
+
+from MCTS.State import State
 from machine import MachineSystem
 from task import TaskSystem
 from position import PositionSystem
@@ -53,6 +55,7 @@ if __name__ == "__main__":
     # schedule_tasks 是算法和仿真运行的输入
     scheduled_tasks = schedule.get_schedule_tasks()
 
+    scheduleState = State(task_system,position_system,machine_system)
     # 此处使用算法调度scheduled_tasks
     # 主要是给每一个 task 确定开始时间(start_time)以及结束时间(end_time)
     # 由于 duration 是一个固定值, 因此只需要确定 start_time 即可, end_time=start_time+duration
