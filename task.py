@@ -6,12 +6,14 @@ class Task:
         self.id = task_data.get('id', '')
         self.occupy = task_data.get('occupy', [])
         self.release = task_data.get('release', [])
+        self.release = []
         self.occupy_dependency = task_data.get('occupy_dependency', [])
         self.release_dependency = task_data.get('release_dependency', [])
         self.dependency2 = task_data.get('dependency2', -1)
         self.status = task_data.get('status', 0)
-        self.priority = task_data.get('priority', 0)
-        self.time = task_data.get('time', 0)
+        self.duration = task_data.get('time', 0)
+        self.beginTime = 0
+        self.endTime = 0
         self.robotgettime = task_data.get('robotgettime', 0)
         self.robotputtime = task_data.get('robotputtime', 0)
         self.estduration = task_data.get('estduration', 0)
@@ -42,6 +44,8 @@ class Task:
         self.zone = task_data.get('zone', '')
         self.assays_id = assays_id
 
+        ## 添加锁定逻辑 task在某些情况多选1的时候 这之后也必须选同一个
+
     def __str__(self):
         return f"Task: {self.taskname} (ID: {self.id})"
 
@@ -67,3 +71,6 @@ class TaskSystem:
 
     def __str__(self):
         return f"TaskNumber: {len(self.tasks)}"
+
+    def __hash__(self):
+        return hash(self.tasks)
