@@ -43,7 +43,7 @@ def load_positions_from_json(file_path):
 
 
 if __name__ == "__main__":
-    file_path = 'test.json'  # 替换正确的JSON文件路径
+    file_path = 'normal.json'  # 替换正确的JSON文件路径
 
     machine_system = load_machines_from_json(file_path)
     task_system = load_tasks_from_json(file_path)

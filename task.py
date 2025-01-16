@@ -5,8 +5,8 @@ class Task:
     def __init__(self, task_data, assays_id):
         self.id = task_data.get('id', '')
         self.occupy = task_data.get('occupy', [])
+        self.occupy
         self.release = task_data.get('release', [])
-        self.release = []
         self.occupy_dependency = task_data.get('occupy_dependency', [])
         self.release_dependency = task_data.get('release_dependency', [])
         self.dependency2 = task_data.get('dependency2', -1)

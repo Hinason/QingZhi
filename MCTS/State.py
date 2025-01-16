@@ -95,6 +95,7 @@ class State:
         task.beginTime = beginTime
         task.endTime = task.beginTime  + task.duration
         task.status = 1 # 完成
+        ## 释放逻辑有错误！！！！！！！
 
         ## 重新找到可运行的任务
         newState.dfsTask()
