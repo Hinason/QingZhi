@@ -1,3 +1,5 @@
+from copy import deepcopy
+
 from config import DEBUG
 
 
@@ -30,6 +32,12 @@ class MachineSystem:
     def __init__(self):
         self.machines = []
         self.machinesDict = {}
+
+    def __deepcopy__(self, memo):
+        new = MachineSystem()
+        new.machinesDict = deepcopy(self.machinesDict,memo)
+        new.machines = deepcopy(self.machines,memo)
+        return new
 
     def add_machine(self, machine_data):
         machine = Machine(machine_data['id'], machine_data['name'], machine_data['type'],

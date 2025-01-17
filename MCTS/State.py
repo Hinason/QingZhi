@@ -23,6 +23,15 @@ class State:
         self.needDetails = True
         self.dfsTask()
 
+    def __deepcopy__(self,memo):
+        newState = State(deepcopy(self.taskSystem,memo),deepcopy(self.positionSystem,memo),deepcopy(self.machineSystem,memo))
+        newState.finishTask = self.finishTask
+        newState.preAvailableAction = self.preAvailableAction
+        newState.needDetails = self.needDetails
+        newState.dfsTask()
+        return newState
+
+
     def dfsTask(self):
         tasks = self.taskSystem.get_all_tasks()
         self.finishTask = 0
@@ -32,6 +41,7 @@ class State:
         for task in tasks:
             if task.status ==1 :
                 self.finishTask += 1
+                continue
             pre = task.pre
             allPreFinishFlag = True
             for preTaskId in pre:
@@ -64,7 +74,7 @@ class State:
             beginTime = 0
             hasAvailablePos = False
             for preTaskId in task.pre:
-                beginTime = max(beginTime,self.taskSystem.get_task(preTaskId).beginTime)
+                beginTime = max(beginTime,self.taskSystem.get_task(preTaskId).endTime)
             for occupySourceIDList in task.occupy:
                 selectPos ,earliestTime = self.getEarliestPosition(occupySourceIDList)
                 if selectPos is not None:
@@ -85,18 +95,45 @@ class State:
         newState = deepcopy(self)
         task = newState.taskSystem.get_task(action.task.id)
         beginTime = action.beginTime
-        for releaseID in task.release:
-            position = self.positionSystem.get_position(releaseID)
-            position.status = 0 # 释放
-            self.machineSystem.get_machine(position.machine).updateState()
+        realOccupy = []
+        selPos = [ ]
         for preTaskId in task.pre:
-            beginTime = max(beginTime,self.taskSystem.get_task(preTaskId).endTime)
+            beginTime = max(beginTime, self.taskSystem.get_task(preTaskId).endTime)
 
+        for occupySourceIDList in task.occupy:
+            selectPos, earliestTime = self.getEarliestPosition(occupySourceIDList)
+            if selectPos is None:
+                print('>')
+            selectPos.status = 1 # 占据
+
+            beginTime = max(beginTime,earliestTime)
+            realOccupy.append(selectPos.id)
+            selPos.append(selectPos)
+        task.realOccupy += realOccupy #可能有上一个机器的占据依赖残留
         task.beginTime = beginTime
-        task.endTime = task.beginTime  + task.duration
-        task.status = 1 # 完成
-        ## 释放逻辑有错误！！！！！！！
+        task.endTime = task.beginTime + task.duration
+        realOccupy = task.realOccupy
+        if self.needDetails:
+            print('task begin At '+str(task.beginTime) + ' end At '+str(task.endTime)+" occupy: "+str(realOccupy))
+        for pos in selPos:
+            pos.availableTime = task.endTime
+        for releaseIDList in task.release:
+            for releaseID in releaseIDList:
+                if releaseID not in realOccupy:
+                    continue
+                position = self.positionSystem.get_position(releaseID)
+                position.status = 0  # 释放
+                realOccupy.remove(releaseID)
+                if self.needDetails:
+                    print('task release '+str(releaseID))
+                # self.machineSystem.get_machine(position.machine).updateState()
+                # 应该是可有可无目前看来
+        if len(realOccupy) >=1:
+            for taskID in task.next:
+                nextTask = newState.taskSystem.get_task(taskID)
+                nextTask.realOccupy  += realOccupy
 
+        task.status = 1 # 完成
         ## 重新找到可运行的任务
         newState.dfsTask()
         ## 部份工作需要锁定！

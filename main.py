@@ -1,4 +1,5 @@
 import json
+from copy import deepcopy
 
 from MCTS.State import State
 from machine import MachineSystem
@@ -57,9 +58,11 @@ if __name__ == "__main__":
     scheduled_tasks = schedule.get_schedule_tasks()
 
     scheduleState = State(task_system,position_system,machine_system)
-    mcts = mcts(timeLimit=2000)
-    action = mcts.search(scheduleState)
-    print(action)
+    mcts = mcts(iterationLimit=1)
+    while not scheduleState.isTerminal():
+        action = mcts.search(deepcopy(scheduleState))
+        print("\033[92m " + str(action) + " !\033[0m")
+        scheduleState = scheduleState.takeAction(action)
     # 此处使用算法调度scheduled_tasks
     # 主要是给每一个 task 确定开始时间(start_time)以及结束时间(end_time)
     # 由于 duration 是一个固定值, 因此只需要确定 start_time 即可, end_time=start_time+duration

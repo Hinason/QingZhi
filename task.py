@@ -1,3 +1,6 @@
+import copy
+from copy import deepcopy
+
 from config import DEBUG
 
 
@@ -5,7 +8,7 @@ class Task:
     def __init__(self, task_data, assays_id):
         self.id = task_data.get('id', '')
         self.occupy = task_data.get('occupy', [])
-        self.occupy
+        self.realOccupy = []
         self.release = task_data.get('release', [])
         self.occupy_dependency = task_data.get('occupy_dependency', [])
         self.release_dependency = task_data.get('release_dependency', [])
@@ -54,6 +57,11 @@ class TaskSystem:
         self.tasks = []
         self.taskDic = {}
 
+    def __deepcopy__(self, memo):
+        new = TaskSystem()
+        new.tasks = deepcopy(self.tasks, memo)
+        new.taskDic = deepcopy(self.taskDic, memo)
+        return new
 
     def add_task(self, task_data, assays_id):
         task = Task(task_data, assays_id)

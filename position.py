@@ -1,3 +1,5 @@
+from copy import deepcopy
+
 from config import DEBUG
 
 class Position:
@@ -20,6 +22,12 @@ class PositionSystem:
     def __init__(self):
         self.positions = []
         self.positionDic = {}
+
+    def __deepcopy__(self, memo):
+        new = PositionSystem()
+        new.positions = deepcopy(self.positions, memo)
+        new.positionDic = deepcopy(self.positionDic, memo)
+        return new
 
     def add_position(self, position_data):
         position = Position(position_data)
