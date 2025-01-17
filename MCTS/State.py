@@ -136,7 +136,7 @@ class State:
         task.status = 1 # 完成
         ## 重新找到可运行的任务
         newState.dfsTask()
-        ## 部份工作需要锁定！
+        ## 部分工作需要锁定！
         ## 设置锁定时间
 
         return newState
