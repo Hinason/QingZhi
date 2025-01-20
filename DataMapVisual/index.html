@@ -211,7 +211,7 @@
                     response.json().then(res => {
                         graphdata = res.AssaysModel;
                         console.log(res.AssaysModel)
-                        var names = res.AssaysModel.map(p => p.Name);
+                        var names = res.AssaysModel.map(p => p.name);
                         initSelect(names);
                         initechart(graphdata);
                     })

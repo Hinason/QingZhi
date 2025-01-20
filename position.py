@@ -1,3 +1,5 @@
+from copy import deepcopy
+
 from config import DEBUG
 
 class Position:
@@ -9,9 +11,11 @@ class Position:
         self.availableTime = 0
         self.positionname = position_data.get('positionname', '')
         self.machinename = position_data.get('machinename', '')
-        self.sourcetype = position_data.get('sourcetype', '')
-        self.occupied = False
-        self.occupied_assays_id = None
+        # self.sourcetype = position_data.get('sourcetype', '')
+        # self.occupied = False
+        # self.occupied_assays_id =
+
+
 
     def __str__(self):
         return f"Position: {self.positionname} (ID: {self.id}) .AvailableTime: {self.availableTime}  ({self.status}) "
@@ -20,6 +24,12 @@ class PositionSystem:
     def __init__(self):
         self.positions = []
         self.positionDic = {}
+
+    def __deepcopy__(self, memo):
+        new = PositionSystem()
+        new.positions = deepcopy(self.positions, memo)
+        new.positionDic = deepcopy(self.positionDic, memo)
+        return new
 
     def add_position(self, position_data):
         position = Position(position_data)
