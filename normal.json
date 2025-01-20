@@ -1,0 +1,1120 @@
+{
+    "assaysmodel": [
+        {
+            "name": "Default Assay",
+            "projectid": "08DC39A25A304B80815BA2B58F1523E6",
+            "assaysid": "08DC39A25A3140CA80F22EC5A80022E2",
+            "tasks": [
+                {
+                    "id": "b12e3f93474e4a69829fa0d7a4f9073c",
+                    "occupy": [
+                        [
+                            "7c77fa4d2b8346ff87e7920ed5a8d14e"
+                        ],
+                        [
+                            "F998AF2F57DD4289B4CC954E1A526D31"
+                        ]
+                    ],
+                    "release": [
+                        [
+                            "7c77fa4d2b8346ff87e7920ed5a8d14e"
+                        ]
+                    ],
+                    "occupy_dependency": [],
+                    "release_dependency": [],
+                    "dependency2": -1,
+                    "status": 0,
+                    "priority": 0,
+                    "time": 30,
+                    "robotgettime": 15,
+                    "robotputtime": 0,
+                    "estduration": 30,
+                    "pre": [],
+                    "next": [
+                        "8f20368cdf994ca6b3ab91d8300daed8"
+                    ],
+                    "machine": "",
+                    "position": "",
+                    "algmachine": [],
+                    "algposition": [],
+                    "release_machine": [],
+                    "release_position": [],
+                    "dependency": -1,
+                    "available": 0,
+                    "start_time": 0,
+                    "heuristic": 0,
+                    "taskname": "Get From Hotel",
+                    "plateprocess": "08DC39A25A32429881E24E479C94262E",
+                    "stepplatename": "",
+                    "taskplatename": "泳道 1",
+                    "stepname": "",
+                    "sequnceid": "",
+                    "steps": [],
+                    "sequncestepid": "",
+                    "procedurids": [],
+                    "nodeid": "08DC39A2AC784C27839A6C6157ABA836",
+                    "processtype": 2,
+                    "processtypetext": "抓板工艺",
+                    "taskplates": [
+                        "08DC39A25A32429881E24E479C94262E"
+                    ],
+                    "timeout": 60,
+                    "zone": "Zone 1",
+                    "waitnextready": true,
+                    "isready": true,
+                    "isskip": false,
+                    "platedelay": 0
+                },
+                {
+                    "id": "8f20368cdf994ca6b3ab91d8300daed8",
+                    "occupy": [
+                        [
+                            "9D3965BC8D3D4B47A1E6AF5EB34420F5"
+                        ],
+                        [
+                            "8E7D47A5B82C49A49D604013B9235D50"
+                        ]
+                    ],
+                    "release": [
+                        [
+                            "9D3965BC8D3D4B47A1E6AF5EB34420F5"
+                        ],
+                        [
+                            "F998AF2F57DD4289B4CC954E1A526D31"
+                        ]
+                    ],
+                    "occupy_dependency": [],
+                    "release_dependency": [],
+                    "dependency2": -1,
+                    "status": 0,
+                    "priority": 0,
+                    "time": 30,
+                    "robotgettime": 15,
+                    "robotputtime": 15,
+                    "estduration": 30,
+                    "pre": [
+                        "b12e3f93474e4a69829fa0d7a4f9073c"
+                    ],
+                    "next": [
+                        "1892bd4f8f7d4a63b0c56087c70394ed"
+                    ],
+                    "machine": "",
+                    "position": "",
+                    "algmachine": [],
+                    "algposition": [],
+                    "release_machine": [],
+                    "release_position": [],
+                    "dependency": -1,
+                    "available": 0,
+                    "start_time": 0,
+                    "heuristic": 0,
+                    "taskname": "robot",
+                    "plateprocess": "08DC39A25A32429881E24E479C94262E",
+                    "stepplatename": "",
+                    "taskplatename": "泳道 1",
+                    "stepname": "",
+                    "sequnceid": "",
+                    "steps": [],
+                    "sequncestepid": "",
+                    "procedurids": [],
+                    "nodeid": "08DC39A2B240405E8323B37DAA0FE529",
+                    "processtype": 0,
+                    "processtypetext": "标准工艺",
+                    "taskplates": [
+                        "08DC39A25A32429881E24E479C94262E"
+                    ],
+                    "timeout": 60,
+                    "zone": "",
+                    "waitnextready": true,
+                    "isready": true,
+                    "isskip": false,
+                    "platedelay": 0
+                },
+                {
+                    "id": "1892bd4f8f7d4a63b0c56087c70394ed",
+                    "occupy": [
+                        [
+                            "38008c58c6c543ba87afe81ed6ce938d"
+                        ]
+                    ],
+                    "release": [
+                        [
+                            "38008c58c6c543ba87afe81ed6ce938d"
+                        ]
+                    ],
+                    "occupy_dependency": [],
+                    "release_dependency": [],
+                    "dependency2": -1,
+                    "status": 0,
+                    "priority": 0,
+                    "time": 30,
+                    "robotgettime": 15,
+                    "robotputtime": 15,
+                    "estduration": 30,
+                    "pre": [
+                        "8f20368cdf994ca6b3ab91d8300daed8"
+                    ],
+                    "next": [
+                        "6ada03d0cf984d60939ee9e8a09b9e83"
+                    ],
+                    "machine": "",
+                    "position": "",
+                    "algmachine": [],
+                    "algposition": [],
+                    "release_machine": [],
+                    "release_position": [],
+                    "dependency": -1,
+                    "available": 0,
+                    "start_time": 0,
+                    "heuristic": 0,
+                    "taskname": "Run Protocol",
+                    "plateprocess": "08DC39A25A32429881E24E479C94262E",
+                    "stepplatename": "",
+                    "taskplatename": "泳道 1",
+                    "stepname": "",
+                    "sequnceid": "",
+                    "steps": [],
+                    "sequncestepid": "",
+                    "procedurids": [],
+                    "nodeid": "08DC39A2B240405E8323B37DAA0FE529",
+                    "processtype": 0,
+                    "processtypetext": "标准工艺",
+                    "taskplates": [
+                        "08DC39A25A32429881E24E479C94262E"
+                    ],
+                    "timeout": 60,
+                    "zone": null,
+                    "waitnextready": false,
+                    "isready": true,
+                    "isskip": false,
+                    "platedelay": 0
+                },
+                {
+                    "id": "6ada03d0cf984d60939ee9e8a09b9e83",
+                    "occupy": [
+                        [
+                            "9D3965BC8D3D4B47A1E6AF5EB34420F5"
+                        ],
+                        [
+                            "A7D006996FED4A578BB05794AA6228B3"
+                        ]
+                    ],
+                    "release": [
+                        [
+                            "9D3965BC8D3D4B47A1E6AF5EB34420F5"
+                        ],
+                        [
+                            "8E7D47A5B82C49A49D604013B9235D50"
+                        ]
+                    ],
+                    "occupy_dependency": [],
+                    "release_dependency": [],
+                    "dependency2": -1,
+                    "status": 0,
+                    "priority": 0,
+                    "time": 30,
+                    "robotgettime": 15,
+                    "robotputtime": 15,
+                    "estduration": 30,
+                    "pre": [
+                        "1892bd4f8f7d4a63b0c56087c70394ed"
+                    ],
+                    "next": [
+                        "08cb26c5dedf4b1db1380c6cc6ec98d7"
+                    ],
+                    "machine": "",
+                    "position": "",
+                    "algmachine": [],
+                    "algposition": [],
+                    "release_machine": [],
+                    "release_position": [],
+                    "dependency": -1,
+                    "available": 0,
+                    "start_time": 0,
+                    "heuristic": 0,
+                    "taskname": "robot",
+                    "plateprocess": "08DC39A25A32429881E24E479C94262E",
+                    "stepplatename": "",
+                    "taskplatename": "泳道 1",
+                    "stepname": "",
+                    "sequnceid": "",
+                    "steps": [],
+                    "sequncestepid": "",
+                    "procedurids": [],
+                    "nodeid": "08DC39A2B39A4AE7803362AB0C6340E8",
+                    "processtype": 0,
+                    "processtypetext": "标准工艺",
+                    "taskplates": [
+                        "08DC39A25A32429881E24E479C94262E"
+                    ],
+                    "timeout": 60,
+                    "zone": "",
+                    "waitnextready": false,
+                    "isready": true,
+                    "isskip": false,
+                    "platedelay": 0
+                },
+                {
+                    "id": "08cb26c5dedf4b1db1380c6cc6ec98d7",
+                    "occupy": [
+                        [
+                            "420d6f8d5a5e4c3bbadea5f8784b8ddb"
+                        ]
+                    ],
+                    "release": [
+                        [
+                            "420d6f8d5a5e4c3bbadea5f8784b8ddb"
+                        ]
+                    ],
+                    "occupy_dependency": [],
+                    "release_dependency": [],
+                    "dependency2": -1,
+                    "status": 0,
+                    "priority": 0,
+                    "time": 30,
+                    "robotgettime": 15,
+                    "robotputtime": 15,
+                    "estduration": 30,
+                    "pre": [
+                        "6ada03d0cf984d60939ee9e8a09b9e83"
+                    ],
+                    "next": [
+                        "1996767fb60b4087b2906b63fa7ce403"
+                    ],
+                    "machine": "",
+                    "position": "",
+                    "algmachine": [],
+                    "algposition": [],
+                    "release_machine": [],
+                    "release_position": [],
+                    "dependency": -1,
+                    "available": 0,
+                    "start_time": 0,
+                    "heuristic": 0,
+                    "taskname": "Spin",
+                    "plateprocess": "08DC39A25A32429881E24E479C94262E",
+                    "stepplatename": "",
+                    "taskplatename": "泳道 1",
+                    "stepname": "",
+                    "sequnceid": "",
+                    "steps": [],
+                    "sequncestepid": "",
+                    "procedurids": [],
+                    "nodeid": "08DC39A2B39A4AE7803362AB0C6340E8",
+                    "processtype": 0,
+                    "processtypetext": "标准工艺",
+                    "taskplates": [
+                        "08DC39A25A32429881E24E479C94262E"
+                    ],
+                    "timeout": 60,
+                    "zone": null,
+                    "waitnextready": false,
+                    "isready": true,
+                    "isskip": false,
+                    "platedelay": 0
+                },
+                {
+                    "id": "1996767fb60b4087b2906b63fa7ce403",
+                    "occupy": [
+                        [
+                            "9D3965BC8D3D4B47A1E6AF5EB34420F5"
+                        ],
+                        [
+                            "F998AF2F57DD4289B4CC954E1A526D31"
+                        ]
+                    ],
+                    "release": [
+                        [
+                            "9D3965BC8D3D4B47A1E6AF5EB34420F5"
+                        ],
+                        [
+                            "A7D006996FED4A578BB05794AA6228B3"
+                        ]
+                    ],
+                    "occupy_dependency": [],
+                    "release_dependency": [],
+                    "dependency2": -1,
+                    "status": 0,
+                    "priority": 0,
+                    "time": 30,
+                    "robotgettime": 15,
+                    "robotputtime": 15,
+                    "estduration": 30,
+                    "pre": [
+                        "08cb26c5dedf4b1db1380c6cc6ec98d7"
+                    ],
+                    "next": [
+                        "eefb9b1b053c4f3b888999f33fcefa23"
+                    ],
+                    "machine": "",
+                    "position": "",
+                    "algmachine": [],
+                    "algposition": [],
+                    "release_machine": [],
+                    "release_position": [],
+                    "dependency": -1,
+                    "available": 0,
+                    "start_time": 0,
+                    "heuristic": 0,
+                    "taskname": "robot",
+                    "plateprocess": "08DC39A25A32429881E24E479C94262E",
+                    "stepplatename": "",
+                    "taskplatename": "泳道 1",
+                    "stepname": "",
+                    "sequnceid": "",
+                    "steps": [],
+                    "sequncestepid": "",
+                    "procedurids": [],
+                    "nodeid": "08DC39A2B00E481385167B09F5725119",
+                    "processtype": 3,
+                    "processtypetext": "放板工艺",
+                    "taskplates": [
+                        "08DC39A25A32429881E24E479C94262E"
+                    ],
+                    "timeout": 60,
+                    "zone": "",
+                    "waitnextready": false,
+                    "isready": true,
+                    "isskip": false,
+                    "platedelay": 0
+                },
+                {
+                    "id": "eefb9b1b053c4f3b888999f33fcefa23",
+                    "occupy": [
+                        [
+                            "7c77fa4d2b8346ff87e7920ed5a8d14e"
+                        ]
+                    ],
+                    "release": [
+                        [
+                            "7c77fa4d2b8346ff87e7920ed5a8d14e"
+                        ],
+                        [
+                            "F998AF2F57DD4289B4CC954E1A526D31"
+                        ]
+                    ],
+                    "occupy_dependency": [],
+                    "release_dependency": [],
+                    "dependency2": -1,
+                    "status": 0,
+                    "priority": 0,
+                    "time": 30,
+                    "robotgettime": 0,
+                    "robotputtime": 15,
+                    "estduration": 30,
+                    "pre": [
+                        "1996767fb60b4087b2906b63fa7ce403"
+                    ],
+                    "next": [],
+                    "machine": "",
+                    "position": "",
+                    "algmachine": [],
+                    "algposition": [],
+                    "release_machine": [],
+                    "release_position": [],
+                    "dependency": -1,
+                    "available": 0,
+                    "start_time": 0,
+                    "heuristic": 0,
+                    "taskname": "Put In Hotel",
+                    "plateprocess": "08DC39A25A32429881E24E479C94262E",
+                    "stepplatename": "",
+                    "taskplatename": "泳道 1",
+                    "stepname": "",
+                    "sequnceid": "",
+                    "steps": [],
+                    "sequncestepid": "",
+                    "procedurids": [],
+                    "nodeid": "08DC39A2B00E481385167B09F5725119",
+                    "processtype": 3,
+                    "processtypetext": "放板工艺",
+                    "taskplates": [
+                        "08DC39A25A32429881E24E479C94262E"
+                    ],
+                    "timeout": 60,
+                    "zone": "Zone 1",
+                    "waitnextready": false,
+                    "isready": true,
+                    "isskip": false,
+                    "platedelay": 0
+                }
+            ],
+            "positions": [
+                {
+                    "id": "9D3965BC8D3D4B47A1E6AF5EB34420F5",
+                    "status": 0,
+                    "machine": "08DC39A2980D49B6887175DBD9302802",
+                    "positionname": "DENSO RC8",
+                    "machinename": "DENSO RC8",
+                    "sourcetype": "plate"
+                },
+                {
+                    "id": "F998AF2F57DD4289B4CC954E1A526D31",
+                    "status": 0,
+                    "machine": "08DC39A29A5146B58142DB5602A42033",
+                    "positionname": "StorageCarousel v2",
+                    "machinename": "StorageCarousel v2",
+                    "sourcetype": "plate"
+                },
+                {
+                    "id": "8E7D47A5B82C49A49D604013B9235D50",
+                    "status": 0,
+                    "machine": "08DC39A29D7D40F68E4241B8600C7620",
+                    "positionname": "Wellwash",
+                    "machinename": "Wellwash",
+                    "sourcetype": "plate"
+                },
+                {
+                    "id": "A7D006996FED4A578BB05794AA6228B3",
+                    "status": 0,
+                    "machine": "08DC39A2A22F473384CCF3A9E48361EC",
+                    "positionname": "CentrifugeSimulator",
+                    "machinename": "CentrifugeSimulator",
+                    "sourcetype": "plate"
+                },
+                {
+                    "id": "92ec504c767a4f84bbd539a3019348f4",
+                    "status": 0,
+                    "machine": "08DC39A2980D49B6887175DBD9302802",
+                    "positionname": "DENSO RC8 work",
+                    "machinename": "DENSO RC8",
+                    "sourcetype": "work"
+                },
+                {
+                    "id": "7c77fa4d2b8346ff87e7920ed5a8d14e",
+                    "status": 0,
+                    "machine": "08DC39A29A5146B58142DB5602A42033",
+                    "positionname": "StorageCarousel v2 work",
+                    "machinename": "StorageCarousel v2",
+                    "sourcetype": "work"
+                },
+                {
+                    "id": "38008c58c6c543ba87afe81ed6ce938d",
+                    "status": 0,
+                    "machine": "08DC39A29D7D40F68E4241B8600C7620",
+                    "positionname": "Wellwash work",
+                    "machinename": "Wellwash",
+                    "sourcetype": "work"
+                },
+                {
+                    "id": "420d6f8d5a5e4c3bbadea5f8784b8ddb",
+                    "status": 0,
+                    "machine": "08DC39A2A22F473384CCF3A9E48361EC",
+                    "positionname": "CentrifugeSimulator work",
+                    "machinename": "CentrifugeSimulator",
+                    "sourcetype": "work"
+                }
+            ],
+            "machines": [
+                {
+                    "id": "08DC39A2980D49B6887175DBD9302802",
+                    "name": "DENSO RC8",
+                    "type": "DENSO RC8",
+                    "instrumentcategory": 1,
+                    "instrumentcategorytext": "机械臂",
+                    "taskstoragedetail": []
+                },
+                {
+                    "id": "08DC39A29A5146B58142DB5602A42033",
+                    "name": "StorageCarousel v2",
+                    "type": "StorageCarousel v2",
+                    "instrumentcategory": 2,
+                    "instrumentcategorytext": "存储站",
+                    "taskstoragedetail": [
+                        {
+                            "id": "08DC39A29A544A59810DA06600DE4A40",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "08DC39A29A534E8D84E9BB6D4B950608",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate1",
+                            "previousbarcode": "Plate1",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 1,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AEB81A7F6E99BEE9969",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "08DC39A29A534E8D84E9BB6D4B950608",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate2",
+                            "previousbarcode": "Plate2",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 2,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AED80FC2075AF0C2F45",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "08DC39A29A534E8D84E9BB6D4B950608",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate3",
+                            "previousbarcode": "Plate3",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 3,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AEE8C3DCCCE1FE5B0F5",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "08DC39A29A534E8D84E9BB6D4B950608",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate4",
+                            "previousbarcode": "Plate4",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 4,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AEF86D2D32ACDC77A73",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "08DC39A29A534E8D84E9BB6D4B950608",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate5",
+                            "previousbarcode": "Plate5",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 5,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AF08036A19F5DF83E22",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "08DC39A29A534E8D84E9BB6D4B950608",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate6",
+                            "previousbarcode": "Plate6",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 6,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AF0897E7AD0FAF7B507",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "08DC39A29A534E8D84E9BB6D4B950608",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate7",
+                            "previousbarcode": "Plate7",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 7,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AF18248F5127B3F10CD",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "08DC39A29A534E8D84E9BB6D4B950608",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate8",
+                            "previousbarcode": "Plate8",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 8,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AF18B28DE15E2124089",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "08DC39A29A534E8D84E9BB6D4B950608",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate9",
+                            "previousbarcode": "Plate9",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 9,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AF283EBCBA27FA216C4",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "08DC39A29A534E8D84E9BB6D4B950608",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate10",
+                            "previousbarcode": "Plate10",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 10,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AF28CAA7D51778958FE",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "08DC39A29A534E8D84E9BB6D4B950608",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate11",
+                            "previousbarcode": "Plate11",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 11,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AF385E0DF28D07CECCE",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "08DC39A29A534E8D84E9BB6D4B950608",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate12",
+                            "previousbarcode": "Plate12",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 12,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AF38EE8C6AA0A904304",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "08DC39A29A534E8D84E9BB6D4B950608",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate13",
+                            "previousbarcode": "Plate13",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 13,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AF48765E5F40D6504DA",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "08DC39A29A534E8D84E9BB6D4B950608",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate14",
+                            "previousbarcode": "Plate14",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 14,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AF580E9B170E451329B",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "08DC39A29A534E8D84E9BB6D4B950608",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate15",
+                            "previousbarcode": "Plate15",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 15,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AF589373320E4DF2AF7",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "08DC39A29A534E8D84E9BB6D4B950608",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate16",
+                            "previousbarcode": "Plate16",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 16,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AF689D0D2A2CDF68202",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "08DC39A29A534E8D84E9BB6D4B950608",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate17",
+                            "previousbarcode": "Plate17",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 17,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AF68F7CF5F5FC396484",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "08DC39A29A534E8D84E9BB6D4B950608",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate18",
+                            "previousbarcode": "Plate18",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 18,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AF784EFFE4C747E3C84",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "08DC39A29A534E8D84E9BB6D4B950608",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate19",
+                            "previousbarcode": "Plate19",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 19,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AF78A1CADA60D1D8014",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "08DC39A29A534E8D84E9BB6D4B950608",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate20",
+                            "previousbarcode": "Plate20",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 20,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AF885B8FE02D4C7D09F",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "08DC39A29A534E8D84E9BB6D4B950608",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate21",
+                            "previousbarcode": "Plate21",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 21,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AF88A552603607A86CB",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "08DC39A29A534E8D84E9BB6D4B950608",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate22",
+                            "previousbarcode": "Plate22",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 22,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AFB8C9793A6078BCD09",
+                            "hotelname": "Hotel 2",
+                            "storageconfigid": "08DC39A29A54463F8E9C497BD8C00EEF",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate23",
+                            "previousbarcode": "Plate23",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 2,
+                            "shelf": 1,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AFC85EA892E1A717A58",
+                            "hotelname": "Hotel 2",
+                            "storageconfigid": "08DC39A29A54463F8E9C497BD8C00EEF",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate24",
+                            "previousbarcode": "Plate24",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 2,
+                            "shelf": 2,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AFC8AD2A989B2073127",
+                            "hotelname": "Hotel 2",
+                            "storageconfigid": "08DC39A29A54463F8E9C497BD8C00EEF",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate25",
+                            "previousbarcode": "Plate25",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 2,
+                            "shelf": 3,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AFD80AB5462441229B1",
+                            "hotelname": "Hotel 2",
+                            "storageconfigid": "08DC39A29A54463F8E9C497BD8C00EEF",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate26",
+                            "previousbarcode": "Plate26",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 2,
+                            "shelf": 4,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AFD8D54F2DB18F86CD7",
+                            "hotelname": "Hotel 2",
+                            "storageconfigid": "08DC39A29A54463F8E9C497BD8C00EEF",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate27",
+                            "previousbarcode": "Plate27",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 2,
+                            "shelf": 5,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AFE83B5E09FB39BC3D7",
+                            "hotelname": "Hotel 2",
+                            "storageconfigid": "08DC39A29A54463F8E9C497BD8C00EEF",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate28",
+                            "previousbarcode": "Plate28",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 2,
+                            "shelf": 6,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AFE885C6DBC9A82734F",
+                            "hotelname": "Hotel 2",
+                            "storageconfigid": "08DC39A29A54463F8E9C497BD8C00EEF",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate29",
+                            "previousbarcode": "Plate29",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 2,
+                            "shelf": 7,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AFE8E4C3832F335592A",
+                            "hotelname": "Hotel 2",
+                            "storageconfigid": "08DC39A29A54463F8E9C497BD8C00EEF",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate30",
+                            "previousbarcode": "Plate30",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 2,
+                            "shelf": 8,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AFF840AA9FFA93C71E4",
+                            "hotelname": "Hotel 2",
+                            "storageconfigid": "08DC39A29A54463F8E9C497BD8C00EEF",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate31",
+                            "previousbarcode": "Plate31",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 2,
+                            "shelf": 9,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544AFF89777BCB88EB98B8",
+                            "hotelname": "Hotel 2",
+                            "storageconfigid": "08DC39A29A54463F8E9C497BD8C00EEF",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate32",
+                            "previousbarcode": "Plate32",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 2,
+                            "shelf": 10,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544B00817907F98A479846",
+                            "hotelname": "Hotel 2",
+                            "storageconfigid": "08DC39A29A54463F8E9C497BD8C00EEF",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate33",
+                            "previousbarcode": "Plate33",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 2,
+                            "shelf": 11,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544B0087EA275CF7F2689E",
+                            "hotelname": "Hotel 2",
+                            "storageconfigid": "08DC39A29A54463F8E9C497BD8C00EEF",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate34",
+                            "previousbarcode": "Plate34",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 2,
+                            "shelf": 12,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544B008C6B5863843847AC",
+                            "hotelname": "Hotel 2",
+                            "storageconfigid": "08DC39A29A54463F8E9C497BD8C00EEF",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate35",
+                            "previousbarcode": "Plate35",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 2,
+                            "shelf": 13,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544B01816575104BF5DE5B",
+                            "hotelname": "Hotel 2",
+                            "storageconfigid": "08DC39A29A54463F8E9C497BD8C00EEF",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate36",
+                            "previousbarcode": "Plate36",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 2,
+                            "shelf": 14,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544B0187C06C9294E1BF01",
+                            "hotelname": "Hotel 2",
+                            "storageconfigid": "08DC39A29A54463F8E9C497BD8C00EEF",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate37",
+                            "previousbarcode": "Plate37",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 2,
+                            "shelf": 15,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544B018C69B787D2AF4868",
+                            "hotelname": "Hotel 2",
+                            "storageconfigid": "08DC39A29A54463F8E9C497BD8C00EEF",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate38",
+                            "previousbarcode": "Plate38",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 2,
+                            "shelf": 16,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544B028993ED8246C9E31E",
+                            "hotelname": "Hotel 2",
+                            "storageconfigid": "08DC39A29A54463F8E9C497BD8C00EEF",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate39",
+                            "previousbarcode": "Plate39",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 2,
+                            "shelf": 17,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544B028F2A55FF249641D6",
+                            "hotelname": "Hotel 2",
+                            "storageconfigid": "08DC39A29A54463F8E9C497BD8C00EEF",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate40",
+                            "previousbarcode": "Plate40",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 2,
+                            "shelf": 18,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544B03851159ABFEE8474C",
+                            "hotelname": "Hotel 2",
+                            "storageconfigid": "08DC39A29A54463F8E9C497BD8C00EEF",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate41",
+                            "previousbarcode": "Plate41",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 2,
+                            "shelf": 19,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544B038A8480E9D13855F6",
+                            "hotelname": "Hotel 2",
+                            "storageconfigid": "08DC39A29A54463F8E9C497BD8C00EEF",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate42",
+                            "previousbarcode": "Plate42",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 2,
+                            "shelf": 20,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544B038F46EAF6153FA55D",
+                            "hotelname": "Hotel 2",
+                            "storageconfigid": "08DC39A29A54463F8E9C497BD8C00EEF",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate43",
+                            "previousbarcode": "Plate43",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 2,
+                            "shelf": 21,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "08DC39A29A544B048529F383ED77D9CE",
+                            "hotelname": "Hotel 2",
+                            "storageconfigid": "08DC39A29A54463F8E9C497BD8C00EEF",
+                            "projectinstrumentid": "08DC39A29A5146B58142DB5602A42033",
+                            "barcode": "Plate44",
+                            "previousbarcode": "Plate44",
+                            "labware": "Default",
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 2,
+                            "shelf": 22,
+                            "zone": "Zone 1"
+                        }
+                    ]
+                },
+                {
+                    "id": "08DC39A29D7D40F68E4241B8600C7620",
+                    "name": "Wellwash",
+                    "type": "Wellwash",
+                    "instrumentcategory": 4,
+                    "instrumentcategorytext": "分液、清洗",
+                    "taskstoragedetail": []
+                },
+                {
+                    "id": "08DC39A2A22F473384CCF3A9E48361EC",
+                    "name": "CentrifugeSimulator",
+                    "type": "CentrifugeSimulator",
+                    "instrumentcategory": 5,
+                    "instrumentcategorytext": "离心机",
+                    "taskstoragedetail": []
+                }
+            ]
+        }
+    ],
+    "runingassasys": [
+        "08DC39A25A3140CA80F22EC5A80022E2"
+    ]
+}

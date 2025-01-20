@@ -44,7 +44,7 @@ def load_positions_from_json(file_path):
 
 
 if __name__ == "__main__":
-    file_path = 'normal.json'  # 替换正确的JSON文件路径
+    file_path = 'DataSet/短流程集成测试/单板机器集成测试.json'  # 替换正确的JSON文件路径
 
     machine_system = load_machines_from_json(file_path)
     task_system = load_tasks_from_json(file_path)
@@ -55,7 +55,7 @@ if __name__ == "__main__":
 
     # 从 json 文件获取的 task 转变为 schedule_tasks
     # schedule_tasks 是算法和仿真运行的输入
-    scheduled_tasks = schedule.get_schedule_tasks()
+    # scheduled_tasks = schedule.get_schedule_tasks() 废弃了
 
     scheduleState = State(task_system,position_system,machine_system)
     mcts = mcts(iterationLimit=1)
