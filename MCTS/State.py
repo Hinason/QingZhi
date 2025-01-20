@@ -122,7 +122,6 @@ class State:
                 if releaseID not in realOccupy:
                     continue
                 position = self.positionSystem.get_position(releaseID)
-                task.realRelease.append(releaseID)
                 position.status = 0  # 释放
                 realOccupy.remove(releaseID)
                 if self.needDetails:

@@ -1,8 +1,8 @@
 from Simulation.machines.simulation_machine import simulation_machine
 
-class Wellwash(simulation_machine):
+class robot_arm(simulation_machine):
     """
-    Wellwash是一个分液、清洗机器
+    机械臂
     """
 
     def __init__(self, id, name, type):
