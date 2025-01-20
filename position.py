@@ -11,11 +11,9 @@ class Position:
         self.availableTime = 0
         self.positionname = position_data.get('positionname', '')
         self.machinename = position_data.get('machinename', '')
-        # self.sourcetype = position_data.get('sourcetype', '')
-        # self.occupied = False
-        # self.occupied_assays_id =
-
-
+        self.sourcetype = position_data.get('sourcetype', '')
+        self.occupied = False
+        self.occupied_assays_id = None
 
     def __str__(self):
         return f"Position: {self.positionname} (ID: {self.id}) .AvailableTime: {self.availableTime}  ({self.status}) "
