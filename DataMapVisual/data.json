@@ -1,1 +1,1459 @@
-{"AssaysModel":[{"Name":"Default Assay","ProjectId":"08DC39A25A304B80815BA2B58F1523E6","AssaysId":"08DC39A25A3140CA80F22EC5A80022E2","Tasks":[{"Id":"b12e3f93474e4a69829fa0d7a4f9073c","Occupy":[["7c77fa4d2b8346ff87e7920ed5a8d14e"],["F998AF2F57DD4289B4CC954E1A526D31"]],"Release":[["7c77fa4d2b8346ff87e7920ed5a8d14e"]],"Occupy_dependency":[],"Release_dependency":[],"Dependency2":-1,"Status":0,"Priority":0,"Time":30,"RobotGetTime":15,"RobotPutTime":0,"EstDuration":30,"Pre":[],"Next":["8f20368cdf994ca6b3ab91d8300daed8"],"Machine":"","Position":"","AlgMachine":[],"AlgPosition":[],"Release_machine":[],"Release_position":[],"Dependency":-1,"Available":0,"Start_time":0,"Heuristic":0,"TaskName":"Get From Hotel","PlateProcess":"08DC39A25A32429881E24E479C94262E","StepPlateName":"","TaskPlateName":"泳道 1","StepName":"","SequnceId":"","Steps":[],"SequnceStepId":"","ProcedurIds":[],"NodeId":"08DC39A2AC784C27839A6C6157ABA836","ProcessType":2,"ProcessTypeText":"抓板工艺","TaskPlates":["08DC39A25A32429881E24E479C94262E"],"TimeOut":60,"Zone":"Zone 1","WaitNextReady":true,"IsReady":true,"IsSkip":false,"PlateDelay":0},{"Id":"8f20368cdf994ca6b3ab91d8300daed8","Occupy":[["9D3965BC8D3D4B47A1E6AF5EB34420F5"],["8E7D47A5B82C49A49D604013B9235D50"]],"Release":[["9D3965BC8D3D4B47A1E6AF5EB34420F5"],["F998AF2F57DD4289B4CC954E1A526D31"]],"Occupy_dependency":[],"Release_dependency":[],"Dependency2":-1,"Status":0,"Priority":0,"Time":30,"RobotGetTime":15,"RobotPutTime":15,"EstDuration":30,"Pre":["b12e3f93474e4a69829fa0d7a4f9073c"],"Next":["1892bd4f8f7d4a63b0c56087c70394ed"],"Machine":"","Position":"","AlgMachine":[],"AlgPosition":[],"Release_machine":[],"Release_position":[],"Dependency":-1,"Available":0,"Start_time":0,"Heuristic":0,"TaskName":"robot","PlateProcess":"08DC39A25A32429881E24E479C94262E","StepPlateName":"","TaskPlateName":"泳道 1","StepName":"","SequnceId":"","Steps":[],"SequnceStepId":"","ProcedurIds":[],"NodeId":"08DC39A2B240405E8323B37DAA0FE529","ProcessType":0,"ProcessTypeText":"标准工艺","TaskPlates":["08DC39A25A32429881E24E479C94262E"],"TimeOut":60,"Zone":"","WaitNextReady":true,"IsReady":true,"IsSkip":false,"PlateDelay":0},{"Id":"1892bd4f8f7d4a63b0c56087c70394ed","Occupy":[["38008c58c6c543ba87afe81ed6ce938d"]],"Release":[["38008c58c6c543ba87afe81ed6ce938d"]],"Occupy_dependency":[],"Release_dependency":[],"Dependency2":-1,"Status":0,"Priority":0,"Time":30,"RobotGetTime":15,"RobotPutTime":15,"EstDuration":30,"Pre":["8f20368cdf994ca6b3ab91d8300daed8"],"Next":["6ada03d0cf984d60939ee9e8a09b9e83"],"Machine":"","Position":"","AlgMachine":[],"AlgPosition":[],"Release_machine":[],"Release_position":[],"Dependency":-1,"Available":0,"Start_time":0,"Heuristic":0,"TaskName":"Run Protocol","PlateProcess":"08DC39A25A32429881E24E479C94262E","StepPlateName":"","TaskPlateName":"泳道 1","StepName":"","SequnceId":"","Steps":[],"SequnceStepId":"","ProcedurIds":[],"NodeId":"08DC39A2B240405E8323B37DAA0FE529","ProcessType":0,"ProcessTypeText":"标准工艺","TaskPlates":["08DC39A25A32429881E24E479C94262E"],"TimeOut":60,"Zone":null,"WaitNextReady":false,"IsReady":true,"IsSkip":false,"PlateDelay":0},{"Id":"6ada03d0cf984d60939ee9e8a09b9e83","Occupy":[["9D3965BC8D3D4B47A1E6AF5EB34420F5"],["A7D006996FED4A578BB05794AA6228B3"]],"Release":[["9D3965BC8D3D4B47A1E6AF5EB34420F5"],["8E7D47A5B82C49A49D604013B9235D50"]],"Occupy_dependency":[],"Release_dependency":[],"Dependency2":-1,"Status":0,"Priority":0,"Time":30,"RobotGetTime":15,"RobotPutTime":15,"EstDuration":30,"Pre":["1892bd4f8f7d4a63b0c56087c70394ed"],"Next":["08cb26c5dedf4b1db1380c6cc6ec98d7"],"Machine":"","Position":"","AlgMachine":[],"AlgPosition":[],"Release_machine":[],"Release_position":[],"Dependency":-1,"Available":0,"Start_time":0,"Heuristic":0,"TaskName":"robot","PlateProcess":"08DC39A25A32429881E24E479C94262E","StepPlateName":"","TaskPlateName":"泳道 1","StepName":"","SequnceId":"","Steps":[],"SequnceStepId":"","ProcedurIds":[],"NodeId":"08DC39A2B39A4AE7803362AB0C6340E8","ProcessType":0,"ProcessTypeText":"标准工艺","TaskPlates":["08DC39A25A32429881E24E479C94262E"],"TimeOut":60,"Zone":"","WaitNextReady":false,"IsReady":true,"IsSkip":false,"PlateDelay":0},{"Id":"08cb26c5dedf4b1db1380c6cc6ec98d7","Occupy":[["420d6f8d5a5e4c3bbadea5f8784b8ddb"]],"Release":[["420d6f8d5a5e4c3bbadea5f8784b8ddb"]],"Occupy_dependency":[],"Release_dependency":[],"Dependency2":-1,"Status":0,"Priority":0,"Time":30,"RobotGetTime":15,"RobotPutTime":15,"EstDuration":30,"Pre":["6ada03d0cf984d60939ee9e8a09b9e83"],"Next":["1996767fb60b4087b2906b63fa7ce403"],"Machine":"","Position":"","AlgMachine":[],"AlgPosition":[],"Release_machine":[],"Release_position":[],"Dependency":-1,"Available":0,"Start_time":0,"Heuristic":0,"TaskName":"Spin","PlateProcess":"08DC39A25A32429881E24E479C94262E","StepPlateName":"","TaskPlateName":"泳道 1","StepName":"","SequnceId":"","Steps":[],"SequnceStepId":"","ProcedurIds":[],"NodeId":"08DC39A2B39A4AE7803362AB0C6340E8","ProcessType":0,"ProcessTypeText":"标准工艺","TaskPlates":["08DC39A25A32429881E24E479C94262E"],"TimeOut":60,"Zone":null,"WaitNextReady":false,"IsReady":true,"IsSkip":false,"PlateDelay":0},{"Id":"1996767fb60b4087b2906b63fa7ce403","Occupy":[["9D3965BC8D3D4B47A1E6AF5EB34420F5"],["F998AF2F57DD4289B4CC954E1A526D31"]],"Release":[["9D3965BC8D3D4B47A1E6AF5EB34420F5"],["A7D006996FED4A578BB05794AA6228B3"]],"Occupy_dependency":[],"Release_dependency":[],"Dependency2":-1,"Status":0,"Priority":0,"Time":30,"RobotGetTime":15,"RobotPutTime":15,"EstDuration":30,"Pre":["08cb26c5dedf4b1db1380c6cc6ec98d7"],"Next":["eefb9b1b053c4f3b888999f33fcefa23"],"Machine":"","Position":"","AlgMachine":[],"AlgPosition":[],"Release_machine":[],"Release_position":[],"Dependency":-1,"Available":0,"Start_time":0,"Heuristic":0,"TaskName":"robot","PlateProcess":"08DC39A25A32429881E24E479C94262E","StepPlateName":"","TaskPlateName":"泳道 1","StepName":"","SequnceId":"","Steps":[],"SequnceStepId":"","ProcedurIds":[],"NodeId":"08DC39A2B00E481385167B09F5725119","ProcessType":3,"ProcessTypeText":"放板工艺","TaskPlates":["08DC39A25A32429881E24E479C94262E"],"TimeOut":60,"Zone":"","WaitNextReady":false,"IsReady":true,"IsSkip":false,"PlateDelay":0},{"Id":"eefb9b1b053c4f3b888999f33fcefa23","Occupy":[["7c77fa4d2b8346ff87e7920ed5a8d14e"]],"Release":[["7c77fa4d2b8346ff87e7920ed5a8d14e"],["F998AF2F57DD4289B4CC954E1A526D31"]],"Occupy_dependency":[],"Release_dependency":[],"Dependency2":-1,"Status":0,"Priority":0,"Time":30,"RobotGetTime":0,"RobotPutTime":15,"EstDuration":30,"Pre":["1996767fb60b4087b2906b63fa7ce403"],"Next":[],"Machine":"","Position":"","AlgMachine":[],"AlgPosition":[],"Release_machine":[],"Release_position":[],"Dependency":-1,"Available":0,"Start_time":0,"Heuristic":0,"TaskName":"Put In Hotel","PlateProcess":"08DC39A25A32429881E24E479C94262E","StepPlateName":"","TaskPlateName":"泳道 1","StepName":"","SequnceId":"","Steps":[],"SequnceStepId":"","ProcedurIds":[],"NodeId":"08DC39A2B00E481385167B09F5725119","ProcessType":3,"ProcessTypeText":"放板工艺","TaskPlates":["08DC39A25A32429881E24E479C94262E"],"TimeOut":60,"Zone":"Zone 1","WaitNextReady":false,"IsReady":true,"IsSkip":false,"PlateDelay":0}],"Positions":[{"Id":"9D3965BC8D3D4B47A1E6AF5EB34420F5","Status":0,"Machine":"08DC39A2980D49B6887175DBD9302802","PositionName":"DENSO RC8","MachineName":"DENSO RC8","SourceType":"plate"},{"Id":"F998AF2F57DD4289B4CC954E1A526D31","Status":0,"Machine":"08DC39A29A5146B58142DB5602A42033","PositionName":"StorageCarousel v2","MachineName":"StorageCarousel v2","SourceType":"plate"},{"Id":"8E7D47A5B82C49A49D604013B9235D50","Status":0,"Machine":"08DC39A29D7D40F68E4241B8600C7620","PositionName":"Wellwash","MachineName":"Wellwash","SourceType":"plate"},{"Id":"A7D006996FED4A578BB05794AA6228B3","Status":0,"Machine":"08DC39A2A22F473384CCF3A9E48361EC","PositionName":"CentrifugeSimulator","MachineName":"CentrifugeSimulator","SourceType":"plate"},{"Id":"92ec504c767a4f84bbd539a3019348f4","Status":0,"Machine":"08DC39A2980D49B6887175DBD9302802","PositionName":"DENSO RC8 work","MachineName":"DENSO RC8","SourceType":"work"},{"Id":"7c77fa4d2b8346ff87e7920ed5a8d14e","Status":0,"Machine":"08DC39A29A5146B58142DB5602A42033","PositionName":"StorageCarousel v2 work","MachineName":"StorageCarousel v2","SourceType":"work"},{"Id":"38008c58c6c543ba87afe81ed6ce938d","Status":0,"Machine":"08DC39A29D7D40F68E4241B8600C7620","PositionName":"Wellwash work","MachineName":"Wellwash","SourceType":"work"},{"Id":"420d6f8d5a5e4c3bbadea5f8784b8ddb","Status":0,"Machine":"08DC39A2A22F473384CCF3A9E48361EC","PositionName":"CentrifugeSimulator work","MachineName":"CentrifugeSimulator","SourceType":"work"}],"Machines":[{"Id":"08DC39A2980D49B6887175DBD9302802","Name":"DENSO RC8","Type":"DENSO RC8","InstrumentCategory":1,"InstrumentCategoryText":"机械臂","TaskStorageDetail":[]},{"Id":"08DC39A29A5146B58142DB5602A42033","Name":"StorageCarousel v2","Type":"StorageCarousel v2","InstrumentCategory":2,"InstrumentCategoryText":"存储站","TaskStorageDetail":[{"Id":"08DC39A29A544A59810DA06600DE4A40","HotelName":"Hotel 1","StorageConfigId":"08DC39A29A534E8D84E9BB6D4B950608","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate1","PreviousBarcode":"Plate1","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":1,"Shelf":1,"Zone":"Zone 1"},{"Id":"08DC39A29A544AEB81A7F6E99BEE9969","HotelName":"Hotel 1","StorageConfigId":"08DC39A29A534E8D84E9BB6D4B950608","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate2","PreviousBarcode":"Plate2","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":1,"Shelf":2,"Zone":"Zone 1"},{"Id":"08DC39A29A544AED80FC2075AF0C2F45","HotelName":"Hotel 1","StorageConfigId":"08DC39A29A534E8D84E9BB6D4B950608","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate3","PreviousBarcode":"Plate3","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":1,"Shelf":3,"Zone":"Zone 1"},{"Id":"08DC39A29A544AEE8C3DCCCE1FE5B0F5","HotelName":"Hotel 1","StorageConfigId":"08DC39A29A534E8D84E9BB6D4B950608","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate4","PreviousBarcode":"Plate4","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":1,"Shelf":4,"Zone":"Zone 1"},{"Id":"08DC39A29A544AEF86D2D32ACDC77A73","HotelName":"Hotel 1","StorageConfigId":"08DC39A29A534E8D84E9BB6D4B950608","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate5","PreviousBarcode":"Plate5","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":1,"Shelf":5,"Zone":"Zone 1"},{"Id":"08DC39A29A544AF08036A19F5DF83E22","HotelName":"Hotel 1","StorageConfigId":"08DC39A29A534E8D84E9BB6D4B950608","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate6","PreviousBarcode":"Plate6","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":1,"Shelf":6,"Zone":"Zone 1"},{"Id":"08DC39A29A544AF0897E7AD0FAF7B507","HotelName":"Hotel 1","StorageConfigId":"08DC39A29A534E8D84E9BB6D4B950608","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate7","PreviousBarcode":"Plate7","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":1,"Shelf":7,"Zone":"Zone 1"},{"Id":"08DC39A29A544AF18248F5127B3F10CD","HotelName":"Hotel 1","StorageConfigId":"08DC39A29A534E8D84E9BB6D4B950608","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate8","PreviousBarcode":"Plate8","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":1,"Shelf":8,"Zone":"Zone 1"},{"Id":"08DC39A29A544AF18B28DE15E2124089","HotelName":"Hotel 1","StorageConfigId":"08DC39A29A534E8D84E9BB6D4B950608","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate9","PreviousBarcode":"Plate9","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":1,"Shelf":9,"Zone":"Zone 1"},{"Id":"08DC39A29A544AF283EBCBA27FA216C4","HotelName":"Hotel 1","StorageConfigId":"08DC39A29A534E8D84E9BB6D4B950608","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate10","PreviousBarcode":"Plate10","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":1,"Shelf":10,"Zone":"Zone 1"},{"Id":"08DC39A29A544AF28CAA7D51778958FE","HotelName":"Hotel 1","StorageConfigId":"08DC39A29A534E8D84E9BB6D4B950608","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate11","PreviousBarcode":"Plate11","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":1,"Shelf":11,"Zone":"Zone 1"},{"Id":"08DC39A29A544AF385E0DF28D07CECCE","HotelName":"Hotel 1","StorageConfigId":"08DC39A29A534E8D84E9BB6D4B950608","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate12","PreviousBarcode":"Plate12","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":1,"Shelf":12,"Zone":"Zone 1"},{"Id":"08DC39A29A544AF38EE8C6AA0A904304","HotelName":"Hotel 1","StorageConfigId":"08DC39A29A534E8D84E9BB6D4B950608","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate13","PreviousBarcode":"Plate13","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":1,"Shelf":13,"Zone":"Zone 1"},{"Id":"08DC39A29A544AF48765E5F40D6504DA","HotelName":"Hotel 1","StorageConfigId":"08DC39A29A534E8D84E9BB6D4B950608","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate14","PreviousBarcode":"Plate14","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":1,"Shelf":14,"Zone":"Zone 1"},{"Id":"08DC39A29A544AF580E9B170E451329B","HotelName":"Hotel 1","StorageConfigId":"08DC39A29A534E8D84E9BB6D4B950608","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate15","PreviousBarcode":"Plate15","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":1,"Shelf":15,"Zone":"Zone 1"},{"Id":"08DC39A29A544AF589373320E4DF2AF7","HotelName":"Hotel 1","StorageConfigId":"08DC39A29A534E8D84E9BB6D4B950608","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate16","PreviousBarcode":"Plate16","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":1,"Shelf":16,"Zone":"Zone 1"},{"Id":"08DC39A29A544AF689D0D2A2CDF68202","HotelName":"Hotel 1","StorageConfigId":"08DC39A29A534E8D84E9BB6D4B950608","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate17","PreviousBarcode":"Plate17","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":1,"Shelf":17,"Zone":"Zone 1"},{"Id":"08DC39A29A544AF68F7CF5F5FC396484","HotelName":"Hotel 1","StorageConfigId":"08DC39A29A534E8D84E9BB6D4B950608","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate18","PreviousBarcode":"Plate18","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":1,"Shelf":18,"Zone":"Zone 1"},{"Id":"08DC39A29A544AF784EFFE4C747E3C84","HotelName":"Hotel 1","StorageConfigId":"08DC39A29A534E8D84E9BB6D4B950608","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate19","PreviousBarcode":"Plate19","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":1,"Shelf":19,"Zone":"Zone 1"},{"Id":"08DC39A29A544AF78A1CADA60D1D8014","HotelName":"Hotel 1","StorageConfigId":"08DC39A29A534E8D84E9BB6D4B950608","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate20","PreviousBarcode":"Plate20","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":1,"Shelf":20,"Zone":"Zone 1"},{"Id":"08DC39A29A544AF885B8FE02D4C7D09F","HotelName":"Hotel 1","StorageConfigId":"08DC39A29A534E8D84E9BB6D4B950608","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate21","PreviousBarcode":"Plate21","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":1,"Shelf":21,"Zone":"Zone 1"},{"Id":"08DC39A29A544AF88A552603607A86CB","HotelName":"Hotel 1","StorageConfigId":"08DC39A29A534E8D84E9BB6D4B950608","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate22","PreviousBarcode":"Plate22","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":1,"Shelf":22,"Zone":"Zone 1"},{"Id":"08DC39A29A544AFB8C9793A6078BCD09","HotelName":"Hotel 2","StorageConfigId":"08DC39A29A54463F8E9C497BD8C00EEF","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate23","PreviousBarcode":"Plate23","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":2,"Shelf":1,"Zone":"Zone 1"},{"Id":"08DC39A29A544AFC85EA892E1A717A58","HotelName":"Hotel 2","StorageConfigId":"08DC39A29A54463F8E9C497BD8C00EEF","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate24","PreviousBarcode":"Plate24","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":2,"Shelf":2,"Zone":"Zone 1"},{"Id":"08DC39A29A544AFC8AD2A989B2073127","HotelName":"Hotel 2","StorageConfigId":"08DC39A29A54463F8E9C497BD8C00EEF","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate25","PreviousBarcode":"Plate25","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":2,"Shelf":3,"Zone":"Zone 1"},{"Id":"08DC39A29A544AFD80AB5462441229B1","HotelName":"Hotel 2","StorageConfigId":"08DC39A29A54463F8E9C497BD8C00EEF","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate26","PreviousBarcode":"Plate26","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":2,"Shelf":4,"Zone":"Zone 1"},{"Id":"08DC39A29A544AFD8D54F2DB18F86CD7","HotelName":"Hotel 2","StorageConfigId":"08DC39A29A54463F8E9C497BD8C00EEF","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate27","PreviousBarcode":"Plate27","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":2,"Shelf":5,"Zone":"Zone 1"},{"Id":"08DC39A29A544AFE83B5E09FB39BC3D7","HotelName":"Hotel 2","StorageConfigId":"08DC39A29A54463F8E9C497BD8C00EEF","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate28","PreviousBarcode":"Plate28","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":2,"Shelf":6,"Zone":"Zone 1"},{"Id":"08DC39A29A544AFE885C6DBC9A82734F","HotelName":"Hotel 2","StorageConfigId":"08DC39A29A54463F8E9C497BD8C00EEF","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate29","PreviousBarcode":"Plate29","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":2,"Shelf":7,"Zone":"Zone 1"},{"Id":"08DC39A29A544AFE8E4C3832F335592A","HotelName":"Hotel 2","StorageConfigId":"08DC39A29A54463F8E9C497BD8C00EEF","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate30","PreviousBarcode":"Plate30","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":2,"Shelf":8,"Zone":"Zone 1"},{"Id":"08DC39A29A544AFF840AA9FFA93C71E4","HotelName":"Hotel 2","StorageConfigId":"08DC39A29A54463F8E9C497BD8C00EEF","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate31","PreviousBarcode":"Plate31","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":2,"Shelf":9,"Zone":"Zone 1"},{"Id":"08DC39A29A544AFF89777BCB88EB98B8","HotelName":"Hotel 2","StorageConfigId":"08DC39A29A54463F8E9C497BD8C00EEF","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate32","PreviousBarcode":"Plate32","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":2,"Shelf":10,"Zone":"Zone 1"},{"Id":"08DC39A29A544B00817907F98A479846","HotelName":"Hotel 2","StorageConfigId":"08DC39A29A54463F8E9C497BD8C00EEF","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate33","PreviousBarcode":"Plate33","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":2,"Shelf":11,"Zone":"Zone 1"},{"Id":"08DC39A29A544B0087EA275CF7F2689E","HotelName":"Hotel 2","StorageConfigId":"08DC39A29A54463F8E9C497BD8C00EEF","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate34","PreviousBarcode":"Plate34","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":2,"Shelf":12,"Zone":"Zone 1"},{"Id":"08DC39A29A544B008C6B5863843847AC","HotelName":"Hotel 2","StorageConfigId":"08DC39A29A54463F8E9C497BD8C00EEF","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate35","PreviousBarcode":"Plate35","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":2,"Shelf":13,"Zone":"Zone 1"},{"Id":"08DC39A29A544B01816575104BF5DE5B","HotelName":"Hotel 2","StorageConfigId":"08DC39A29A54463F8E9C497BD8C00EEF","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate36","PreviousBarcode":"Plate36","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":2,"Shelf":14,"Zone":"Zone 1"},{"Id":"08DC39A29A544B0187C06C9294E1BF01","HotelName":"Hotel 2","StorageConfigId":"08DC39A29A54463F8E9C497BD8C00EEF","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate37","PreviousBarcode":"Plate37","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":2,"Shelf":15,"Zone":"Zone 1"},{"Id":"08DC39A29A544B018C69B787D2AF4868","HotelName":"Hotel 2","StorageConfigId":"08DC39A29A54463F8E9C497BD8C00EEF","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate38","PreviousBarcode":"Plate38","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":2,"Shelf":16,"Zone":"Zone 1"},{"Id":"08DC39A29A544B028993ED8246C9E31E","HotelName":"Hotel 2","StorageConfigId":"08DC39A29A54463F8E9C497BD8C00EEF","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate39","PreviousBarcode":"Plate39","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":2,"Shelf":17,"Zone":"Zone 1"},{"Id":"08DC39A29A544B028F2A55FF249641D6","HotelName":"Hotel 2","StorageConfigId":"08DC39A29A54463F8E9C497BD8C00EEF","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate40","PreviousBarcode":"Plate40","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":2,"Shelf":18,"Zone":"Zone 1"},{"Id":"08DC39A29A544B03851159ABFEE8474C","HotelName":"Hotel 2","StorageConfigId":"08DC39A29A54463F8E9C497BD8C00EEF","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate41","PreviousBarcode":"Plate41","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":2,"Shelf":19,"Zone":"Zone 1"},{"Id":"08DC39A29A544B038A8480E9D13855F6","HotelName":"Hotel 2","StorageConfigId":"08DC39A29A54463F8E9C497BD8C00EEF","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate42","PreviousBarcode":"Plate42","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":2,"Shelf":20,"Zone":"Zone 1"},{"Id":"08DC39A29A544B038F46EAF6153FA55D","HotelName":"Hotel 2","StorageConfigId":"08DC39A29A54463F8E9C497BD8C00EEF","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate43","PreviousBarcode":"Plate43","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":2,"Shelf":21,"Zone":"Zone 1"},{"Id":"08DC39A29A544B048529F383ED77D9CE","HotelName":"Hotel 2","StorageConfigId":"08DC39A29A54463F8E9C497BD8C00EEF","ProjectInstrumentId":"08DC39A29A5146B58142DB5602A42033","Barcode":"Plate44","PreviousBarcode":"Plate44","Labware":"Default","LabwareId":"6CFFFE7DCD0811ECB179922E1603DFB5","PhysicalPosition":2,"Shelf":22,"Zone":"Zone 1"}]},{"Id":"08DC39A29D7D40F68E4241B8600C7620","Name":"Wellwash","Type":"Wellwash","InstrumentCategory":4,"InstrumentCategoryText":"分液、清洗","TaskStorageDetail":[]},{"Id":"08DC39A2A22F473384CCF3A9E48361EC","Name":"CentrifugeSimulator","Type":"CentrifugeSimulator","InstrumentCategory":5,"InstrumentCategoryText":"离心机","TaskStorageDetail":[]}]}],"RuningAssasys":["08DC39A25A3140CA80F22EC5A80022E2"]}
+{
+    "assaysmodel": [
+        {
+            "name": "Assay1",
+            "projectid": "A7733776839C4C859AB0CB4C8F2BC7DE",
+            "assaysid": "BAED3C535C0B4AEB99A64175ACADA013",
+            "tasks": [
+                {
+                    "id": "6c046694b0ea4ba7abf2d641d91661e1",
+                    "occupy": [
+                        [
+                            "5eb712d2f60b47bb9ca455c49ff34700"
+                        ],
+                        [
+                            "DCBBC4B426AF4BC1A05ED80234F3A973"
+                        ]
+                    ],
+                    "release": [
+                        [
+                            "5eb712d2f60b47bb9ca455c49ff34700"
+                        ]
+                    ],
+                    "occupy_dependency": [],
+                    "release_dependency": [],
+                    "dependency2": -1,
+                    "status": 0,
+                    "priority": 0,
+                    "time": 30,
+                    "robotgettime": 15,
+                    "robotputtime": 0,
+                    "estduration": 30,
+                    "pre": [],
+                    "next": [
+                        "cdb939ddb3ce44bfa4c51847c3e16755"
+                    ],
+                    "machine": "",
+                    "position": "",
+                    "algmachine": [],
+                    "algposition": [],
+                    "release_machine": [],
+                    "release_position": [],
+                    "dependency": -1,
+                    "available": 0,
+                    "start_time": 0,
+                    "heuristic": 0,
+                    "taskname": "Get From Hotel",
+                    "plateprocess": "09A949A223DB44858E77EA5186654D0F",
+                    "stepplatename": "",
+                    "taskplatename": "泳道1",
+                    "stepname": "",
+                    "sequnceid": "",
+                    "steps": [],
+                    "sequncestepid": "",
+                    "procedurids": [],
+                    "nodeid": "37EA4EC5F9EB4121BCAE3FC1DC52D795",
+                    "processtype": 2,
+                    "processtypetext": "抓板工艺",
+                    "taskplates": [
+                        "09A949A223DB44858E77EA5186654D0F"
+                    ],
+                    "timeout": 60,
+                    "zone": null,
+                    "waitnextready": false,
+                    "isready": true,
+                    "isskip": false
+                },
+                {
+                    "id": "cdb939ddb3ce44bfa4c51847c3e16755",
+                    "occupy": [
+                        [
+                            "93EFF69394CD4505B4D3F5F1AE188CA9"
+                        ],
+                        [
+                            "9929BC2A23AF47C8998A696D3BCCECFB",
+                            "457D9F261AF9469BA343E1099F59B872",
+                            "2DE5028375034F9E9F861E8D96259324",
+                            "78EBC4DC153443389202636681974F42",
+                            "5A675AE2499948479983E40964B2DAA0",
+                            "7DFB98A70E904D97933980AFB79B990F"
+                        ]
+                    ],
+                    "release": [
+                        [
+                            "DCBBC4B426AF4BC1A05ED80234F3A973"
+                        ]
+                    ],
+                    "occupy_dependency": [],
+                    "release_dependency": [],
+                    "dependency2": -1,
+                    "status": 0,
+                    "priority": 0,
+                    "time": 30,
+                    "robotgettime": 15,
+                    "robotputtime": 15,
+                    "estduration": 30,
+                    "pre": [
+                        "6c046694b0ea4ba7abf2d641d91661e1"
+                    ],
+                    "next": [
+                        "d2841b53bb3d4b10a5a7cb617074ee03"
+                    ],
+                    "machine": "",
+                    "position": "",
+                    "algmachine": [],
+                    "algposition": [],
+                    "release_machine": [],
+                    "release_position": [],
+                    "dependency": -1,
+                    "available": 0,
+                    "start_time": 0,
+                    "heuristic": 0,
+                    "taskname": "robot",
+                    "plateprocess": "09A949A223DB44858E77EA5186654D0F",
+                    "stepplatename": "",
+                    "taskplatename": "泳道1",
+                    "stepname": "",
+                    "sequnceid": "",
+                    "steps": [],
+                    "sequncestepid": "",
+                    "procedurids": [],
+                    "nodeid": "EE3203622F7A4830A6331718F220A165",
+                    "processtype": 7,
+                    "processtypetext": "开盖工艺",
+                    "taskplates": [
+                        "09A949A223DB44858E77EA5186654D0F"
+                    ],
+                    "timeout": 60,
+                    "zone": "",
+                    "waitnextready": false,
+                    "isready": true,
+                    "isskip": false
+                },
+                {
+                    "id": "d2841b53bb3d4b10a5a7cb617074ee03",
+                    "occupy": [
+                        [
+                            "67ffb673fb1f42008c0ad5876c79cd04"
+                        ]
+                    ],
+                    "release": [
+                        [
+                            "67ffb673fb1f42008c0ad5876c79cd04"
+                        ]
+                    ],
+                    "occupy_dependency": [],
+                    "release_dependency": [],
+                    "dependency2": -1,
+                    "status": 0,
+                    "priority": 0,
+                    "time": 30,
+                    "robotgettime": 15,
+                    "robotputtime": 15,
+                    "estduration": 30,
+                    "pre": [
+                        "cdb939ddb3ce44bfa4c51847c3e16755"
+                    ],
+                    "next": [
+                        "7255f372281646a0a5d5208cd1c56161"
+                    ],
+                    "machine": "",
+                    "position": "",
+                    "algmachine": [],
+                    "algposition": [],
+                    "release_machine": [],
+                    "release_position": [],
+                    "dependency": -1,
+                    "available": 0,
+                    "start_time": 0,
+                    "heuristic": 0,
+                    "taskname": "Open",
+                    "plateprocess": "09A949A223DB44858E77EA5186654D0F",
+                    "stepplatename": "",
+                    "taskplatename": "泳道1",
+                    "stepname": "",
+                    "sequnceid": "",
+                    "steps": [],
+                    "sequncestepid": "",
+                    "procedurids": [],
+                    "nodeid": "EE3203622F7A4830A6331718F220A165",
+                    "processtype": 7,
+                    "processtypetext": "开盖工艺",
+                    "taskplates": [
+                        "09A949A223DB44858E77EA5186654D0F"
+                    ],
+                    "timeout": 60,
+                    "zone": null,
+                    "waitnextready": false,
+                    "isready": true,
+                    "isskip": false
+                },
+                {
+                    "id": "7255f372281646a0a5d5208cd1c56161",
+                    "occupy": [
+                        [
+                            "50A7B2C6A904495A92E8A5462B7BAA3F"
+                        ]
+                    ],
+                    "release": [
+                        [
+                            "93EFF69394CD4505B4D3F5F1AE188CA9"
+                        ],
+                        [
+                            "9929BC2A23AF47C8998A696D3BCCECFB",
+                            "457D9F261AF9469BA343E1099F59B872",
+                            "2DE5028375034F9E9F861E8D96259324",
+                            "78EBC4DC153443389202636681974F42",
+                            "5A675AE2499948479983E40964B2DAA0",
+                            "7DFB98A70E904D97933980AFB79B990F"
+                        ]
+                    ],
+                    "occupy_dependency": [],
+                    "release_dependency": [],
+                    "dependency2": -1,
+                    "status": 0,
+                    "priority": 0,
+                    "time": 30,
+                    "robotgettime": 15,
+                    "robotputtime": 15,
+                    "estduration": 30,
+                    "pre": [
+                        "d2841b53bb3d4b10a5a7cb617074ee03"
+                    ],
+                    "next": [
+                        "181e6573cdb04d838dfa566a570e5bb1"
+                    ],
+                    "machine": "",
+                    "position": "",
+                    "algmachine": [],
+                    "algposition": [],
+                    "release_machine": [],
+                    "release_position": [],
+                    "dependency": -1,
+                    "available": 0,
+                    "start_time": 0,
+                    "heuristic": 0,
+                    "taskname": "robot",
+                    "plateprocess": "09A949A223DB44858E77EA5186654D0F",
+                    "stepplatename": "",
+                    "taskplatename": "泳道1",
+                    "stepname": "",
+                    "sequnceid": "",
+                    "steps": [],
+                    "sequncestepid": "",
+                    "procedurids": [],
+                    "nodeid": "340E471EFEC74A52A77DDF92FA800494",
+                    "processtype": 0,
+                    "processtypetext": "标准工艺",
+                    "taskplates": [
+                        "09A949A223DB44858E77EA5186654D0F"
+                    ],
+                    "timeout": 60,
+                    "zone": "",
+                    "waitnextready": false,
+                    "isready": true,
+                    "isskip": false
+                },
+                {
+                    "id": "181e6573cdb04d838dfa566a570e5bb1",
+                    "occupy": [
+                        [
+                            "529cb188130848c6ae85e83a790a3d9e"
+                        ]
+                    ],
+                    "release": [
+                        [
+                            "529cb188130848c6ae85e83a790a3d9e"
+                        ]
+                    ],
+                    "occupy_dependency": [],
+                    "release_dependency": [],
+                    "dependency2": -1,
+                    "status": 0,
+                    "priority": 0,
+                    "time": 30,
+                    "robotgettime": 15,
+                    "robotputtime": 15,
+                    "estduration": 30,
+                    "pre": [
+                        "7255f372281646a0a5d5208cd1c56161"
+                    ],
+                    "next": [
+                        "b865b759d4a54157a51d016f146529c3"
+                    ],
+                    "machine": "",
+                    "position": "",
+                    "algmachine": [],
+                    "algposition": [],
+                    "release_machine": [],
+                    "release_position": [],
+                    "dependency": -1,
+                    "available": 0,
+                    "start_time": 0,
+                    "heuristic": 0,
+                    "taskname": "Peel",
+                    "plateprocess": "09A949A223DB44858E77EA5186654D0F",
+                    "stepplatename": "",
+                    "taskplatename": "泳道1",
+                    "stepname": "",
+                    "sequnceid": "",
+                    "steps": [],
+                    "sequncestepid": "",
+                    "procedurids": [],
+                    "nodeid": "340E471EFEC74A52A77DDF92FA800494",
+                    "processtype": 0,
+                    "processtypetext": "标准工艺",
+                    "taskplates": [
+                        "09A949A223DB44858E77EA5186654D0F"
+                    ],
+                    "timeout": 60,
+                    "zone": null,
+                    "waitnextready": false,
+                    "isready": true,
+                    "isskip": false
+                },
+                {
+                    "id": "b865b759d4a54157a51d016f146529c3",
+                    "occupy": [
+                        [
+                            "93EFF69394CD4505B4D3F5F1AE188CA9"
+                        ],
+                        [
+                            "4B28842FBE2F441898ED6A521B550EB1"
+                        ]
+                    ],
+                    "release": [
+                        [
+                            "93EFF69394CD4505B4D3F5F1AE188CA9"
+                        ],
+                        [
+                            "50A7B2C6A904495A92E8A5462B7BAA3F"
+                        ]
+                    ],
+                    "occupy_dependency": [],
+                    "release_dependency": [],
+                    "dependency2": -1,
+                    "status": 0,
+                    "priority": 0,
+                    "time": 30,
+                    "robotgettime": 15,
+                    "robotputtime": 15,
+                    "estduration": 30,
+                    "pre": [
+                        "181e6573cdb04d838dfa566a570e5bb1"
+                    ],
+                    "next": [
+                        "e5390f21d9274d6e826095414717ad8c"
+                    ],
+                    "machine": "",
+                    "position": "",
+                    "algmachine": [],
+                    "algposition": [],
+                    "release_machine": [],
+                    "release_position": [],
+                    "dependency": -1,
+                    "available": 0,
+                    "start_time": 0,
+                    "heuristic": 0,
+                    "taskname": "robot",
+                    "plateprocess": "09A949A223DB44858E77EA5186654D0F",
+                    "stepplatename": "",
+                    "taskplatename": "泳道1",
+                    "stepname": "",
+                    "sequnceid": "",
+                    "steps": [],
+                    "sequncestepid": "",
+                    "procedurids": [],
+                    "nodeid": "B6CA7BEF45E94533902CCF7C021654A1",
+                    "processtype": 0,
+                    "processtypetext": "标准工艺",
+                    "taskplates": [
+                        "09A949A223DB44858E77EA5186654D0F"
+                    ],
+                    "timeout": 60,
+                    "zone": "",
+                    "waitnextready": false,
+                    "isready": true,
+                    "isskip": false
+                },
+                {
+                    "id": "e5390f21d9274d6e826095414717ad8c",
+                    "occupy": [
+                        [
+                            "5c1172660c82491a9ffec22c189e5cfe"
+                        ]
+                    ],
+                    "release": [
+                        [
+                            "5c1172660c82491a9ffec22c189e5cfe"
+                        ]
+                    ],
+                    "occupy_dependency": [],
+                    "release_dependency": [],
+                    "dependency2": -1,
+                    "status": 0,
+                    "priority": 0,
+                    "time": 30,
+                    "robotgettime": 15,
+                    "robotputtime": 15,
+                    "estduration": 30,
+                    "pre": [
+                        "b865b759d4a54157a51d016f146529c3"
+                    ],
+                    "next": [
+                        "60043b6bd5534ff1ac52687b24ca744b"
+                    ],
+                    "machine": "",
+                    "position": "",
+                    "algmachine": [],
+                    "algposition": [],
+                    "release_machine": [],
+                    "release_position": [],
+                    "dependency": -1,
+                    "available": 0,
+                    "start_time": 0,
+                    "heuristic": 0,
+                    "taskname": "PCR",
+                    "plateprocess": "09A949A223DB44858E77EA5186654D0F",
+                    "stepplatename": "",
+                    "taskplatename": "泳道1",
+                    "stepname": "",
+                    "sequnceid": "",
+                    "steps": [],
+                    "sequncestepid": "",
+                    "procedurids": [],
+                    "nodeid": "B6CA7BEF45E94533902CCF7C021654A1",
+                    "processtype": 0,
+                    "processtypetext": "标准工艺",
+                    "taskplates": [
+                        "09A949A223DB44858E77EA5186654D0F"
+                    ],
+                    "timeout": 60,
+                    "zone": null,
+                    "waitnextready": false,
+                    "isready": true,
+                    "isskip": false
+                },
+                {
+                    "id": "60043b6bd5534ff1ac52687b24ca744b",
+                    "occupy": [
+                        [
+                            "93EFF69394CD4505B4D3F5F1AE188CA9"
+                        ],
+                        [
+                            "09C57D317AA64560BBB6357AE771C133"
+                        ]
+                    ],
+                    "release": [
+                        [
+                            "4B28842FBE2F441898ED6A521B550EB1"
+                        ]
+                    ],
+                    "occupy_dependency": [],
+                    "release_dependency": [],
+                    "dependency2": -1,
+                    "status": 0,
+                    "priority": 0,
+                    "time": 30,
+                    "robotgettime": 15,
+                    "robotputtime": 15,
+                    "estduration": 30,
+                    "pre": [
+                        "e5390f21d9274d6e826095414717ad8c"
+                    ],
+                    "next": [
+                        "4f37de4f120a4bc690261ea6fec4ed45"
+                    ],
+                    "machine": "",
+                    "position": "",
+                    "algmachine": [],
+                    "algposition": [],
+                    "release_machine": [],
+                    "release_position": [],
+                    "dependency": -1,
+                    "available": 0,
+                    "start_time": 0,
+                    "heuristic": 0,
+                    "taskname": "robot",
+                    "plateprocess": "09A949A223DB44858E77EA5186654D0F",
+                    "stepplatename": "",
+                    "taskplatename": "泳道1",
+                    "stepname": "",
+                    "sequnceid": "",
+                    "steps": [],
+                    "sequncestepid": "",
+                    "procedurids": [],
+                    "nodeid": "3156F1D783A847CB91D5182D2E76EDCD",
+                    "processtype": 0,
+                    "processtypetext": "标准工艺",
+                    "taskplates": [
+                        "09A949A223DB44858E77EA5186654D0F"
+                    ],
+                    "timeout": 60,
+                    "zone": "",
+                    "waitnextready": false,
+                    "isready": true,
+                    "isskip": false
+                },
+                {
+                    "id": "4f37de4f120a4bc690261ea6fec4ed45",
+                    "occupy": [
+                        [
+                            "6a4c290eff754a8189e77ff18ccf2c50"
+                        ]
+                    ],
+                    "release": [
+                        [
+                            "6a4c290eff754a8189e77ff18ccf2c50"
+                        ]
+                    ],
+                    "occupy_dependency": [],
+                    "release_dependency": [],
+                    "dependency2": -1,
+                    "status": 0,
+                    "priority": 0,
+                    "time": 30,
+                    "robotgettime": 15,
+                    "robotputtime": 15,
+                    "estduration": 30,
+                    "pre": [
+                        "60043b6bd5534ff1ac52687b24ca744b"
+                    ],
+                    "next": [
+                        "528f3643c7ec4350989fb2c1112fc95e"
+                    ],
+                    "machine": "",
+                    "position": "",
+                    "algmachine": [],
+                    "algposition": [],
+                    "release_machine": [],
+                    "release_position": [],
+                    "dependency": -1,
+                    "available": 0,
+                    "start_time": 0,
+                    "heuristic": 0,
+                    "taskname": "Scan",
+                    "plateprocess": "09A949A223DB44858E77EA5186654D0F",
+                    "stepplatename": "",
+                    "taskplatename": "泳道1",
+                    "stepname": "",
+                    "sequnceid": "",
+                    "steps": [],
+                    "sequncestepid": "",
+                    "procedurids": [],
+                    "nodeid": "3156F1D783A847CB91D5182D2E76EDCD",
+                    "processtype": 0,
+                    "processtypetext": "标准工艺",
+                    "taskplates": [
+                        "09A949A223DB44858E77EA5186654D0F"
+                    ],
+                    "timeout": 60,
+                    "zone": null,
+                    "waitnextready": false,
+                    "isready": true,
+                    "isskip": false
+                },
+                {
+                    "id": "528f3643c7ec4350989fb2c1112fc95e",
+                    "occupy": [
+                        [
+                            "50A7B2C6A904495A92E8A5462B7BAA3F"
+                        ]
+                    ],
+                    "release": [
+                        [
+                            "93EFF69394CD4505B4D3F5F1AE188CA9"
+                        ],
+                        [
+                            "09C57D317AA64560BBB6357AE771C133"
+                        ]
+                    ],
+                    "occupy_dependency": [],
+                    "release_dependency": [],
+                    "dependency2": -1,
+                    "status": 0,
+                    "priority": 0,
+                    "time": 30,
+                    "robotgettime": 15,
+                    "robotputtime": 15,
+                    "estduration": 30,
+                    "pre": [
+                        "4f37de4f120a4bc690261ea6fec4ed45"
+                    ],
+                    "next": [
+                        "47e906e406364e3b90aff3245a7c89c8"
+                    ],
+                    "machine": "",
+                    "position": "",
+                    "algmachine": [],
+                    "algposition": [],
+                    "release_machine": [],
+                    "release_position": [],
+                    "dependency": -1,
+                    "available": 0,
+                    "start_time": 0,
+                    "heuristic": 0,
+                    "taskname": "robot",
+                    "plateprocess": "09A949A223DB44858E77EA5186654D0F",
+                    "stepplatename": "",
+                    "taskplatename": "泳道1",
+                    "stepname": "",
+                    "sequnceid": "",
+                    "steps": [],
+                    "sequncestepid": "",
+                    "procedurids": [],
+                    "nodeid": "30B9F0DA3BD54F45ADCEE714B59A7B60",
+                    "processtype": 0,
+                    "processtypetext": "标准工艺",
+                    "taskplates": [
+                        "09A949A223DB44858E77EA5186654D0F"
+                    ],
+                    "timeout": 60,
+                    "zone": "",
+                    "waitnextready": false,
+                    "isready": true,
+                    "isskip": false
+                },
+                {
+                    "id": "47e906e406364e3b90aff3245a7c89c8",
+                    "occupy": [
+                        [
+                            "529cb188130848c6ae85e83a790a3d9e"
+                        ]
+                    ],
+                    "release": [
+                        [
+                            "529cb188130848c6ae85e83a790a3d9e"
+                        ]
+                    ],
+                    "occupy_dependency": [],
+                    "release_dependency": [],
+                    "dependency2": -1,
+                    "status": 0,
+                    "priority": 0,
+                    "time": 30,
+                    "robotgettime": 15,
+                    "robotputtime": 15,
+                    "estduration": 30,
+                    "pre": [
+                        "528f3643c7ec4350989fb2c1112fc95e"
+                    ],
+                    "next": [
+                        "535dfe6321974bdd8d17ceacd577e9a2"
+                    ],
+                    "machine": "",
+                    "position": "",
+                    "algmachine": [],
+                    "algposition": [],
+                    "release_machine": [],
+                    "release_position": [],
+                    "dependency": -1,
+                    "available": 0,
+                    "start_time": 0,
+                    "heuristic": 0,
+                    "taskname": "Seal",
+                    "plateprocess": "09A949A223DB44858E77EA5186654D0F",
+                    "stepplatename": "",
+                    "taskplatename": "泳道1",
+                    "stepname": "",
+                    "sequnceid": "",
+                    "steps": [],
+                    "sequncestepid": "",
+                    "procedurids": [],
+                    "nodeid": "30B9F0DA3BD54F45ADCEE714B59A7B60",
+                    "processtype": 0,
+                    "processtypetext": "标准工艺",
+                    "taskplates": [
+                        "09A949A223DB44858E77EA5186654D0F"
+                    ],
+                    "timeout": 60,
+                    "zone": null,
+                    "waitnextready": false,
+                    "isready": true,
+                    "isskip": false
+                },
+                {
+                    "id": "535dfe6321974bdd8d17ceacd577e9a2",
+                    "occupy": [
+                        [
+                            "93EFF69394CD4505B4D3F5F1AE188CA9"
+                        ],
+                        [
+                            "9929BC2A23AF47C8998A696D3BCCECFB",
+                            "457D9F261AF9469BA343E1099F59B872",
+                            "2DE5028375034F9E9F861E8D96259324",
+                            "78EBC4DC153443389202636681974F42",
+                            "5A675AE2499948479983E40964B2DAA0",
+                            "7DFB98A70E904D97933980AFB79B990F"
+                        ]
+                    ],
+                    "release": [
+                        [
+                            "50A7B2C6A904495A92E8A5462B7BAA3F"
+                        ]
+                    ],
+                    "occupy_dependency": [],
+                    "release_dependency": [],
+                    "dependency2": -1,
+                    "status": 0,
+                    "priority": 0,
+                    "time": 30,
+                    "robotgettime": 15,
+                    "robotputtime": 15,
+                    "estduration": 30,
+                    "pre": [
+                        "47e906e406364e3b90aff3245a7c89c8"
+                    ],
+                    "next": [
+                        "b1c087aca2e44c7dab70fdd90b1a54e3"
+                    ],
+                    "machine": "",
+                    "position": "",
+                    "algmachine": [],
+                    "algposition": [],
+                    "release_machine": [],
+                    "release_position": [],
+                    "dependency": -1,
+                    "available": 0,
+                    "start_time": 0,
+                    "heuristic": 0,
+                    "taskname": "robot",
+                    "plateprocess": "09A949A223DB44858E77EA5186654D0F",
+                    "stepplatename": "",
+                    "taskplatename": "泳道1",
+                    "stepname": "",
+                    "sequnceid": "",
+                    "steps": [],
+                    "sequncestepid": "",
+                    "procedurids": [],
+                    "nodeid": "CC7AE3775EF3401ABF08AA5B28D167A9",
+                    "processtype": 8,
+                    "processtypetext": "关盖工艺",
+                    "taskplates": [
+                        "09A949A223DB44858E77EA5186654D0F"
+                    ],
+                    "timeout": 60,
+                    "zone": "",
+                    "waitnextready": false,
+                    "isready": true,
+                    "isskip": false
+                },
+                {
+                    "id": "b1c087aca2e44c7dab70fdd90b1a54e3",
+                    "occupy": [
+                        [
+                            "67ffb673fb1f42008c0ad5876c79cd04"
+                        ]
+                    ],
+                    "release": [
+                        [
+                            "67ffb673fb1f42008c0ad5876c79cd04"
+                        ]
+                    ],
+                    "occupy_dependency": [],
+                    "release_dependency": [],
+                    "dependency2": -1,
+                    "status": 0,
+                    "priority": 0,
+                    "time": 30,
+                    "robotgettime": 15,
+                    "robotputtime": 15,
+                    "estduration": 30,
+                    "pre": [
+                        "535dfe6321974bdd8d17ceacd577e9a2"
+                    ],
+                    "next": [
+                        "033ce84704e74923b7f6640b8dc2def6"
+                    ],
+                    "machine": "",
+                    "position": "",
+                    "algmachine": [],
+                    "algposition": [],
+                    "release_machine": [],
+                    "release_position": [],
+                    "dependency": -1,
+                    "available": 0,
+                    "start_time": 0,
+                    "heuristic": 0,
+                    "taskname": "Close",
+                    "plateprocess": "09A949A223DB44858E77EA5186654D0F",
+                    "stepplatename": "",
+                    "taskplatename": "泳道1",
+                    "stepname": "",
+                    "sequnceid": "",
+                    "steps": [],
+                    "sequncestepid": "",
+                    "procedurids": [],
+                    "nodeid": "CC7AE3775EF3401ABF08AA5B28D167A9",
+                    "processtype": 8,
+                    "processtypetext": "关盖工艺",
+                    "taskplates": [
+                        "09A949A223DB44858E77EA5186654D0F"
+                    ],
+                    "timeout": 60,
+                    "zone": null,
+                    "waitnextready": false,
+                    "isready": true,
+                    "isskip": false
+                },
+                {
+                    "id": "033ce84704e74923b7f6640b8dc2def6",
+                    "occupy": [
+                        [
+                            "DCBBC4B426AF4BC1A05ED80234F3A973"
+                        ]
+                    ],
+                    "release": [
+                        [
+                            "93EFF69394CD4505B4D3F5F1AE188CA9"
+                        ],
+                        [
+                            "9929BC2A23AF47C8998A696D3BCCECFB",
+                            "457D9F261AF9469BA343E1099F59B872",
+                            "2DE5028375034F9E9F861E8D96259324",
+                            "78EBC4DC153443389202636681974F42",
+                            "5A675AE2499948479983E40964B2DAA0",
+                            "7DFB98A70E904D97933980AFB79B990F"
+                        ]
+                    ],
+                    "occupy_dependency": [],
+                    "release_dependency": [],
+                    "dependency2": -1,
+                    "status": 0,
+                    "priority": 0,
+                    "time": 30,
+                    "robotgettime": 15,
+                    "robotputtime": 15,
+                    "estduration": 30,
+                    "pre": [
+                        "b1c087aca2e44c7dab70fdd90b1a54e3"
+                    ],
+                    "next": [
+                        "2779195a24c74a77b931c125ff93d25c"
+                    ],
+                    "machine": "",
+                    "position": "",
+                    "algmachine": [],
+                    "algposition": [],
+                    "release_machine": [],
+                    "release_position": [],
+                    "dependency": -1,
+                    "available": 0,
+                    "start_time": 0,
+                    "heuristic": 0,
+                    "taskname": "robot",
+                    "plateprocess": "09A949A223DB44858E77EA5186654D0F",
+                    "stepplatename": "",
+                    "taskplatename": "泳道1",
+                    "stepname": "",
+                    "sequnceid": "",
+                    "steps": [],
+                    "sequncestepid": "",
+                    "procedurids": [],
+                    "nodeid": "8357BCA1C7B2487DB244C4F7A8B27BF9",
+                    "processtype": 3,
+                    "processtypetext": "放板工艺",
+                    "taskplates": [
+                        "09A949A223DB44858E77EA5186654D0F"
+                    ],
+                    "timeout": 60,
+                    "zone": "",
+                    "waitnextready": false,
+                    "isready": true,
+                    "isskip": false
+                },
+                {
+                    "id": "2779195a24c74a77b931c125ff93d25c",
+                    "occupy": [
+                        [
+                            "5eb712d2f60b47bb9ca455c49ff34700"
+                        ]
+                    ],
+                    "release": [
+                        [
+                            "5eb712d2f60b47bb9ca455c49ff34700"
+                        ],
+                        [
+                            "DCBBC4B426AF4BC1A05ED80234F3A973"
+                        ]
+                    ],
+                    "occupy_dependency": [],
+                    "release_dependency": [],
+                    "dependency2": -1,
+                    "status": 0,
+                    "priority": 0,
+                    "time": 30,
+                    "robotgettime": 0,
+                    "robotputtime": 15,
+                    "estduration": 30,
+                    "pre": [
+                        "033ce84704e74923b7f6640b8dc2def6"
+                    ],
+                    "next": [],
+                    "machine": "",
+                    "position": "",
+                    "algmachine": [],
+                    "algposition": [],
+                    "release_machine": [],
+                    "release_position": [],
+                    "dependency": -1,
+                    "available": 0,
+                    "start_time": 0,
+                    "heuristic": 0,
+                    "taskname": "Put In Hotel",
+                    "plateprocess": "09A949A223DB44858E77EA5186654D0F",
+                    "stepplatename": "",
+                    "taskplatename": "泳道1",
+                    "stepname": "",
+                    "sequnceid": "",
+                    "steps": [],
+                    "sequncestepid": "",
+                    "procedurids": [],
+                    "nodeid": "8357BCA1C7B2487DB244C4F7A8B27BF9",
+                    "processtype": 3,
+                    "processtypetext": "放板工艺",
+                    "taskplates": [
+                        "09A949A223DB44858E77EA5186654D0F"
+                    ],
+                    "timeout": 60,
+                    "zone": null,
+                    "waitnextready": false,
+                    "isready": true,
+                    "isskip": false
+                }
+            ],
+            "positions": [
+                {
+                    "id": "9929BC2A23AF47C8998A696D3BCCECFB",
+                    "status": 0,
+                    "machine": "0AF5E9CD0BCC4304B0FF86AFC502E0C1",
+                    "positionname": "PlateLidOpenAndClose_1 Position 1",
+                    "machinename": "PlateLidOpenAndClose_1",
+                    "sourcetype": "plate"
+                },
+                {
+                    "id": "457D9F261AF9469BA343E1099F59B872",
+                    "status": 0,
+                    "machine": "0AF5E9CD0BCC4304B0FF86AFC502E0C1",
+                    "positionname": "PlateLidOpenAndClose_1 Position 2",
+                    "machinename": "PlateLidOpenAndClose_1",
+                    "sourcetype": "plate"
+                },
+                {
+                    "id": "2DE5028375034F9E9F861E8D96259324",
+                    "status": 0,
+                    "machine": "0AF5E9CD0BCC4304B0FF86AFC502E0C1",
+                    "positionname": "PlateLidOpenAndClose_1 Position 3",
+                    "machinename": "PlateLidOpenAndClose_1",
+                    "sourcetype": "plate"
+                },
+                {
+                    "id": "78EBC4DC153443389202636681974F42",
+                    "status": 0,
+                    "machine": "0AF5E9CD0BCC4304B0FF86AFC502E0C1",
+                    "positionname": "PlateLidOpenAndClose_1 Position 4",
+                    "machinename": "PlateLidOpenAndClose_1",
+                    "sourcetype": "plate"
+                },
+                {
+                    "id": "5A675AE2499948479983E40964B2DAA0",
+                    "status": 0,
+                    "machine": "0AF5E9CD0BCC4304B0FF86AFC502E0C1",
+                    "positionname": "PlateLidOpenAndClose_1 Position 5",
+                    "machinename": "PlateLidOpenAndClose_1",
+                    "sourcetype": "plate"
+                },
+                {
+                    "id": "7DFB98A70E904D97933980AFB79B990F",
+                    "status": 0,
+                    "machine": "0AF5E9CD0BCC4304B0FF86AFC502E0C1",
+                    "positionname": "PlateLidOpenAndClose_1 Position 6",
+                    "machinename": "PlateLidOpenAndClose_1",
+                    "sourcetype": "plate"
+                },
+                {
+                    "id": "4B28842FBE2F441898ED6A521B550EB1",
+                    "status": 0,
+                    "machine": "2DB862B5A4484F0D96A1CA756415DEB8",
+                    "positionname": "PCRSimulator_1",
+                    "machinename": "PCRSimulator_1",
+                    "sourcetype": "plate"
+                },
+                {
+                    "id": "DCBBC4B426AF4BC1A05ED80234F3A973",
+                    "status": 0,
+                    "machine": "313BCF7C38854985BF1FE6C262057A0D",
+                    "positionname": "Storage Universal_1",
+                    "machinename": "Storage Universal_1",
+                    "sourcetype": "plate"
+                },
+                {
+                    "id": "09C57D317AA64560BBB6357AE771C133",
+                    "status": 0,
+                    "machine": "95B7177AB54D4A0898B267EF230AD719",
+                    "positionname": "1D Code Scanner_1",
+                    "machinename": "1D Code Scanner_1",
+                    "sourcetype": "plate"
+                },
+                {
+                    "id": "93EFF69394CD4505B4D3F5F1AE188CA9",
+                    "status": 0,
+                    "machine": "CC9646A1F43B4B6EBABBEFF57037E97D",
+                    "positionname": "DENSO RC8_1",
+                    "machinename": "DENSO RC8_1",
+                    "sourcetype": "plate"
+                },
+                {
+                    "id": "50A7B2C6A904495A92E8A5462B7BAA3F",
+                    "status": 0,
+                    "machine": "F4631530215B4C78B88CBCB4FE90E7B9",
+                    "positionname": "SealerAndPeelIOmicsSP100_1",
+                    "machinename": "SealerAndPeelIOmicsSP100_1",
+                    "sourcetype": "plate"
+                },
+                {
+                    "id": "A7495AFCC2554E10996AF65B7DE11330",
+                    "status": 0,
+                    "machine": "FC66303279A547C2AE499EB79E023323",
+                    "positionname": "a4S Sealer_1",
+                    "machinename": "a4S Sealer_1",
+                    "sourcetype": "plate"
+                },
+                {
+                    "id": "ec35e73d47744685b26f012ba057730a",
+                    "status": 0,
+                    "machine": "01527614E6594835B0B9382F24465965",
+                    "positionname": "LiquidJanusG3.v2_1 work",
+                    "machinename": "LiquidJanusG3.v2_1",
+                    "sourcetype": "work"
+                },
+                {
+                    "id": "67ffb673fb1f42008c0ad5876c79cd04",
+                    "status": 0,
+                    "machine": "0AF5E9CD0BCC4304B0FF86AFC502E0C1",
+                    "positionname": "PlateLidOpenAndClose_1 work",
+                    "machinename": "PlateLidOpenAndClose_1",
+                    "sourcetype": "work"
+                },
+                {
+                    "id": "5c1172660c82491a9ffec22c189e5cfe",
+                    "status": 0,
+                    "machine": "2DB862B5A4484F0D96A1CA756415DEB8",
+                    "positionname": "PCRSimulator_1 work",
+                    "machinename": "PCRSimulator_1",
+                    "sourcetype": "work"
+                },
+                {
+                    "id": "5eb712d2f60b47bb9ca455c49ff34700",
+                    "status": 0,
+                    "machine": "313BCF7C38854985BF1FE6C262057A0D",
+                    "positionname": "Storage Universal_1 work",
+                    "machinename": "Storage Universal_1",
+                    "sourcetype": "work"
+                },
+                {
+                    "id": "eb1601d375be4c288c5ea8fb6ede1a10",
+                    "status": 0,
+                    "machine": "410CA60D3D3944E4A0EE4C5CFE5BDAB0",
+                    "positionname": "CenerifugeSunWang DW-4_1 work",
+                    "machinename": "CenerifugeSunWang DW-4_1",
+                    "sourcetype": "work"
+                },
+                {
+                    "id": "6a4c290eff754a8189e77ff18ccf2c50",
+                    "status": 0,
+                    "machine": "95B7177AB54D4A0898B267EF230AD719",
+                    "positionname": "1D Code Scanner_1 work",
+                    "machinename": "1D Code Scanner_1",
+                    "sourcetype": "work"
+                },
+                {
+                    "id": "17c8dda3fb5f440e87f7863ee5608bfc",
+                    "status": 0,
+                    "machine": "CC9646A1F43B4B6EBABBEFF57037E97D",
+                    "positionname": "DENSO RC8_1 work",
+                    "machinename": "DENSO RC8_1",
+                    "sourcetype": "work"
+                },
+                {
+                    "id": "529cb188130848c6ae85e83a790a3d9e",
+                    "status": 0,
+                    "machine": "F4631530215B4C78B88CBCB4FE90E7B9",
+                    "positionname": "SealerAndPeelIOmicsSP100_1 work",
+                    "machinename": "SealerAndPeelIOmicsSP100_1",
+                    "sourcetype": "work"
+                },
+                {
+                    "id": "cf0e5d9bd38b40948aaf747ef6125483",
+                    "status": 0,
+                    "machine": "FC66303279A547C2AE499EB79E023323",
+                    "positionname": "a4S Sealer_1 work",
+                    "machinename": "a4S Sealer_1",
+                    "sourcetype": "work"
+                }
+            ],
+            "machines": [
+                {
+                    "id": "01527614E6594835B0B9382F24465965",
+                    "name": "LiquidJanusG3.v2_1",
+                    "type": "LiquidJanusG3.v2",
+                    "instrumentcategory": 3,
+                    "instrumentcategorytext": "液体工作站",
+                    "taskstoragedetail": []
+                },
+                {
+                    "id": "0AF5E9CD0BCC4304B0FF86AFC502E0C1",
+                    "name": "PlateLidOpenAndClose_1",
+                    "type": "PlateLidOpenAndClose",
+                    "instrumentcategory": 10,
+                    "instrumentcategorytext": "封盖、去盖",
+                    "taskstoragedetail": []
+                },
+                {
+                    "id": "2DB862B5A4484F0D96A1CA756415DEB8",
+                    "name": "PCRSimulator_1",
+                    "type": "PCRSimulator",
+                    "instrumentcategory": 8,
+                    "instrumentcategorytext": "热循环器",
+                    "taskstoragedetail": []
+                },
+                {
+                    "id": "313BCF7C38854985BF1FE6C262057A0D",
+                    "name": "Storage Universal_1",
+                    "type": "Storage Universal",
+                    "instrumentcategory": 2,
+                    "instrumentcategorytext": "存储站",
+                    "taskstoragedetail": [
+                        {
+                            "id": "B5ED1B93A83D481A8F357CA4E8C00B6E",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "1717C54E34144B00800B8CB1196E612F",
+                            "projectinstrumentid": "313BCF7C38854985BF1FE6C262057A0D",
+                            "barcode": "Plate1",
+                            "previousbarcode": null,
+                            "labware": null,
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 1,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "D3BA7AA1F67B44FFB79CC8EBA9D2FA3A",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "1717C54E34144B00800B8CB1196E612F",
+                            "projectinstrumentid": "313BCF7C38854985BF1FE6C262057A0D",
+                            "barcode": "Plate2",
+                            "previousbarcode": null,
+                            "labware": null,
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 2,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "2C5A96DF10A843CBA0BA4DBA8359D6AE",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "1717C54E34144B00800B8CB1196E612F",
+                            "projectinstrumentid": "313BCF7C38854985BF1FE6C262057A0D",
+                            "barcode": "Plate3",
+                            "previousbarcode": null,
+                            "labware": null,
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 3,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "9821F571B0A248E58EEAD787581B705E",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "1717C54E34144B00800B8CB1196E612F",
+                            "projectinstrumentid": "313BCF7C38854985BF1FE6C262057A0D",
+                            "barcode": "Plate4",
+                            "previousbarcode": null,
+                            "labware": null,
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 4,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "8C39B8D9EC044EC089955CF7C8FB1308",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "1717C54E34144B00800B8CB1196E612F",
+                            "projectinstrumentid": "313BCF7C38854985BF1FE6C262057A0D",
+                            "barcode": "Plate5",
+                            "previousbarcode": null,
+                            "labware": null,
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 5,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "8DD7357D22004CF5BDFED86AB74C2874",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "1717C54E34144B00800B8CB1196E612F",
+                            "projectinstrumentid": "313BCF7C38854985BF1FE6C262057A0D",
+                            "barcode": "Plate6",
+                            "previousbarcode": null,
+                            "labware": null,
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 6,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "6375169022294BF29D2B69D1BDEF0241",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "1717C54E34144B00800B8CB1196E612F",
+                            "projectinstrumentid": "313BCF7C38854985BF1FE6C262057A0D",
+                            "barcode": "Plate7",
+                            "previousbarcode": null,
+                            "labware": null,
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 7,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "19FF4673838649A885EC945D214EF064",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "1717C54E34144B00800B8CB1196E612F",
+                            "projectinstrumentid": "313BCF7C38854985BF1FE6C262057A0D",
+                            "barcode": "Plate8",
+                            "previousbarcode": null,
+                            "labware": null,
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 8,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "67A32142F5064377B68A57C9C1FB95A2",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "1717C54E34144B00800B8CB1196E612F",
+                            "projectinstrumentid": "313BCF7C38854985BF1FE6C262057A0D",
+                            "barcode": "Plate9",
+                            "previousbarcode": null,
+                            "labware": null,
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 9,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "F5D45BCA23B7487498CA3474D0D66FEB",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "1717C54E34144B00800B8CB1196E612F",
+                            "projectinstrumentid": "313BCF7C38854985BF1FE6C262057A0D",
+                            "barcode": "Plate10",
+                            "previousbarcode": null,
+                            "labware": null,
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 10,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "EEF0E0275924458AB4ADD6243D21BF72",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "1717C54E34144B00800B8CB1196E612F",
+                            "projectinstrumentid": "313BCF7C38854985BF1FE6C262057A0D",
+                            "barcode": "Plate11",
+                            "previousbarcode": null,
+                            "labware": null,
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 11,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "6C7ACFFA4C4F4B8FAD0D0AD7974AE58F",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "1717C54E34144B00800B8CB1196E612F",
+                            "projectinstrumentid": "313BCF7C38854985BF1FE6C262057A0D",
+                            "barcode": "Plate12",
+                            "previousbarcode": null,
+                            "labware": null,
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 12,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "696A04404695492298A2170021DEAFBB",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "1717C54E34144B00800B8CB1196E612F",
+                            "projectinstrumentid": "313BCF7C38854985BF1FE6C262057A0D",
+                            "barcode": "Plate13",
+                            "previousbarcode": null,
+                            "labware": null,
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 13,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "BFA884933A8C409EB6B3C009C3D50B53",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "1717C54E34144B00800B8CB1196E612F",
+                            "projectinstrumentid": "313BCF7C38854985BF1FE6C262057A0D",
+                            "barcode": "Plate14",
+                            "previousbarcode": null,
+                            "labware": null,
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 14,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "C777B2CD03EB4FCC8DED44F05EC72114",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "1717C54E34144B00800B8CB1196E612F",
+                            "projectinstrumentid": "313BCF7C38854985BF1FE6C262057A0D",
+                            "barcode": "Plate15",
+                            "previousbarcode": null,
+                            "labware": null,
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 15,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "D918B924D4644B5B9599F43E64880BA8",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "1717C54E34144B00800B8CB1196E612F",
+                            "projectinstrumentid": "313BCF7C38854985BF1FE6C262057A0D",
+                            "barcode": "Plate16",
+                            "previousbarcode": null,
+                            "labware": null,
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 16,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "803B395D5F2A427E9F795A74B05693AC",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "1717C54E34144B00800B8CB1196E612F",
+                            "projectinstrumentid": "313BCF7C38854985BF1FE6C262057A0D",
+                            "barcode": "Plate17",
+                            "previousbarcode": null,
+                            "labware": null,
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 17,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "B7C8BBCDFFAA44D9A4CCC20071AF4BB8",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "1717C54E34144B00800B8CB1196E612F",
+                            "projectinstrumentid": "313BCF7C38854985BF1FE6C262057A0D",
+                            "barcode": "Plate18",
+                            "previousbarcode": null,
+                            "labware": null,
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 18,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "4FE9C3E5FADF4AA983F7630098A0A025",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "1717C54E34144B00800B8CB1196E612F",
+                            "projectinstrumentid": "313BCF7C38854985BF1FE6C262057A0D",
+                            "barcode": "Plate19",
+                            "previousbarcode": null,
+                            "labware": null,
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 19,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "7D21761E04FE41E0AED6984FAED9B586",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "1717C54E34144B00800B8CB1196E612F",
+                            "projectinstrumentid": "313BCF7C38854985BF1FE6C262057A0D",
+                            "barcode": "Plate20",
+                            "previousbarcode": null,
+                            "labware": null,
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 20,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "0931972E6F65443E8C27F07BD81E268E",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "1717C54E34144B00800B8CB1196E612F",
+                            "projectinstrumentid": "313BCF7C38854985BF1FE6C262057A0D",
+                            "barcode": "Plate21",
+                            "previousbarcode": null,
+                            "labware": null,
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 21,
+                            "zone": "Zone 1"
+                        },
+                        {
+                            "id": "045935701A4B4BBC82535E1E2D28753A",
+                            "hotelname": "Hotel 1",
+                            "storageconfigid": "1717C54E34144B00800B8CB1196E612F",
+                            "projectinstrumentid": "313BCF7C38854985BF1FE6C262057A0D",
+                            "barcode": "Plate22",
+                            "previousbarcode": null,
+                            "labware": null,
+                            "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+                            "physicalposition": 1,
+                            "shelf": 22,
+                            "zone": "Zone 1"
+                        }
+                    ]
+                },
+                {
+                    "id": "410CA60D3D3944E4A0EE4C5CFE5BDAB0",
+                    "name": "CenerifugeSunWang DW-4_1",
+                    "type": "CenerifugeSunWang DW-4",
+                    "instrumentcategory": 5,
+                    "instrumentcategorytext": "离心机",
+                    "taskstoragedetail": []
+                },
+                {
+                    "id": "95B7177AB54D4A0898B267EF230AD719",
+                    "name": "1D Code Scanner_1",
+                    "type": "1D Code Scanner",
+                    "instrumentcategory": 11,
+                    "instrumentcategorytext": "条码扫描仪",
+                    "taskstoragedetail": []
+                },
+                {
+                    "id": "CC9646A1F43B4B6EBABBEFF57037E97D",
+                    "name": "DENSO RC8_1",
+                    "type": "DENSO RC8",
+                    "instrumentcategory": 1,
+                    "instrumentcategorytext": "机械臂",
+                    "taskstoragedetail": []
+                },
+                {
+                    "id": "F4631530215B4C78B88CBCB4FE90E7B9",
+                    "name": "SealerAndPeelIOmicsSP100_1",
+                    "type": "SealerAndPeelIOmicsSP100",
+                    "instrumentcategory": 9,
+                    "instrumentcategorytext": "封膜、撕膜",
+                    "taskstoragedetail": []
+                },
+                {
+                    "id": "FC66303279A547C2AE499EB79E023323",
+                    "name": "a4S Sealer_1",
+                    "type": "a4S Sealer",
+                    "instrumentcategory": 9,
+                    "instrumentcategorytext": "封膜、撕膜",
+                    "taskstoragedetail": []
+                }
+            ]
+        }
+    ],
+    "runingassasys": []
+}
