@@ -45,7 +45,7 @@ def load_positions_from_json(file_path):
 
 
 if __name__ == "__main__":
-    file_path = 'DataSet/短流程集成测试/单板机器集成测试.json'  # 替换正确的JSON文件路径
+    file_path = '20250120.json'  # 替换正确的JSON文件路径
 
     machine_system = load_machines_from_json(file_path)
     task_system = load_tasks_from_json(file_path)
@@ -56,7 +56,7 @@ if __name__ == "__main__":
 
     # 从 json 文件获取的 task 转变为 schedule_tasks
     # schedule_tasks 是算法和仿真运行的输入
-    # scheduled_tasks = schedule.get_schedule_tasks() 废弃了
+    scheduled_tasks = schedule.get_schedule_tasks()
 
     scheduleState = State(task_system,position_system,machine_system)
     mcts = mcts(iterationLimit=1)
@@ -69,11 +69,13 @@ if __name__ == "__main__":
     # 由于 duration 是一个固定值, 因此只需要确定 start_time 即可, end_time=start_time+duration
     cnt = 0
     for item in scheduleState.taskSystem.get_all_tasks():
-        print(f"id: {item.id} begin at {item.beginTime} end at {item.endTime} last {item.duration}")
+        print(f"name: {item.taskname} id: {item.id} begin at {item.beginTime} end at {item.endTime} last {item.duration}")
+        print(item.realOccupy)
         cnt = cnt + 1
     print(f"total task num is {cnt}")
 
-    simulator = simulator(file_path, scheduleState.taskSystem.get_all_tasks())
+    simulator = simulator(machine_system, position_system, scheduleState.taskSystem.get_all_tasks())
+    simulator.run_simulation()
 
     # 手动创建test1.json的ScheduledTask
     # scheduled_tasks = [

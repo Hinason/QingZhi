@@ -1,8 +1,8 @@
 from Simulation.machines.simulation_machine import simulation_machine
 
-class CentrifugeSimulator(simulation_machine):
+class code_scanner(simulation_machine):
     """
-    CentrifugeSimulator是一个离心机
+    条码扫描仪
     """
 
     def __init__(self, id, name, type):

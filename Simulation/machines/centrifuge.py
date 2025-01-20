@@ -1,8 +1,8 @@
 from Simulation.machines.simulation_machine import simulation_machine
 
-class DENSO_RC8(simulation_machine):
+class centrifuge(simulation_machine):
     """
-    DENSO_RC8是一个机械臂
+    离心机
     """
 
     def __init__(self, id, name, type):
