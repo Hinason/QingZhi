@@ -10,6 +10,7 @@ from task_simulation import task_simulate
 from time_simulation import time_simulate
 from config import DEBUG
 from MCTS.mcts import  mcts
+from Simulation.simulator import simulator
 
 
 def load_machines_from_json(file_path):
@@ -66,7 +67,13 @@ if __name__ == "__main__":
     # 此处使用算法调度scheduled_tasks
     # 主要是给每一个 task 确定开始时间(start_time)以及结束时间(end_time)
     # 由于 duration 是一个固定值, 因此只需要确定 start_time 即可, end_time=start_time+duration
-    pass
+    cnt = 0
+    for item in scheduleState.taskSystem.get_all_tasks():
+        print(f"id: {item.id} begin at {item.beginTime} end at {item.endTime} last {item.duration}")
+        cnt = cnt + 1
+    print(f"total task num is {cnt}")
+
+    simulator = simulator(file_path, scheduleState.taskSystem.get_all_tasks())
 
     # 手动创建test1.json的ScheduledTask
     # scheduled_tasks = [
