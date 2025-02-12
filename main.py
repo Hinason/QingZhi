@@ -1,4 +1,5 @@
 import json
+from copy import deepcopy
 
 from MCTS.State import State
 from machine import MachineSystem
@@ -8,7 +9,8 @@ from schedule import Schedule, ScheduledTask
 from task_simulation import task_simulate
 from time_simulation import time_simulate
 from config import DEBUG
-
+from MCTS.mcts import  mcts
+from Simulation.simulator import simulator
 
 
 def load_machines_from_json(file_path):
@@ -43,12 +45,13 @@ def load_positions_from_json(file_path):
 
 
 if __name__ == "__main__":
-    file_path = 'test1.json'  # 替换正确的JSON文件路径
+    file_path = '20250120.json'  # 替换正确的JSON文件路径
 
     machine_system = load_machines_from_json(file_path)
     task_system = load_tasks_from_json(file_path)
     position_system = load_positions_from_json(file_path)
-
+    for pos in position_system.get_all_positions():
+        machine_system.get_machine(pos.machine).addPos(pos)
     schedule = Schedule(task_system, machine_system, position_system)
 
     # 从 json 文件获取的 task 转变为 schedule_tasks
@@ -56,10 +59,23 @@ if __name__ == "__main__":
     scheduled_tasks = schedule.get_schedule_tasks()
 
     scheduleState = State(task_system,position_system,machine_system)
+    mcts = mcts(iterationLimit=1)
+    while not scheduleState.isTerminal():
+        action = mcts.search(deepcopy(scheduleState))
+        print("\033[92m " + str(action) + " !\033[0m")
+        scheduleState = scheduleState.takeAction(action)
     # 此处使用算法调度scheduled_tasks
     # 主要是给每一个 task 确定开始时间(start_time)以及结束时间(end_time)
     # 由于 duration 是一个固定值, 因此只需要确定 start_time 即可, end_time=start_time+duration
-    pass
+    cnt = 0
+    for item in scheduleState.taskSystem.get_all_tasks():
+        print(f"name: {item.taskname} id: {item.id} begin at {item.beginTime} end at {item.endTime} last {item.duration}")
+        print(item.realOccupy)
+        cnt = cnt + 1
+    print(f"total task num is {cnt}")
+
+    simulator = simulator(machine_system, position_system, scheduleState.taskSystem.get_all_tasks())
+    simulator.run_simulation()
 
     # 手动创建test1.json的ScheduledTask
     # scheduled_tasks = [
@@ -89,4 +105,4 @@ if __name__ == "__main__":
     #                   "3426392A4D16413E87819B003585EE82"),
     # ]
 
-    time_simulate(schedule, scheduled_tasks)
+    # time_simulate(schedule, scheduled_tasks)

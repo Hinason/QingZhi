@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>任务图可视化</title>
+</head>
+<select id="select" title="workcell"></select>
+<select id="layout" title="workcell"></select>
+<div id="main" style="height: 100%;width: 100%;"></div>
+
+<body>
+    <script src="echarts.js"></script>
+    <script>
+        window.onload = function () {
+            var graphdata = [],curAssay;
+            var dataConvert = function (data) {
+                var sel = document.querySelector("#select");
+                var name = sel.value;
+                var cur = data.find(p => p.Name == name);
+                curAssay=cur;
+                var serise = { data: [], links: [] };
+                if (cur) {
+                    console.log('Unload Plate',cur.Tasks.filter(p=>p.StepName=="Unload Plate"))
+                    var linkKey = {};
+                    var linekey1={};
+                    cur.Tasks.forEach((item, idx) => {
+                        serise.data.push({ name: item.Id, x: 0, y: 0, code: item.TaskName+"["+idx+"]", time: item.Time, ext: item });
+                        if (item.Pre && item.Pre.length > 0) {
+                            item.Pre.forEach(x => {
+                                let key = x + item.Id;
+                                if (!linkKey[key]) {
+                                    linkKey[key] = true;
+                                    serise.links.push({ source: x, target: item.Id });
+                                }
+                                if(!linekey1[key])linekey1[key]=0;
+                                linekey1[key]++;
+                            });
+                        }
+                        if (item.Next && item.Next.length > 0) {
+                            item.Next.forEach(x => {
+                                let key = item.Id + x;
+                                if (!linkKey[key]) {
+                                    linkKey[key] = true;
+                                    serise.links.push({ source: item.Id, target: x });
+                                }
+                                if(!linekey1[key])linekey1[key]=0;
+                                linekey1[key]++;
+                            });
+                        }
+                    })
+                    console.log(Object.keys(linekey1).filter(p=>linekey1[p]<2));
+                }
+                serise = calculateXY(serise, cur.Tasks);
+                return serise;
+            }
+            var calculateXY = function (serise, source) {
+                var dom = document.querySelector('#main');
+                var clienW = dom.clientWidth;
+                var clienH = dom.clientHeight;
+                var group = {};
+                source.forEach(item => {
+                    if (!group[item.PlateProcess])
+                        group[item.PlateProcess] = [];
+                    group[item.PlateProcess].push(item.Id);
+                });
+                var arr = Object.keys(group).map(key => group[key]).reverse();
+                //arr.sort((a, b) => a.length - b.length);
+                console.log(arr);
+                var keyPosition = {}, yMax = arr.length, xMax = Math.max.apply(null, arr.map(x => x.length));
+                arr.forEach((y, yidx) => {
+                    var top = true;
+                    y.forEach((x, xidx) => {
+                        if (!keyPosition[x])
+                            keyPosition[x] = { x: xidx, y: yidx, top: top };
+                        top = !top;
+                    })
+                })
+                var clone = JSON.parse(JSON.stringify(keyPosition));
+                serise.links.forEach(item => {
+                    var sPos = keyPosition[item.source];
+                    var tPos = keyPosition[item.target];
+                    if (sPos && tPos && sPos.y != tPos.y && sPos.x != tPos.x) {
+                        var oldSx = sPos.x, oldTx = tPos.x;
+                        var max = Math.max(sPos.x, tPos.x);
+                        if (max != oldSx) {
+                            sPos.x = max - 1;
+                            for (var key in keyPosition) {
+                                var cur = keyPosition[key];
+                                if (key != item.source && clone[key].x < oldSx && clone[key].y == sPos.y) {
+                                    cur.x += (max - 1 - oldSx);
+                                }
+                            }
+                        }
+                        if (max != oldTx) {
+                            tPos.x = max + 1;
+                            for (var key in keyPosition) {
+                                var cur = keyPosition[key];
+                                if (key != item.target && clone[key].x > oldTx && clone[key].y == tPos.y) {
+                                    cur.x += (max + 1 - oldTx);
+                                }
+                            }
+                        }
+                        item.lineStyle = {
+                            curveness: 0.3
+                        }
+                    }
+                })
+                serise.data.forEach(item => {
+                    //获取改task因该显示在第几行第几列来及计算位置
+                    var position = keyPosition[item.name];
+                    var xperWidth = clienW / xMax;
+                    var yperHeight = clienH / yMax;
+                    item.x = xperWidth * (position.x + 1) - (xperWidth / 2);
+                    item.y = yperHeight * (position.y + 1) - (yperHeight / 2);
+                    item.value = 1;
+                    item.label = {
+                        show: true,
+                        position: position.top ? 'top' : 'bottom',
+                        formatter: function (param) {
+                            return param.data.code;
+                        }
+                    }
+                })
+
+                return serise;
+            }
+            var initechart = function (data) {
+                var eData = dataConvert(data);
+                console.log(eData)
+                var chartDom = document.querySelector('#main');
+                var layout=document.querySelector("#layout").value;
+                var myChart = echarts.init(chartDom);
+                var option;
+                option = {
+                    title: {
+                        text: '任务图'
+                    },
+                    tooltip: {},
+                    animationDurationUpdate: 1500,
+                    animationEasingUpdate: 'quinticInOut',
+                    series: [
+                        {
+                            type: 'graph',
+                            layout: layout,
+                            symbol: 'circle',
+                            symbolSize:layout=='none'?5:2,
+                            roam: true,
+                            zoom:layout=='none'?1:4,
+                            tooltip: {
+                                show: true,
+                                formatter: function (param) {
+                                    if(!param.data.ext)
+                                        return param.data.code;
+                                    var str = `占用：${param.data.ext.Occupy.map(p => p.map(x => {
+                                        var find = curAssay.Positions.find(q => q.Id == x);
+                                        return find ? find.PositionName : '';
+                                    }).join("<br/>")).join("<br/>")}<br/>`;
+                                    str += `释放：${param.data.ext.Release.map(p => p.map(x => {
+                                        var find = curAssay.Positions.find(q => q.Id == x);
+                                        return find ? find.PositionName : '';
+                                    }).join("<br/>")).join("<br/>")}<br/>`;
+                                    str += `时间：${param.data.ext.Time}`;
+                                    return str;//param.data.code;
+                                }
+                            },
+                            edgeSymbol: ['circle', 'arrow'],
+                            edgeSymbolSize: [4, 10],
+                            edgeLabel: {
+                                fontSize: 20
+                            },
+                            data: eData.data,
+                            links: eData.links,
+                            lineStyle: {
+                                opacity: 0.9,
+                                width: 2,
+                                curveness: 0
+                            }
+                        }
+                    ]
+                };
+                option && myChart.setOption(option);
+                window.addEventListener('resize', function () {
+                    myChart.resize();
+                })
+            }
+            var initSelect = function (names) {
+                var sel = document.querySelector("#select");
+                var options = names.map((n, i) => {
+                    if (i == 0) return `<option value="${n}" selected>${n}</option>`;
+                    else return `<option value="${n}">${n}</option>`;
+                })
+                sel.innerHTML = options.join('');
+                sel.addEventListener('change', (e) => {
+                    //console.log(sel.value)
+                    initechart(graphdata);
+                })
+                var layout=document.querySelector("#layout");
+                layout.innerHTML=[
+                `<option value="force">自动布局</option>`,
+                `<option value="none" selected>固定布局</option>`,
+                ].join('');
+                layout.addEventListener('change', (e) => {
+                    initechart(graphdata);
+                })
+            }
+            var loadData = function () {
+                fetch('data.json').then(response => {
+                    response.json().then(res => {
+                        graphdata = res.AssaysModel;
+                        console.log(res.AssaysModel)
+                        var names = res.AssaysModel.map(p => p.name);
+                        initSelect(names);
+                        initechart(graphdata);
+                    })
+                })
+            }
+            loadData();
+        }
+    </script>
+</body>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+    }
+
+    #select,#layout {
+        width: auto;
+        padding: 0 10px;
+        height: 30px;
+        border-color: #999;
+        position: fixed;
+        right: 120px;
+        top: 20px;
+        z-index: 10000;
+    }
+    #layout{
+        right: 20px;
+        top: 20px;
+    }
+</style>
+
+</html>
