@@ -1,1 +1,2 @@
+VERSION = "1.0.0"
 MAX_TIME = 1000

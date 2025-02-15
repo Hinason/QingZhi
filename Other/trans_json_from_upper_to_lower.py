@@ -31,4 +31,4 @@ def process_directory(directory):
 
 
 # 使用示例
-process_file('20250120.json')
+process_file('../TestData/UnitTest/20250120.json')

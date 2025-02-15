@@ -8,12 +8,10 @@ from  MCTS.Action import Action
 class State:
 
     def __init__(self,taskSystem,positionSystem,machineSystem):
-        # param :
-        # 注意一下 这里要考虑动态调度问题 所以拿到的task不一定全都是未安排时间的
-        # 在考虑状态转移的时候确认一下
-        # 那么问题来了 如何用这种带初始条件的task融入我的MDP过程
-        # 需不需要考虑没做完的动作呢？
-        # 目前可以认为全部输出的动作都已经做完
+        """
+        param :
+        注意一下 这里要考虑动态调度问题 所以拿到的task不一定全都是未安排时间的
+        """
         self.finishTask = 0
         self.taskSystem = taskSystem
         self.positionSystem = positionSystem

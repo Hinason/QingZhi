@@ -29,7 +29,7 @@ class Schedule:
         schedule_tasks = []
         for task in self.task_system.get_all_tasks():
             schedule_task = ScheduledTask(task.id,
-                                          task.start_time, task.duration, task.start_time+task.duration,
+                                          task.beginTime, task.duration, task.beginTime+task.duration,
                                           task.pre, task.next,
                                           task.machine, task.position,
                                           task.release_machine, task.release_position,

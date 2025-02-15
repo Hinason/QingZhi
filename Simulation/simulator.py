@@ -7,6 +7,7 @@ class simulator:
         self.curTime = 0
         self.maxTime = max_time
         self.tasks = sorted(tasks, key=lambda task: task.beginTime)
+        self.curTaskIndex = 0
         self.machine_system = machine_system
         self.position_system = position_system
         # 初始化 machine 和 position
@@ -20,9 +21,10 @@ class simulator:
         while self.curTime < self.maxTime :
             # 当前时刻能够运行的任务
             ready_tasks = []
-            for task in self.tasks:
-                if task.beginTime == self.curTime:
+            for task in self.tasks[self.curTaskIndex:]:
+                if task.beginTime <= self.curTime:
                     ready_tasks.append(task)
+            self.curTaskIndex += len(ready_tasks)
 
             # 释放 machine 和 position
             for machine in self.machines.values():
