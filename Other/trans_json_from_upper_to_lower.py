@@ -31,4 +31,5 @@ def process_directory(directory):
 
 
 # 使用示例
-process_file('../TestData/UnitTest/20250120.json')
+if __name__ == "__main__":
+    process_file('D:\\code\\Python\\QingZhi\\TestData\\UnitTest\\plateLidOpenAndClose_formatted.json')

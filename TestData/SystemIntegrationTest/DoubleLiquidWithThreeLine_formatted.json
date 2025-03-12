@@ -1,0 +1,4939 @@
+{
+  "assaysmodel": [
+    {
+      "name": "Assay1",
+      "projectid": "DAC594DB7A844C05A4E92DF35FB9BC3B",
+      "assaysid": "277B7E42334E4262B6D9D1324CB5FDC9",
+      "tasks": [
+        {
+          "id": "7554d629d54541c982ac4e2be66ca12c",
+          "occupy": [
+            [
+              "1213f4fa253a4911bd95cc757189887e StorageCarousel v2_1 work"
+            ],
+            [
+              "E784BFF9DC1047B0A3F4D54B7340D41E StorageCarousel v2_1"
+            ]
+          ],
+          "release": [
+            [
+              "1213f4fa253a4911bd95cc757189887e StorageCarousel v2_1 work"
+            ]
+          ],
+          "occupy_dependency": [],
+          "release_dependency": [],
+          "dependency2": -1,
+          "status": 0,
+          "priority": 0,
+          "time": 30,
+          "robotgettime": 15,
+          "robotputtime": 0,
+          "estduration": 30,
+          "pre": [],
+          "next": [
+            "50b88e9e0d0945ed9f440c12dd761473"
+          ],
+          "machine": "",
+          "position": "",
+          "algmachine": [],
+          "algposition": [],
+          "release_machine": [],
+          "release_position": [],
+          "dependency": -1,
+          "available": 0,
+          "start_time": 0,
+          "heuristic": 0,
+          "taskname": "Get From Hotel",
+          "plateprocess": "C14EFD0D043945899703DB2E7E603FDA",
+          "stepplatename": "",
+          "taskplatename": "泳道1",
+          "stepname": "",
+          "sequnceid": "",
+          "steps": [],
+          "sequncestepid": "",
+          "procedurids": [],
+          "nodeid": "88798695AA9D40CF928616405B9325A9",
+          "processtype": 2,
+          "processtypetext": "抓板工艺",
+          "taskplates": [
+            "C14EFD0D043945899703DB2E7E603FDA"
+          ],
+          "timeout": 60,
+          "zone": null,
+          "waitnextready": true,
+          "isready": true,
+          "isskip": false
+        },
+        {
+          "id": "50b88e9e0d0945ed9f440c12dd761473",
+          "occupy": [
+            [
+              "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1"
+            ],
+            [
+              "191120B21D024A29A66D16465D3ED68D LiquidJanusG3.v2_1 Position 1",
+              "D8D15B1C85B247E0BA483E6627671EE4 LiquidJanusG3.v2_1 Position 2",
+              "3D3833263F1446B9BE9F017ADB65A65E LiquidJanusG3.v2_1 Position 3",
+              "4D65ADEB5D334DCC9F0AF5942F3F3177 LiquidJanusG3.v2_1 Position 4",
+              "23BDA919164841AE974AC1776BDF3769 LiquidJanusG3.v2_1 Position 5"
+            ]
+          ],
+          "release": [
+            [
+              "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1"
+            ],
+            [
+              "E784BFF9DC1047B0A3F4D54B7340D41E StorageCarousel v2_1"
+            ]
+          ],
+          "occupy_dependency": [],
+          "release_dependency": [],
+          "dependency2": -1,
+          "status": 0,
+          "priority": 0,
+          "time": 30,
+          "robotgettime": 15,
+          "robotputtime": 15,
+          "estduration": 30,
+          "pre": [
+            "7554d629d54541c982ac4e2be66ca12c"
+          ],
+          "next": [
+            "e7f6c463db504f188bc526f8242db82a"
+          ],
+          "machine": "",
+          "position": "",
+          "algmachine": [],
+          "algposition": [],
+          "release_machine": [],
+          "release_position": [],
+          "dependency": -1,
+          "available": 0,
+          "start_time": 0,
+          "heuristic": 0,
+          "taskname": "robot",
+          "plateprocess": "C14EFD0D043945899703DB2E7E603FDA",
+          "stepplatename": "",
+          "taskplatename": "泳道1",
+          "stepname": "",
+          "sequnceid": "",
+          "steps": [],
+          "sequncestepid": "",
+          "procedurids": [],
+          "nodeid": "83525CB440EB41908F984E21338CA42A",
+          "processtype": 1,
+          "processtypetext": "多板工艺",
+          "taskplates": [
+            "C14EFD0D043945899703DB2E7E603FDA"
+          ],
+          "timeout": 60,
+          "zone": "",
+          "waitnextready": true,
+          "isready": true,
+          "isskip": false
+        },
+        {
+          "id": "e7f6c463db504f188bc526f8242db82a",
+          "occupy": [
+            [
+              "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1"
+            ],
+            [
+              "E784BFF9DC1047B0A3F4D54B7340D41E StorageCarousel v2_1"
+            ]
+          ],
+          "release": [
+            [
+              "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1"
+            ],
+            [
+              "191120B21D024A29A66D16465D3ED68D LiquidJanusG3.v2_1 Position 1",
+              "D8D15B1C85B247E0BA483E6627671EE4 LiquidJanusG3.v2_1 Position 2",
+              "3D3833263F1446B9BE9F017ADB65A65E LiquidJanusG3.v2_1 Position 3",
+              "4D65ADEB5D334DCC9F0AF5942F3F3177 LiquidJanusG3.v2_1 Position 4",
+              "23BDA919164841AE974AC1776BDF3769 LiquidJanusG3.v2_1 Position 5"
+            ]
+          ],
+          "occupy_dependency": [],
+          "release_dependency": [],
+          "dependency2": -1,
+          "status": 0,
+          "priority": 0,
+          "time": 30,
+          "robotgettime": 15,
+          "robotputtime": 15,
+          "estduration": 30,
+          "pre": [
+            "50b88e9e0d0945ed9f440c12dd761473"
+          ],
+          "next": [
+            "81dbcd765dc8407bb6337a3ac27f6777"
+          ],
+          "machine": "",
+          "position": "",
+          "algmachine": [],
+          "algposition": [],
+          "release_machine": [],
+          "release_position": [],
+          "dependency": -1,
+          "available": 0,
+          "start_time": 0,
+          "heuristic": 0,
+          "taskname": "robot",
+          "plateprocess": "C14EFD0D043945899703DB2E7E603FDA",
+          "stepplatename": "",
+          "taskplatename": "泳道1",
+          "stepname": "",
+          "sequnceid": "",
+          "steps": [],
+          "sequncestepid": "",
+          "procedurids": [],
+          "nodeid": "16E1F83CB7BB44B79D40211803B93156",
+          "processtype": 3,
+          "processtypetext": "放板工艺",
+          "taskplates": [
+            "C14EFD0D043945899703DB2E7E603FDA"
+          ],
+          "timeout": 60,
+          "zone": "",
+          "waitnextready": false,
+          "isready": true,
+          "isskip": false
+        },
+        {
+          "id": "81dbcd765dc8407bb6337a3ac27f6777",
+          "occupy": [
+            [
+              "1213f4fa253a4911bd95cc757189887e StorageCarousel v2_1 work"
+            ]
+          ],
+          "release": [
+            [
+              "1213f4fa253a4911bd95cc757189887e StorageCarousel v2_1 work"
+            ],
+            [
+              "E784BFF9DC1047B0A3F4D54B7340D41E StorageCarousel v2_1"
+            ]
+          ],
+          "occupy_dependency": [],
+          "release_dependency": [],
+          "dependency2": -1,
+          "status": 0,
+          "priority": 0,
+          "time": 30,
+          "robotgettime": 0,
+          "robotputtime": 15,
+          "estduration": 30,
+          "pre": [
+            "e7f6c463db504f188bc526f8242db82a"
+          ],
+          "next": [],
+          "machine": "",
+          "position": "",
+          "algmachine": [],
+          "algposition": [],
+          "release_machine": [],
+          "release_position": [],
+          "dependency": -1,
+          "available": 0,
+          "start_time": 0,
+          "heuristic": 0,
+          "taskname": "Put In Hotel",
+          "plateprocess": "C14EFD0D043945899703DB2E7E603FDA",
+          "stepplatename": "",
+          "taskplatename": "泳道1",
+          "stepname": "",
+          "sequnceid": "",
+          "steps": [],
+          "sequncestepid": "",
+          "procedurids": [],
+          "nodeid": "16E1F83CB7BB44B79D40211803B93156",
+          "processtype": 3,
+          "processtypetext": "放板工艺",
+          "taskplates": [
+            "C14EFD0D043945899703DB2E7E603FDA"
+          ],
+          "timeout": 60,
+          "zone": null,
+          "waitnextready": false,
+          "isready": true,
+          "isskip": false
+        },
+        {
+          "id": "f7e4d95382094feeba398ec7be2ebcad",
+          "occupy": [
+            [
+              "1213f4fa253a4911bd95cc757189887e StorageCarousel v2_1 work"
+            ],
+            [
+              "E784BFF9DC1047B0A3F4D54B7340D41E StorageCarousel v2_1"
+            ]
+          ],
+          "release": [
+            [
+              "1213f4fa253a4911bd95cc757189887e StorageCarousel v2_1 work"
+            ]
+          ],
+          "occupy_dependency": [],
+          "release_dependency": [],
+          "dependency2": -1,
+          "status": 0,
+          "priority": 0,
+          "time": 30,
+          "robotgettime": 15,
+          "robotputtime": 0,
+          "estduration": 30,
+          "pre": [],
+          "next": [
+            "bc19adf953fd4c528ac12028f4dce6c5"
+          ],
+          "machine": "",
+          "position": "",
+          "algmachine": [],
+          "algposition": [],
+          "release_machine": [],
+          "release_position": [],
+          "dependency": -1,
+          "available": 0,
+          "start_time": 0,
+          "heuristic": 0,
+          "taskname": "Get From Hotel",
+          "plateprocess": "CBE14D4E983245DAB1F980A7B31A07ED",
+          "stepplatename": "",
+          "taskplatename": "泳道2",
+          "stepname": "",
+          "sequnceid": "",
+          "steps": [],
+          "sequncestepid": "",
+          "procedurids": [],
+          "nodeid": "86DD03E91E6C48ED8512F2E16C0793BF",
+          "processtype": 2,
+          "processtypetext": "抓板工艺",
+          "taskplates": [
+            "CBE14D4E983245DAB1F980A7B31A07ED"
+          ],
+          "timeout": 60,
+          "zone": null,
+          "waitnextready": true,
+          "isready": true,
+          "isskip": false
+        },
+        {
+          "id": "bc19adf953fd4c528ac12028f4dce6c5",
+          "occupy": [
+            [
+              "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1"
+            ],
+            [
+              "2CE2AF73381C460AAB747464E627FC2B PCRSimulator_1"
+            ]
+          ],
+          "release": [
+            [
+              "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1"
+            ],
+            [
+              "E784BFF9DC1047B0A3F4D54B7340D41E StorageCarousel v2_1"
+            ]
+          ],
+          "occupy_dependency": [],
+          "release_dependency": [],
+          "dependency2": -1,
+          "status": 0,
+          "priority": 0,
+          "time": 30,
+          "robotgettime": 15,
+          "robotputtime": 15,
+          "estduration": 30,
+          "pre": [
+            "f7e4d95382094feeba398ec7be2ebcad"
+          ],
+          "next": [
+            "3884da8795c845868557805604cae670"
+          ],
+          "machine": "",
+          "position": "",
+          "algmachine": [],
+          "algposition": [],
+          "release_machine": [],
+          "release_position": [],
+          "dependency": -1,
+          "available": 0,
+          "start_time": 0,
+          "heuristic": 0,
+          "taskname": "robot",
+          "plateprocess": "CBE14D4E983245DAB1F980A7B31A07ED",
+          "stepplatename": "",
+          "taskplatename": "泳道2",
+          "stepname": "",
+          "sequnceid": "",
+          "steps": [],
+          "sequncestepid": "",
+          "procedurids": [],
+          "nodeid": "42DA29670B2744A58CD83F0D3C4FDD18",
+          "processtype": 0,
+          "processtypetext": "标准工艺",
+          "taskplates": [
+            "CBE14D4E983245DAB1F980A7B31A07ED"
+          ],
+          "timeout": 60,
+          "zone": "",
+          "waitnextready": true,
+          "isready": true,
+          "isskip": false
+        },
+        {
+          "id": "3884da8795c845868557805604cae670",
+          "occupy": [
+            [
+              "ee364f6e73774cd6983dafb0965329e1 PCRSimulator_1 work"
+            ]
+          ],
+          "release": [
+            [
+              "ee364f6e73774cd6983dafb0965329e1 PCRSimulator_1 work"
+            ]
+          ],
+          "occupy_dependency": [],
+          "release_dependency": [],
+          "dependency2": -1,
+          "status": 0,
+          "priority": 0,
+          "time": 30,
+          "robotgettime": 15,
+          "robotputtime": 15,
+          "estduration": 30,
+          "pre": [
+            "bc19adf953fd4c528ac12028f4dce6c5"
+          ],
+          "next": [
+            "fee28ba8b4d043ea82942f4ad26c74cd"
+          ],
+          "machine": "",
+          "position": "",
+          "algmachine": [],
+          "algposition": [],
+          "release_machine": [],
+          "release_position": [],
+          "dependency": -1,
+          "available": 0,
+          "start_time": 0,
+          "heuristic": 0,
+          "taskname": "PCR",
+          "plateprocess": "CBE14D4E983245DAB1F980A7B31A07ED",
+          "stepplatename": "",
+          "taskplatename": "泳道2",
+          "stepname": "",
+          "sequnceid": "",
+          "steps": [],
+          "sequncestepid": "",
+          "procedurids": [],
+          "nodeid": "42DA29670B2744A58CD83F0D3C4FDD18",
+          "processtype": 0,
+          "processtypetext": "标准工艺",
+          "taskplates": [
+            "CBE14D4E983245DAB1F980A7B31A07ED"
+          ],
+          "timeout": 60,
+          "zone": null,
+          "waitnextready": true,
+          "isready": true,
+          "isskip": false
+        },
+        {
+          "id": "fee28ba8b4d043ea82942f4ad26c74cd",
+          "occupy": [
+            [
+              "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1"
+            ],
+            [
+              "191120B21D024A29A66D16465D3ED68D LiquidJanusG3.v2_1 Position 1",
+              "D8D15B1C85B247E0BA483E6627671EE4 LiquidJanusG3.v2_1 Position 2",
+              "3D3833263F1446B9BE9F017ADB65A65E LiquidJanusG3.v2_1 Position 3",
+              "4D65ADEB5D334DCC9F0AF5942F3F3177 LiquidJanusG3.v2_1 Position 4",
+              "23BDA919164841AE974AC1776BDF3769 LiquidJanusG3.v2_1 Position 5"
+            ]
+          ],
+          "release": [
+            [
+              "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1"
+            ],
+            [
+              "2CE2AF73381C460AAB747464E627FC2B PCRSimulator_1"
+            ]
+          ],
+          "occupy_dependency": [],
+          "release_dependency": [],
+          "dependency2": -1,
+          "status": 0,
+          "priority": 0,
+          "time": 30,
+          "robotgettime": 15,
+          "robotputtime": 15,
+          "estduration": 30,
+          "pre": [
+            "3884da8795c845868557805604cae670"
+          ],
+          "next": [
+            "3603d96e4bfa4cd8a603fa3af8820eaa"
+          ],
+          "machine": "",
+          "position": "",
+          "algmachine": [],
+          "algposition": [],
+          "release_machine": [],
+          "release_position": [],
+          "dependency": -1,
+          "available": 0,
+          "start_time": 0,
+          "heuristic": 0,
+          "taskname": "robot",
+          "plateprocess": "CBE14D4E983245DAB1F980A7B31A07ED",
+          "stepplatename": "",
+          "taskplatename": "泳道2",
+          "stepname": "",
+          "sequnceid": "",
+          "steps": [],
+          "sequncestepid": "",
+          "procedurids": [],
+          "nodeid": "D534EF137E004FB4A6C1E96FB57ED469",
+          "processtype": 1,
+          "processtypetext": "多板工艺",
+          "taskplates": [
+            "CBE14D4E983245DAB1F980A7B31A07ED"
+          ],
+          "timeout": 60,
+          "zone": "",
+          "waitnextready": true,
+          "isready": true,
+          "isskip": false
+        },
+        {
+          "id": "3603d96e4bfa4cd8a603fa3af8820eaa",
+          "occupy": [
+            [
+              "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1"
+            ],
+            [
+              "B895BA46996A435B8D59D6BE87D7436A LiquidJanusG3.v2_2 Position 1",
+              "A9D118092999427DB6B0F748B1FED4C3 LiquidJanusG3.v2_2 Position 2",
+              "BE97BE2F47D4483BB6EF29C471460971 LiquidJanusG3.v2_2 Position 3",
+              "BFC3E3BB75EE467091C188AD13E5E772 LiquidJanusG3.v2_2 Position 4",
+              "430D0CFAC61C4A0F9A0F13DA38B0E786 LiquidJanusG3.v2_2 Position 5"
+            ]
+          ],
+          "release": [
+            [
+              "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1"
+            ],
+            [
+              "191120B21D024A29A66D16465D3ED68D LiquidJanusG3.v2_1 Position 1",
+              "D8D15B1C85B247E0BA483E6627671EE4 LiquidJanusG3.v2_1 Position 2",
+              "3D3833263F1446B9BE9F017ADB65A65E LiquidJanusG3.v2_1 Position 3",
+              "4D65ADEB5D334DCC9F0AF5942F3F3177 LiquidJanusG3.v2_1 Position 4",
+              "23BDA919164841AE974AC1776BDF3769 LiquidJanusG3.v2_1 Position 5"
+            ]
+          ],
+          "occupy_dependency": [],
+          "release_dependency": [],
+          "dependency2": -1,
+          "status": 0,
+          "priority": 0,
+          "time": 30,
+          "robotgettime": 15,
+          "robotputtime": 15,
+          "estduration": 30,
+          "pre": [
+            "fee28ba8b4d043ea82942f4ad26c74cd"
+          ],
+          "next": [
+            "090bf213078b466e8f939b461a594dc6"
+          ],
+          "machine": "",
+          "position": "",
+          "algmachine": [],
+          "algposition": [],
+          "release_machine": [],
+          "release_position": [],
+          "dependency": -1,
+          "available": 0,
+          "start_time": 0,
+          "heuristic": 0,
+          "taskname": "robot",
+          "plateprocess": "CBE14D4E983245DAB1F980A7B31A07ED",
+          "stepplatename": "",
+          "taskplatename": "泳道2",
+          "stepname": "",
+          "sequnceid": "",
+          "steps": [],
+          "sequncestepid": "",
+          "procedurids": [],
+          "nodeid": "4A735B5064AF4B6691813007793661E3",
+          "processtype": 1,
+          "processtypetext": "多板工艺",
+          "taskplates": [
+            "CBE14D4E983245DAB1F980A7B31A07ED"
+          ],
+          "timeout": 60,
+          "zone": "",
+          "waitnextready": false,
+          "isready": true,
+          "isskip": false
+        },
+        {
+          "id": "090bf213078b466e8f939b461a594dc6",
+          "occupy": [
+            [
+              "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1"
+            ],
+            [
+              "E784BFF9DC1047B0A3F4D54B7340D41E StorageCarousel v2_1"
+            ]
+          ],
+          "release": [
+            [
+              "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1"
+            ],
+            [
+              "B895BA46996A435B8D59D6BE87D7436A LiquidJanusG3.v2_2 Position 1",
+              "A9D118092999427DB6B0F748B1FED4C3 LiquidJanusG3.v2_2 Position 2",
+              "BE97BE2F47D4483BB6EF29C471460971 LiquidJanusG3.v2_2 Position 3",
+              "BFC3E3BB75EE467091C188AD13E5E772 LiquidJanusG3.v2_2 Position 4",
+              "430D0CFAC61C4A0F9A0F13DA38B0E786 LiquidJanusG3.v2_2 Position 5"
+            ]
+          ],
+          "occupy_dependency": [],
+          "release_dependency": [],
+          "dependency2": -1,
+          "status": 0,
+          "priority": 0,
+          "time": 30,
+          "robotgettime": 15,
+          "robotputtime": 15,
+          "estduration": 30,
+          "pre": [
+            "3603d96e4bfa4cd8a603fa3af8820eaa"
+          ],
+          "next": [
+            "4773a8abfaf444cfbc7d2fc791f51e27"
+          ],
+          "machine": "",
+          "position": "",
+          "algmachine": [],
+          "algposition": [],
+          "release_machine": [],
+          "release_position": [],
+          "dependency": -1,
+          "available": 0,
+          "start_time": 0,
+          "heuristic": 0,
+          "taskname": "robot",
+          "plateprocess": "CBE14D4E983245DAB1F980A7B31A07ED",
+          "stepplatename": "",
+          "taskplatename": "泳道2",
+          "stepname": "",
+          "sequnceid": "",
+          "steps": [],
+          "sequncestepid": "",
+          "procedurids": [],
+          "nodeid": "FFDCB1CE4D4D4BD6B075B84EECE3CAAC",
+          "processtype": 3,
+          "processtypetext": "放板工艺",
+          "taskplates": [
+            "CBE14D4E983245DAB1F980A7B31A07ED"
+          ],
+          "timeout": 60,
+          "zone": "",
+          "waitnextready": false,
+          "isready": true,
+          "isskip": false
+        },
+        {
+          "id": "4773a8abfaf444cfbc7d2fc791f51e27",
+          "occupy": [
+            [
+              "1213f4fa253a4911bd95cc757189887e StorageCarousel v2_1 work"
+            ]
+          ],
+          "release": [
+            [
+              "1213f4fa253a4911bd95cc757189887e StorageCarousel v2_1 work"
+            ],
+            [
+              "E784BFF9DC1047B0A3F4D54B7340D41E StorageCarousel v2_1"
+            ]
+          ],
+          "occupy_dependency": [],
+          "release_dependency": [],
+          "dependency2": -1,
+          "status": 0,
+          "priority": 0,
+          "time": 30,
+          "robotgettime": 0,
+          "robotputtime": 15,
+          "estduration": 30,
+          "pre": [
+            "090bf213078b466e8f939b461a594dc6"
+          ],
+          "next": [],
+          "machine": "",
+          "position": "",
+          "algmachine": [],
+          "algposition": [],
+          "release_machine": [],
+          "release_position": [],
+          "dependency": -1,
+          "available": 0,
+          "start_time": 0,
+          "heuristic": 0,
+          "taskname": "Put In Hotel",
+          "plateprocess": "CBE14D4E983245DAB1F980A7B31A07ED",
+          "stepplatename": "",
+          "taskplatename": "泳道2",
+          "stepname": "",
+          "sequnceid": "",
+          "steps": [],
+          "sequncestepid": "",
+          "procedurids": [],
+          "nodeid": "FFDCB1CE4D4D4BD6B075B84EECE3CAAC",
+          "processtype": 3,
+          "processtypetext": "放板工艺",
+          "taskplates": [
+            "CBE14D4E983245DAB1F980A7B31A07ED"
+          ],
+          "timeout": 60,
+          "zone": null,
+          "waitnextready": false,
+          "isready": true,
+          "isskip": false
+        },
+        {
+          "id": "02d859df3cc84faa8d4037f5f8170224",
+          "occupy": [
+            [
+              "1213f4fa253a4911bd95cc757189887e StorageCarousel v2_1 work"
+            ],
+            [
+              "E784BFF9DC1047B0A3F4D54B7340D41E StorageCarousel v2_1"
+            ]
+          ],
+          "release": [
+            [
+              "1213f4fa253a4911bd95cc757189887e StorageCarousel v2_1 work"
+            ]
+          ],
+          "occupy_dependency": [],
+          "release_dependency": [],
+          "dependency2": -1,
+          "status": 0,
+          "priority": 0,
+          "time": 30,
+          "robotgettime": 15,
+          "robotputtime": 0,
+          "estduration": 30,
+          "pre": [],
+          "next": [
+            "eb6b320078904dae9182aa11aea7e020"
+          ],
+          "machine": "",
+          "position": "",
+          "algmachine": [],
+          "algposition": [],
+          "release_machine": [],
+          "release_position": [],
+          "dependency": -1,
+          "available": 0,
+          "start_time": 0,
+          "heuristic": 0,
+          "taskname": "Get From Hotel",
+          "plateprocess": "6CEA65E414CF4F5E8D81DAF1328F9D1A",
+          "stepplatename": "",
+          "taskplatename": "泳道3",
+          "stepname": "",
+          "sequnceid": "",
+          "steps": [],
+          "sequncestepid": "",
+          "procedurids": [],
+          "nodeid": "068C92DAC2684BF1B18DE41697D43D6D",
+          "processtype": 2,
+          "processtypetext": "抓板工艺",
+          "taskplates": [
+            "6CEA65E414CF4F5E8D81DAF1328F9D1A"
+          ],
+          "timeout": 60,
+          "zone": null,
+          "waitnextready": true,
+          "isready": true,
+          "isskip": false
+        },
+        {
+          "id": "eb6b320078904dae9182aa11aea7e020",
+          "occupy": [
+            [
+              "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1"
+            ],
+            [
+              "B895BA46996A435B8D59D6BE87D7436A LiquidJanusG3.v2_2 Position 1",
+              "A9D118092999427DB6B0F748B1FED4C3 LiquidJanusG3.v2_2 Position 2",
+              "BE97BE2F47D4483BB6EF29C471460971 LiquidJanusG3.v2_2 Position 3",
+              "BFC3E3BB75EE467091C188AD13E5E772 LiquidJanusG3.v2_2 Position 4",
+              "430D0CFAC61C4A0F9A0F13DA38B0E786 LiquidJanusG3.v2_2 Position 5"
+            ]
+          ],
+          "release": [
+            [
+              "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1"
+            ],
+            [
+              "E784BFF9DC1047B0A3F4D54B7340D41E StorageCarousel v2_1"
+            ]
+          ],
+          "occupy_dependency": [],
+          "release_dependency": [],
+          "dependency2": -1,
+          "status": 0,
+          "priority": 0,
+          "time": 30,
+          "robotgettime": 15,
+          "robotputtime": 15,
+          "estduration": 30,
+          "pre": [
+            "02d859df3cc84faa8d4037f5f8170224"
+          ],
+          "next": [
+            "1cbf7c3447154dfdb938c9aafe492a59"
+          ],
+          "machine": "",
+          "position": "",
+          "algmachine": [],
+          "algposition": [],
+          "release_machine": [],
+          "release_position": [],
+          "dependency": -1,
+          "available": 0,
+          "start_time": 0,
+          "heuristic": 0,
+          "taskname": "robot",
+          "plateprocess": "6CEA65E414CF4F5E8D81DAF1328F9D1A",
+          "stepplatename": "",
+          "taskplatename": "泳道3",
+          "stepname": "",
+          "sequnceid": "",
+          "steps": [],
+          "sequncestepid": "",
+          "procedurids": [],
+          "nodeid": "75A7ED5046E2480C9DD0DBDD71EF5CD3",
+          "processtype": 1,
+          "processtypetext": "多板工艺",
+          "taskplates": [
+            "6CEA65E414CF4F5E8D81DAF1328F9D1A"
+          ],
+          "timeout": 60,
+          "zone": "",
+          "waitnextready": true,
+          "isready": true,
+          "isskip": false
+        },
+        {
+          "id": "1cbf7c3447154dfdb938c9aafe492a59",
+          "occupy": [
+            [
+              "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1"
+            ],
+            [
+              "E784BFF9DC1047B0A3F4D54B7340D41E StorageCarousel v2_1"
+            ]
+          ],
+          "release": [
+            [
+              "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1"
+            ],
+            [
+              "B895BA46996A435B8D59D6BE87D7436A LiquidJanusG3.v2_2 Position 1",
+              "A9D118092999427DB6B0F748B1FED4C3 LiquidJanusG3.v2_2 Position 2",
+              "BE97BE2F47D4483BB6EF29C471460971 LiquidJanusG3.v2_2 Position 3",
+              "BFC3E3BB75EE467091C188AD13E5E772 LiquidJanusG3.v2_2 Position 4",
+              "430D0CFAC61C4A0F9A0F13DA38B0E786 LiquidJanusG3.v2_2 Position 5"
+            ]
+          ],
+          "occupy_dependency": [],
+          "release_dependency": [],
+          "dependency2": -1,
+          "status": 0,
+          "priority": 0,
+          "time": 30,
+          "robotgettime": 15,
+          "robotputtime": 15,
+          "estduration": 30,
+          "pre": [
+            "eb6b320078904dae9182aa11aea7e020"
+          ],
+          "next": [
+            "b4315e1b3bea4d0293f98ce08959ee27"
+          ],
+          "machine": "",
+          "position": "",
+          "algmachine": [],
+          "algposition": [],
+          "release_machine": [],
+          "release_position": [],
+          "dependency": -1,
+          "available": 0,
+          "start_time": 0,
+          "heuristic": 0,
+          "taskname": "robot",
+          "plateprocess": "6CEA65E414CF4F5E8D81DAF1328F9D1A",
+          "stepplatename": "",
+          "taskplatename": "泳道3",
+          "stepname": "",
+          "sequnceid": "",
+          "steps": [],
+          "sequncestepid": "",
+          "procedurids": [],
+          "nodeid": "1520888B1B684BB9944953B5E0F8B162",
+          "processtype": 3,
+          "processtypetext": "放板工艺",
+          "taskplates": [
+            "6CEA65E414CF4F5E8D81DAF1328F9D1A"
+          ],
+          "timeout": 60,
+          "zone": "",
+          "waitnextready": false,
+          "isready": true,
+          "isskip": false
+        },
+        {
+          "id": "b4315e1b3bea4d0293f98ce08959ee27",
+          "occupy": [
+            [
+              "1213f4fa253a4911bd95cc757189887e StorageCarousel v2_1 work"
+            ]
+          ],
+          "release": [
+            [
+              "1213f4fa253a4911bd95cc757189887e StorageCarousel v2_1 work"
+            ],
+            [
+              "E784BFF9DC1047B0A3F4D54B7340D41E StorageCarousel v2_1"
+            ]
+          ],
+          "occupy_dependency": [],
+          "release_dependency": [],
+          "dependency2": -1,
+          "status": 0,
+          "priority": 0,
+          "time": 30,
+          "robotgettime": 0,
+          "robotputtime": 15,
+          "estduration": 30,
+          "pre": [
+            "1cbf7c3447154dfdb938c9aafe492a59"
+          ],
+          "next": [],
+          "machine": "",
+          "position": "",
+          "algmachine": [],
+          "algposition": [],
+          "release_machine": [],
+          "release_position": [],
+          "dependency": -1,
+          "available": 0,
+          "start_time": 0,
+          "heuristic": 0,
+          "taskname": "Put In Hotel",
+          "plateprocess": "6CEA65E414CF4F5E8D81DAF1328F9D1A",
+          "stepplatename": "",
+          "taskplatename": "泳道3",
+          "stepname": "",
+          "sequnceid": "",
+          "steps": [],
+          "sequncestepid": "",
+          "procedurids": [],
+          "nodeid": "1520888B1B684BB9944953B5E0F8B162",
+          "processtype": 3,
+          "processtypetext": "放板工艺",
+          "taskplates": [
+            "6CEA65E414CF4F5E8D81DAF1328F9D1A"
+          ],
+          "timeout": 60,
+          "zone": null,
+          "waitnextready": false,
+          "isready": true,
+          "isskip": false
+        }
+      ],
+      "positions": [
+        {
+          "id": "191120B21D024A29A66D16465D3ED68D LiquidJanusG3.v2_1 Position 1",
+          "status": 0,
+          "machine": "1AB1E7301206413DAF343C98D2B5FAF8",
+          "positionname": "LiquidJanusG3.v2_1 Position 1",
+          "machinename": "LiquidJanusG3.v2_1",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "D8D15B1C85B247E0BA483E6627671EE4 LiquidJanusG3.v2_1 Position 2",
+          "status": 0,
+          "machine": "1AB1E7301206413DAF343C98D2B5FAF8",
+          "positionname": "LiquidJanusG3.v2_1 Position 2",
+          "machinename": "LiquidJanusG3.v2_1",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "3D3833263F1446B9BE9F017ADB65A65E LiquidJanusG3.v2_1 Position 3",
+          "status": 0,
+          "machine": "1AB1E7301206413DAF343C98D2B5FAF8",
+          "positionname": "LiquidJanusG3.v2_1 Position 3",
+          "machinename": "LiquidJanusG3.v2_1",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "4D65ADEB5D334DCC9F0AF5942F3F3177 LiquidJanusG3.v2_1 Position 4",
+          "status": 0,
+          "machine": "1AB1E7301206413DAF343C98D2B5FAF8",
+          "positionname": "LiquidJanusG3.v2_1 Position 4",
+          "machinename": "LiquidJanusG3.v2_1",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "23BDA919164841AE974AC1776BDF3769 LiquidJanusG3.v2_1 Position 5",
+          "status": 0,
+          "machine": "1AB1E7301206413DAF343C98D2B5FAF8",
+          "positionname": "LiquidJanusG3.v2_1 Position 5",
+          "machinename": "LiquidJanusG3.v2_1",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "89072077D0614B7C86D4E8E2E6FC5604 AlarmRaster_1",
+          "status": 0,
+          "machine": "9692B19CFB44410290E81D6C2012CA08",
+          "positionname": "AlarmRaster_1",
+          "machinename": "AlarmRaster_1",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "B895BA46996A435B8D59D6BE87D7436A LiquidJanusG3.v2_2 Position 1",
+          "status": 0,
+          "machine": "ACD12BA32F704C418E38627119AEA57D",
+          "positionname": "LiquidJanusG3.v2_2 Position 1",
+          "machinename": "LiquidJanusG3.v2_2",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "A9D118092999427DB6B0F748B1FED4C3 LiquidJanusG3.v2_2 Position 2",
+          "status": 0,
+          "machine": "ACD12BA32F704C418E38627119AEA57D",
+          "positionname": "LiquidJanusG3.v2_2 Position 2",
+          "machinename": "LiquidJanusG3.v2_2",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "BE97BE2F47D4483BB6EF29C471460971 LiquidJanusG3.v2_2 Position 3",
+          "status": 0,
+          "machine": "ACD12BA32F704C418E38627119AEA57D",
+          "positionname": "LiquidJanusG3.v2_2 Position 3",
+          "machinename": "LiquidJanusG3.v2_2",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "BFC3E3BB75EE467091C188AD13E5E772 LiquidJanusG3.v2_2 Position 4",
+          "status": 0,
+          "machine": "ACD12BA32F704C418E38627119AEA57D",
+          "positionname": "LiquidJanusG3.v2_2 Position 4",
+          "machinename": "LiquidJanusG3.v2_2",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "430D0CFAC61C4A0F9A0F13DA38B0E786 LiquidJanusG3.v2_2 Position 5",
+          "status": 0,
+          "machine": "ACD12BA32F704C418E38627119AEA57D",
+          "positionname": "LiquidJanusG3.v2_2 Position 5",
+          "machinename": "LiquidJanusG3.v2_2",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1",
+          "status": 0,
+          "machine": "B6DD661E75E342398FB41F4CCD40A475",
+          "positionname": "DENSO RC8_1",
+          "machinename": "DENSO RC8_1",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "2CE2AF73381C460AAB747464E627FC2B PCRSimulator_1",
+          "status": 0,
+          "machine": "BC85D4B6763144F3AA27D87674CF1BBD",
+          "positionname": "PCRSimulator_1",
+          "machinename": "PCRSimulator_1",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "1CE2DFA0BD3646DF88B8DFE7546C119D PCRSimulator_2",
+          "status": 0,
+          "machine": "DC2BE69C19984EB6A3A33D89F811338B",
+          "positionname": "PCRSimulator_2",
+          "machinename": "PCRSimulator_2",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "E784BFF9DC1047B0A3F4D54B7340D41E StorageCarousel v2_1",
+          "status": 0,
+          "machine": "ED1A45C9FAD0476FBD31D2FC432B3536",
+          "positionname": "StorageCarousel v2_1",
+          "machinename": "StorageCarousel v2_1",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "29f09ebde603430b9c466e164cc863ca LiquidJanusG3.v2_1 work",
+          "status": 0,
+          "machine": "1AB1E7301206413DAF343C98D2B5FAF8",
+          "positionname": "LiquidJanusG3.v2_1 work",
+          "machinename": "LiquidJanusG3.v2_1",
+          "sourcetype": "work"
+        },
+        {
+          "id": "3f485481a8df4553ab697a295c00bde0 AlarmRaster_1 work",
+          "status": 0,
+          "machine": "9692B19CFB44410290E81D6C2012CA08",
+          "positionname": "AlarmRaster_1 work",
+          "machinename": "AlarmRaster_1",
+          "sourcetype": "work"
+        },
+        {
+          "id": "f1e06efc96a04beeab5c21b817563397 LiquidJanusG3.v2_2 work",
+          "status": 0,
+          "machine": "ACD12BA32F704C418E38627119AEA57D",
+          "positionname": "LiquidJanusG3.v2_2 work",
+          "machinename": "LiquidJanusG3.v2_2",
+          "sourcetype": "work"
+        },
+        {
+          "id": "b515b4fd635b4161b844df8db2788ac7 DENSO RC8_1 work",
+          "status": 0,
+          "machine": "B6DD661E75E342398FB41F4CCD40A475",
+          "positionname": "DENSO RC8_1 work",
+          "machinename": "DENSO RC8_1",
+          "sourcetype": "work"
+        },
+        {
+          "id": "ee364f6e73774cd6983dafb0965329e1 PCRSimulator_1 work",
+          "status": 0,
+          "machine": "BC85D4B6763144F3AA27D87674CF1BBD",
+          "positionname": "PCRSimulator_1 work",
+          "machinename": "PCRSimulator_1",
+          "sourcetype": "work"
+        },
+        {
+          "id": "cb8093960993493e9a912381a869e4ef PCRSimulator_2 work",
+          "status": 0,
+          "machine": "DC2BE69C19984EB6A3A33D89F811338B",
+          "positionname": "PCRSimulator_2 work",
+          "machinename": "PCRSimulator_2",
+          "sourcetype": "work"
+        },
+        {
+          "id": "1213f4fa253a4911bd95cc757189887e StorageCarousel v2_1 work",
+          "status": 0,
+          "machine": "ED1A45C9FAD0476FBD31D2FC432B3536",
+          "positionname": "StorageCarousel v2_1 work",
+          "machinename": "StorageCarousel v2_1",
+          "sourcetype": "work"
+        }
+      ],
+      "machines": [
+        {
+          "id": "1AB1E7301206413DAF343C98D2B5FAF8",
+          "name": "LiquidJanusG3.v2_1",
+          "type": "LiquidJanusG3.v2",
+          "instrumentcategory": 3,
+          "instrumentcategorytext": "液体工作站",
+          "taskstoragedetail": []
+        },
+        {
+          "id": "9692B19CFB44410290E81D6C2012CA08",
+          "name": "AlarmRaster_1",
+          "type": "AlarmRaster",
+          "instrumentcategory": 13,
+          "instrumentcategorytext": "警报器",
+          "taskstoragedetail": []
+        },
+        {
+          "id": "ACD12BA32F704C418E38627119AEA57D",
+          "name": "LiquidJanusG3.v2_2",
+          "type": "LiquidJanusG3.v2",
+          "instrumentcategory": 3,
+          "instrumentcategorytext": "液体工作站",
+          "taskstoragedetail": []
+        },
+        {
+          "id": "B6DD661E75E342398FB41F4CCD40A475",
+          "name": "DENSO RC8_1",
+          "type": "DENSO RC8",
+          "instrumentcategory": 1,
+          "instrumentcategorytext": "机械臂",
+          "taskstoragedetail": []
+        },
+        {
+          "id": "BC85D4B6763144F3AA27D87674CF1BBD",
+          "name": "PCRSimulator_1",
+          "type": "PCRSimulator",
+          "instrumentcategory": 8,
+          "instrumentcategorytext": "热循环器",
+          "taskstoragedetail": []
+        },
+        {
+          "id": "DC2BE69C19984EB6A3A33D89F811338B",
+          "name": "PCRSimulator_2",
+          "type": "PCRSimulator",
+          "instrumentcategory": 8,
+          "instrumentcategorytext": "热循环器",
+          "taskstoragedetail": []
+        },
+        {
+          "id": "ED1A45C9FAD0476FBD31D2FC432B3536",
+          "name": "StorageCarousel v2_1",
+          "type": "StorageCarousel v2",
+          "instrumentcategory": 2,
+          "instrumentcategorytext": "存储站",
+          "taskstoragedetail": [
+            {
+              "id": "7F914C477F6445ABA6738FB9B9902C3E",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate1",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 1,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "C92FD4940183400FBCDA452B89D955EF",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate2",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 2,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "C6DFB660F7034E41B36E834106EE346B",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate3",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 3,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "703AF529A09A42138F09EBC6E4901958",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate4",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 4,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "C6C8DF39185A463DBC0DF3E05AF7C581",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate5",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 5,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "3404F7EE8C1947C1BF15209305286031",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate6",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 6,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "7C122DAEF33542798B416F4DCC32439D",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate7",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 7,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "CC2B52B4924C44C6823074439521DB5B",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate8",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 8,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "A16BCA9090E44C2AA741DFA81CB3B3AF",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate9",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 9,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "EB8DF34593D6491CB8E62AA45735BE0C",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate10",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 10,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "B6AAC7B9734A4C62AB38CF986B3877EC",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate11",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 11,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "32B095B742D54AA5B27E39DD05909318",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate12",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 12,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "821203154AD54DD49D5D68EC3446A630",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate13",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 13,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "800835B40E2B45FD961B47ACD019E789",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate14",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 14,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "BD30273AC49148E3895A9DF99FEE7010",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate15",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 15,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "865DADE7BF7F4E3BBC2FB732904E7BCD",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate16",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 16,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "8E9DD9A496334143BD115A53968A3896",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate17",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 17,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "F3600DCFE16C4432BC9E85BD88982D29",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate18",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 18,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "676B071DA2944A058CAA34BA4AA9000D",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate19",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 19,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "18268D4C873E4DB88C63E9A077311C6B",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate20",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 20,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "8983A4823CB74C6D8214D2863AD4ACA9",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate21",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 21,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "0EAE505F1FA34DCEA1D13670F1C5699B",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate22",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 22,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "781D9AC0B570453F8EC91CE3632ABFA7",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate23",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 1,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "1AC805FB1568453BB3A2112DE0E96D8F",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate24",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 2,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "FAF4A68C35124CF1B7E0FEB13D35570A",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate25",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 3,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "EFFB0DD4C0184104B22D45C911E820E2",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate26",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 4,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "31F962F8809C4988828C7A5C80E93A97",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate27",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 5,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "5B8E665417DF4D60BD0B302BA6C104EC",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate28",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 6,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "6C9400F5E1F64A68B46FD0C1CEA32DEF",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate29",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 7,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "80493759FA6F46809A6287E6BEF6121D",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate30",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 8,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "B91DD8A0372743C78F476FC023113991",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate31",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 9,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "597B04452DB243F68EB4001CEFCA6569",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate32",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 10,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "209C57721DF64D989E01281271864CFF",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate33",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 11,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "40505DC3FD2540E88D7CAA671F18FEC1",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate34",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 12,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "EF72228CF4A749A9B3F6D5586CC0725B",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate35",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 13,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "20ABF5CC55F948EC80B1C353AC85B2A8",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate36",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 14,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "C1A917B93808435A9B22B92D465F2774",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate37",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 15,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "913CE50F5E7146D9A7C2D8A36A597FF3",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate38",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 16,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "75670D026A404E8DA133DAAAB7252B68",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate39",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 17,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "2467F98271354B0BAE1774F92CB00F61",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate40",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 18,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "061ADCBDF20B463182C4FD3CB28D41AA",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate41",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 19,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "48A9D3FAD93E4437BD270CDE82505137",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate42",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 20,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "03088FF3A6D64C9E9BB1322E1F3DC91B",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate43",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 21,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "BDC8BAC41E1E4CAD92B47CE917806862",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate44",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 22,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "659AA2764C014FA4AD6F42F3265C4A21",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination1",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 1,
+              "zone": "Destination"
+            },
+            {
+              "id": "6FE2EF6AF6EE42EBA8F017066B4046ED",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination2",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 2,
+              "zone": "Destination"
+            },
+            {
+              "id": "AA620C37730B496499FA8C3E14A3F125",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination3",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 3,
+              "zone": "Destination"
+            },
+            {
+              "id": "A69F48C38BFD4336ADC86AE916235541",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination4",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 4,
+              "zone": "Destination"
+            },
+            {
+              "id": "57B1B3D40D004F8F808DD6E8340C2791",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination5",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 5,
+              "zone": "Destination"
+            },
+            {
+              "id": "F7DFC90531EB43B58504F05F582DD4BD",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination6",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 6,
+              "zone": "Destination"
+            },
+            {
+              "id": "BD4CB0C642BF4A8BADAA70079691EAC3",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination7",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 7,
+              "zone": "Destination"
+            },
+            {
+              "id": "1DB10541B5C141C1965BD4A5815188F3",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination8",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 8,
+              "zone": "Destination"
+            },
+            {
+              "id": "9E4FC5AD310C469AB5ED13D990355684",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination9",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 9,
+              "zone": "Destination"
+            },
+            {
+              "id": "751C95B6343E49DFADF7E3015AD7729F",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination10",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 10,
+              "zone": "Destination"
+            },
+            {
+              "id": "9EF5D591947544158AC314FAF180A1A6",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination11",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 11,
+              "zone": "Destination"
+            },
+            {
+              "id": "8671BDCE70E146618C2964112878A4D8",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination12",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 12,
+              "zone": "Destination"
+            },
+            {
+              "id": "842A9F2D063841BDA6A3874B6D6B61E4",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination13",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 13,
+              "zone": "Destination"
+            },
+            {
+              "id": "51708BE723084E459BE8D1D96BD4EBBE",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination14",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 14,
+              "zone": "Destination"
+            },
+            {
+              "id": "90F2C86487F545B7820D5BE08E33CF36",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination15",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 15,
+              "zone": "Destination"
+            },
+            {
+              "id": "8E5AC3786DC84663AC8D250805EFFED6",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination16",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 16,
+              "zone": "Destination"
+            },
+            {
+              "id": "983DF61AF5114A548696DB5194D8A1C6",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination17",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 17,
+              "zone": "Destination"
+            },
+            {
+              "id": "2FA31B1BF4E84640A422AE33045141D4",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination18",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 18,
+              "zone": "Destination"
+            },
+            {
+              "id": "07A53844ADB74A938D64832DA185F7DA",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination19",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 19,
+              "zone": "Destination"
+            },
+            {
+              "id": "C4551F2D69DF4CAFA83805202D7F47F6",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination20",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 20,
+              "zone": "Destination"
+            },
+            {
+              "id": "A813F658B0614998A49854B363350459",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination21",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 21,
+              "zone": "Destination"
+            },
+            {
+              "id": "047C910191E841DEAAE769DB3A98267B",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination22",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 22,
+              "zone": "Destination"
+            },
+            {
+              "id": "AA8179FC64474487B37691793F424E0A",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination23",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 1,
+              "zone": "Destination"
+            },
+            {
+              "id": "87E1EADE638F457DA297DE694076B63E",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination24",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 2,
+              "zone": "Destination"
+            },
+            {
+              "id": "D00AC016F96447DA8CE24A4D1C10F518",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination25",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 3,
+              "zone": "Destination"
+            },
+            {
+              "id": "0CF5BD6972C643968BD116AE2EB85D93",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination26",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 4,
+              "zone": "Destination"
+            },
+            {
+              "id": "4B440D7852FD42E8BE38C1EEE870F6DA",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination27",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 5,
+              "zone": "Destination"
+            },
+            {
+              "id": "05F2EA8B0780451980509E801A924937",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination28",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 6,
+              "zone": "Destination"
+            },
+            {
+              "id": "B3323522F25B478E996C64C9F9FE5F86",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination29",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 7,
+              "zone": "Destination"
+            },
+            {
+              "id": "71384788334741E38B7853C65BC952D0",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination30",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 8,
+              "zone": "Destination"
+            },
+            {
+              "id": "96338D3605674077BFAEF48D11CF28C3",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination31",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 9,
+              "zone": "Destination"
+            },
+            {
+              "id": "404041C0BFF34E0AA407A75A42353687",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination32",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 10,
+              "zone": "Destination"
+            },
+            {
+              "id": "599A3C98C6A44772A0A3B4F9EA8220F2",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination33",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 11,
+              "zone": "Destination"
+            },
+            {
+              "id": "4DDE4C2DB0C54373AEE34142AAE2AF65",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination34",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 12,
+              "zone": "Destination"
+            },
+            {
+              "id": "118CC5BD468D4424A7D1E6BE0358136A",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination35",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 13,
+              "zone": "Destination"
+            },
+            {
+              "id": "CE951123766A4091A96B1A5D7458584B",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination36",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 14,
+              "zone": "Destination"
+            },
+            {
+              "id": "84E5AEC3EC384FD6801833E344E229CC",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination37",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 15,
+              "zone": "Destination"
+            },
+            {
+              "id": "C03693994C3342B285B51D596730C334",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination38",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 16,
+              "zone": "Destination"
+            },
+            {
+              "id": "5552D5646D344D6684BE305B7FEFE62F",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination39",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 17,
+              "zone": "Destination"
+            },
+            {
+              "id": "8384722DCC7E4DFE861270ACDF98CB07",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination40",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 18,
+              "zone": "Destination"
+            },
+            {
+              "id": "9BF99E19A1FF447A87FEB1074ACACDA6",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination41",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 19,
+              "zone": "Destination"
+            },
+            {
+              "id": "1A5AC08954B142AC90E732914A1E3D60",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination42",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 20,
+              "zone": "Destination"
+            },
+            {
+              "id": "74608D738B8347039D550496DF2DB710",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination43",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 21,
+              "zone": "Destination"
+            },
+            {
+              "id": "15A0DCAA78A842EA80ACB120FC7F7EC0",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination44",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 22,
+              "zone": "Destination"
+            },
+            {
+              "id": "115245820F6442C08A5412297ABB09B9",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Source1",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 1,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "5D423F660E984D7D9AFE79FD2ADE9407",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Source2",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 2,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "07160EC689D34342A2747B082851D18F",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Source3",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 3,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "78A57FA202D5458BBEE272B29F3A24E6",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Source4",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 4,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "D2C853698E334CBAAAB69B6B1209792C",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Source5",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 5,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "BF5ADEC757DB41DD845FE7FE0C916C5C",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Source6",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 6,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "BB3866572C2E44F7B6EC09A13B72C04C",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Source7",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 7,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "90AE73DBFC514A38B7BBDC8D9762A0EC",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Source8",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 8,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "9BB7CA15B4B445339088F5A9341A0611",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Source9",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 9,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "E7788D76750142708E6A6D0ECC5BAFF9",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Source10",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 10,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "C547851D5E3A4E1BA9D73D7612AB95DF",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Source11",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 11,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "F971B8E6404C4998A17CEB21BC5F5472",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": null,
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 12,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "B453F03D90E4402AAB81C098FCF56210",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": null,
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 13,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "EBAD16D0374E4906BC5C6A09091E0F2D",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": null,
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 14,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "9B62AD64B3E74BA0AFD1E14695EB890C",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": null,
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 15,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "BDB63DE8AB284CD4814B5FE4FB4B195D",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": null,
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 16,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "78AD00FA2CD54F47A659F163B9741DB5",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": null,
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 17,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "706E4DDE206C4CD8B8D17912706F771D",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": null,
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 18,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "0B0BCA11C1C84C529CB2DC736E180ECA",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": null,
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 19,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "13B2654EAFC04EA5AED6A25769B50DCB",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": null,
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 20,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "2A3B96EDB9114D6F9B147435EDDC00C6",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": null,
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 21,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "089DF377B49B41888CE9D1C794FC8302",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": null,
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 22,
+              "zone": "Zone 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Assay2",
+      "projectid": "DAC594DB7A844C05A4E92DF35FB9BC3B",
+      "assaysid": "FC2049BDC1E54AECB28F22A2ADE6E018",
+      "tasks": [
+        {
+          "id": "82938570b0384f0dafcd9c37f5684b97",
+          "occupy": [
+            [
+              "1213f4fa253a4911bd95cc757189887e StorageCarousel v2_1 work"
+            ],
+            [
+              "E784BFF9DC1047B0A3F4D54B7340D41E StorageCarousel v2_1"
+            ]
+          ],
+          "release": [
+            [
+              "1213f4fa253a4911bd95cc757189887e StorageCarousel v2_1 work"
+            ]
+          ],
+          "occupy_dependency": [],
+          "release_dependency": [],
+          "dependency2": -1,
+          "status": 0,
+          "priority": 0,
+          "time": 30,
+          "robotgettime": 15,
+          "robotputtime": 0,
+          "estduration": 30,
+          "pre": [],
+          "next": [
+            "c4bc3c0dc76a41be9abee1d7316366f3"
+          ],
+          "machine": "",
+          "position": "",
+          "algmachine": [],
+          "algposition": [],
+          "release_machine": [],
+          "release_position": [],
+          "dependency": -1,
+          "available": 0,
+          "start_time": 0,
+          "heuristic": 0,
+          "taskname": "Get From Hotel",
+          "plateprocess": "967E8039EE764EEBA129493EED3974BA",
+          "stepplatename": "",
+          "taskplatename": "泳道1",
+          "stepname": "",
+          "sequnceid": "",
+          "steps": [],
+          "sequncestepid": "",
+          "procedurids": [],
+          "nodeid": "59DD15E5154C46A3BA37102821591277",
+          "processtype": 2,
+          "processtypetext": "抓板工艺",
+          "taskplates": [
+            "967E8039EE764EEBA129493EED3974BA"
+          ],
+          "timeout": 60,
+          "zone": null,
+          "waitnextready": true,
+          "isready": true,
+          "isskip": false
+        },
+        {
+          "id": "c4bc3c0dc76a41be9abee1d7316366f3",
+          "occupy": [
+            [
+              "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1"
+            ],
+            [
+              "191120B21D024A29A66D16465D3ED68D LiquidJanusG3.v2_1 Position 1",
+              "D8D15B1C85B247E0BA483E6627671EE4 LiquidJanusG3.v2_1 Position 2",
+              "3D3833263F1446B9BE9F017ADB65A65E LiquidJanusG3.v2_1 Position 3",
+              "4D65ADEB5D334DCC9F0AF5942F3F3177 LiquidJanusG3.v2_1 Position 4",
+              "23BDA919164841AE974AC1776BDF3769 LiquidJanusG3.v2_1 Position 5"
+            ]
+          ],
+          "release": [
+            [
+              "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1"
+            ],
+            [
+              "E784BFF9DC1047B0A3F4D54B7340D41E StorageCarousel v2_1"
+            ]
+          ],
+          "occupy_dependency": [],
+          "release_dependency": [],
+          "dependency2": -1,
+          "status": 0,
+          "priority": 0,
+          "time": 30,
+          "robotgettime": 15,
+          "robotputtime": 15,
+          "estduration": 30,
+          "pre": [
+            "82938570b0384f0dafcd9c37f5684b97"
+          ],
+          "next": [
+            "7cdde228b69e4af9b6ef9bd3c0b987f8"
+          ],
+          "machine": "",
+          "position": "",
+          "algmachine": [],
+          "algposition": [],
+          "release_machine": [],
+          "release_position": [],
+          "dependency": -1,
+          "available": 0,
+          "start_time": 0,
+          "heuristic": 0,
+          "taskname": "robot",
+          "plateprocess": "967E8039EE764EEBA129493EED3974BA",
+          "stepplatename": "",
+          "taskplatename": "泳道1",
+          "stepname": "",
+          "sequnceid": "",
+          "steps": [],
+          "sequncestepid": "",
+          "procedurids": [],
+          "nodeid": "AA617BA596244A20A03B7DBA800BD4F3",
+          "processtype": 1,
+          "processtypetext": "多板工艺",
+          "taskplates": [
+            "967E8039EE764EEBA129493EED3974BA"
+          ],
+          "timeout": 60,
+          "zone": "",
+          "waitnextready": true,
+          "isready": true,
+          "isskip": false
+        },
+        {
+          "id": "7cdde228b69e4af9b6ef9bd3c0b987f8",
+          "occupy": [
+            [
+              "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1"
+            ],
+            [
+              "2CE2AF73381C460AAB747464E627FC2B PCRSimulator_1"
+            ]
+          ],
+          "release": [
+            [
+              "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1"
+            ],
+            [
+              "191120B21D024A29A66D16465D3ED68D LiquidJanusG3.v2_1 Position 1",
+              "D8D15B1C85B247E0BA483E6627671EE4 LiquidJanusG3.v2_1 Position 2",
+              "3D3833263F1446B9BE9F017ADB65A65E LiquidJanusG3.v2_1 Position 3",
+              "4D65ADEB5D334DCC9F0AF5942F3F3177 LiquidJanusG3.v2_1 Position 4",
+              "23BDA919164841AE974AC1776BDF3769 LiquidJanusG3.v2_1 Position 5"
+            ]
+          ],
+          "occupy_dependency": [],
+          "release_dependency": [],
+          "dependency2": -1,
+          "status": 0,
+          "priority": 0,
+          "time": 30,
+          "robotgettime": 15,
+          "robotputtime": 15,
+          "estduration": 30,
+          "pre": [
+            "c4bc3c0dc76a41be9abee1d7316366f3"
+          ],
+          "next": [
+            "b6b209afeed9489b8b21099c9e9c5ecc"
+          ],
+          "machine": "",
+          "position": "",
+          "algmachine": [],
+          "algposition": [],
+          "release_machine": [],
+          "release_position": [],
+          "dependency": -1,
+          "available": 0,
+          "start_time": 0,
+          "heuristic": 0,
+          "taskname": "robot",
+          "plateprocess": "967E8039EE764EEBA129493EED3974BA",
+          "stepplatename": "",
+          "taskplatename": "泳道1",
+          "stepname": "",
+          "sequnceid": "",
+          "steps": [],
+          "sequncestepid": "",
+          "procedurids": [],
+          "nodeid": "DA1A5FD659A44B92B22C4722A44A25EB",
+          "processtype": 0,
+          "processtypetext": "标准工艺",
+          "taskplates": [
+            "967E8039EE764EEBA129493EED3974BA"
+          ],
+          "timeout": 60,
+          "zone": "",
+          "waitnextready": false,
+          "isready": true,
+          "isskip": false
+        },
+        {
+          "id": "b6b209afeed9489b8b21099c9e9c5ecc",
+          "occupy": [
+            [
+              "ee364f6e73774cd6983dafb0965329e1 PCRSimulator_1 work"
+            ]
+          ],
+          "release": [
+            [
+              "ee364f6e73774cd6983dafb0965329e1 PCRSimulator_1 work"
+            ]
+          ],
+          "occupy_dependency": [],
+          "release_dependency": [],
+          "dependency2": -1,
+          "status": 0,
+          "priority": 0,
+          "time": 200,
+          "robotgettime": 15,
+          "robotputtime": 15,
+          "estduration": 200,
+          "pre": [
+            "7cdde228b69e4af9b6ef9bd3c0b987f8"
+          ],
+          "next": [
+            "f5f4962bd6b4429893c7c64aa0f11db3"
+          ],
+          "machine": "",
+          "position": "",
+          "algmachine": [],
+          "algposition": [],
+          "release_machine": [],
+          "release_position": [],
+          "dependency": -1,
+          "available": 0,
+          "start_time": 0,
+          "heuristic": 0,
+          "taskname": "PCR",
+          "plateprocess": "967E8039EE764EEBA129493EED3974BA",
+          "stepplatename": "",
+          "taskplatename": "泳道1",
+          "stepname": "",
+          "sequnceid": "",
+          "steps": [],
+          "sequncestepid": "",
+          "procedurids": [],
+          "nodeid": "DA1A5FD659A44B92B22C4722A44A25EB",
+          "processtype": 0,
+          "processtypetext": "标准工艺",
+          "taskplates": [
+            "967E8039EE764EEBA129493EED3974BA"
+          ],
+          "timeout": 60,
+          "zone": null,
+          "waitnextready": false,
+          "isready": true,
+          "isskip": false
+        },
+        {
+          "id": "f5f4962bd6b4429893c7c64aa0f11db3",
+          "occupy": [
+            [
+              "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1"
+            ],
+            [
+              "E784BFF9DC1047B0A3F4D54B7340D41E StorageCarousel v2_1"
+            ]
+          ],
+          "release": [
+            [
+              "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1"
+            ],
+            [
+              "2CE2AF73381C460AAB747464E627FC2B PCRSimulator_1"
+            ]
+          ],
+          "occupy_dependency": [],
+          "release_dependency": [],
+          "dependency2": -1,
+          "status": 0,
+          "priority": 0,
+          "time": 30,
+          "robotgettime": 15,
+          "robotputtime": 15,
+          "estduration": 30,
+          "pre": [
+            "b6b209afeed9489b8b21099c9e9c5ecc"
+          ],
+          "next": [
+            "7f464d07ea6d48628c5a969e284daf0f"
+          ],
+          "machine": "",
+          "position": "",
+          "algmachine": [],
+          "algposition": [],
+          "release_machine": [],
+          "release_position": [],
+          "dependency": -1,
+          "available": 0,
+          "start_time": 0,
+          "heuristic": 0,
+          "taskname": "robot",
+          "plateprocess": "967E8039EE764EEBA129493EED3974BA",
+          "stepplatename": "",
+          "taskplatename": "泳道1",
+          "stepname": "",
+          "sequnceid": "",
+          "steps": [],
+          "sequncestepid": "",
+          "procedurids": [],
+          "nodeid": "665856045D424BE8A6859526B7EC33B8",
+          "processtype": 3,
+          "processtypetext": "放板工艺",
+          "taskplates": [
+            "967E8039EE764EEBA129493EED3974BA"
+          ],
+          "timeout": 60,
+          "zone": "",
+          "waitnextready": false,
+          "isready": true,
+          "isskip": false
+        },
+        {
+          "id": "7f464d07ea6d48628c5a969e284daf0f",
+          "occupy": [
+            [
+              "1213f4fa253a4911bd95cc757189887e StorageCarousel v2_1 work"
+            ]
+          ],
+          "release": [
+            [
+              "1213f4fa253a4911bd95cc757189887e StorageCarousel v2_1 work"
+            ],
+            [
+              "E784BFF9DC1047B0A3F4D54B7340D41E StorageCarousel v2_1"
+            ]
+          ],
+          "occupy_dependency": [],
+          "release_dependency": [],
+          "dependency2": -1,
+          "status": 0,
+          "priority": 0,
+          "time": 30,
+          "robotgettime": 0,
+          "robotputtime": 15,
+          "estduration": 30,
+          "pre": [
+            "f5f4962bd6b4429893c7c64aa0f11db3"
+          ],
+          "next": [],
+          "machine": "",
+          "position": "",
+          "algmachine": [],
+          "algposition": [],
+          "release_machine": [],
+          "release_position": [],
+          "dependency": -1,
+          "available": 0,
+          "start_time": 0,
+          "heuristic": 0,
+          "taskname": "Put In Hotel",
+          "plateprocess": "967E8039EE764EEBA129493EED3974BA",
+          "stepplatename": "",
+          "taskplatename": "泳道1",
+          "stepname": "",
+          "sequnceid": "",
+          "steps": [],
+          "sequncestepid": "",
+          "procedurids": [],
+          "nodeid": "665856045D424BE8A6859526B7EC33B8",
+          "processtype": 3,
+          "processtypetext": "放板工艺",
+          "taskplates": [
+            "967E8039EE764EEBA129493EED3974BA"
+          ],
+          "timeout": 60,
+          "zone": null,
+          "waitnextready": false,
+          "isready": true,
+          "isskip": false
+        },
+        {
+          "id": "a3a12296cbb8407f9b05ec60ccf58d16",
+          "occupy": [
+            [
+              "1213f4fa253a4911bd95cc757189887e StorageCarousel v2_1 work"
+            ],
+            [
+              "E784BFF9DC1047B0A3F4D54B7340D41E StorageCarousel v2_1"
+            ]
+          ],
+          "release": [
+            [
+              "1213f4fa253a4911bd95cc757189887e StorageCarousel v2_1 work"
+            ]
+          ],
+          "occupy_dependency": [],
+          "release_dependency": [],
+          "dependency2": -1,
+          "status": 0,
+          "priority": 0,
+          "time": 30,
+          "robotgettime": 15,
+          "robotputtime": 0,
+          "estduration": 30,
+          "pre": [],
+          "next": [
+            "90735cb8602c4c9ca3a213328b4d3a31"
+          ],
+          "machine": "",
+          "position": "",
+          "algmachine": [],
+          "algposition": [],
+          "release_machine": [],
+          "release_position": [],
+          "dependency": -1,
+          "available": 0,
+          "start_time": 0,
+          "heuristic": 0,
+          "taskname": "Get From Hotel",
+          "plateprocess": "3B582C1B7F9B4137A0EDAD0EF90B5FB4",
+          "stepplatename": "",
+          "taskplatename": "泳道2",
+          "stepname": "",
+          "sequnceid": "",
+          "steps": [],
+          "sequncestepid": "",
+          "procedurids": [],
+          "nodeid": "F1D43ABCC34E437A9B282720069265A4",
+          "processtype": 2,
+          "processtypetext": "抓板工艺",
+          "taskplates": [
+            "3B582C1B7F9B4137A0EDAD0EF90B5FB4"
+          ],
+          "timeout": 60,
+          "zone": null,
+          "waitnextready": true,
+          "isready": true,
+          "isskip": false
+        },
+        {
+          "id": "90735cb8602c4c9ca3a213328b4d3a31",
+          "occupy": [
+            [
+              "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1"
+            ],
+            [
+              "191120B21D024A29A66D16465D3ED68D LiquidJanusG3.v2_1 Position 1",
+              "D8D15B1C85B247E0BA483E6627671EE4 LiquidJanusG3.v2_1 Position 2",
+              "3D3833263F1446B9BE9F017ADB65A65E LiquidJanusG3.v2_1 Position 3",
+              "4D65ADEB5D334DCC9F0AF5942F3F3177 LiquidJanusG3.v2_1 Position 4",
+              "23BDA919164841AE974AC1776BDF3769 LiquidJanusG3.v2_1 Position 5"
+            ]
+          ],
+          "release": [
+            [
+              "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1"
+            ],
+            [
+              "E784BFF9DC1047B0A3F4D54B7340D41E StorageCarousel v2_1"
+            ]
+          ],
+          "occupy_dependency": [],
+          "release_dependency": [],
+          "dependency2": -1,
+          "status": 0,
+          "priority": 0,
+          "time": 30,
+          "robotgettime": 15,
+          "robotputtime": 15,
+          "estduration": 30,
+          "pre": [
+            "a3a12296cbb8407f9b05ec60ccf58d16"
+          ],
+          "next": [
+            "cfc1dcbea6bf4128842936ebbd217268"
+          ],
+          "machine": "",
+          "position": "",
+          "algmachine": [],
+          "algposition": [],
+          "release_machine": [],
+          "release_position": [],
+          "dependency": -1,
+          "available": 0,
+          "start_time": 0,
+          "heuristic": 0,
+          "taskname": "robot",
+          "plateprocess": "3B582C1B7F9B4137A0EDAD0EF90B5FB4",
+          "stepplatename": "",
+          "taskplatename": "泳道2",
+          "stepname": "",
+          "sequnceid": "",
+          "steps": [],
+          "sequncestepid": "",
+          "procedurids": [],
+          "nodeid": "30EFA05FE02C4790A74A0A7309B69A2C",
+          "processtype": 1,
+          "processtypetext": "多板工艺",
+          "taskplates": [
+            "3B582C1B7F9B4137A0EDAD0EF90B5FB4"
+          ],
+          "timeout": 60,
+          "zone": "",
+          "waitnextready": true,
+          "isready": true,
+          "isskip": false
+        },
+        {
+          "id": "cfc1dcbea6bf4128842936ebbd217268",
+          "occupy": [
+            [
+              "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1"
+            ],
+            [
+              "E784BFF9DC1047B0A3F4D54B7340D41E StorageCarousel v2_1"
+            ]
+          ],
+          "release": [
+            [
+              "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1"
+            ],
+            [
+              "191120B21D024A29A66D16465D3ED68D LiquidJanusG3.v2_1 Position 1",
+              "D8D15B1C85B247E0BA483E6627671EE4 LiquidJanusG3.v2_1 Position 2",
+              "3D3833263F1446B9BE9F017ADB65A65E LiquidJanusG3.v2_1 Position 3",
+              "4D65ADEB5D334DCC9F0AF5942F3F3177 LiquidJanusG3.v2_1 Position 4",
+              "23BDA919164841AE974AC1776BDF3769 LiquidJanusG3.v2_1 Position 5"
+            ]
+          ],
+          "occupy_dependency": [],
+          "release_dependency": [],
+          "dependency2": -1,
+          "status": 0,
+          "priority": 0,
+          "time": 30,
+          "robotgettime": 15,
+          "robotputtime": 15,
+          "estduration": 30,
+          "pre": [
+            "90735cb8602c4c9ca3a213328b4d3a31"
+          ],
+          "next": [
+            "eb612bff85d54cdcb20f9e4489fa3472"
+          ],
+          "machine": "",
+          "position": "",
+          "algmachine": [],
+          "algposition": [],
+          "release_machine": [],
+          "release_position": [],
+          "dependency": -1,
+          "available": 0,
+          "start_time": 0,
+          "heuristic": 0,
+          "taskname": "robot",
+          "plateprocess": "3B582C1B7F9B4137A0EDAD0EF90B5FB4",
+          "stepplatename": "",
+          "taskplatename": "泳道2",
+          "stepname": "",
+          "sequnceid": "",
+          "steps": [],
+          "sequncestepid": "",
+          "procedurids": [],
+          "nodeid": "DE3A52CA0DEC441CAD4A32CFEB3A1389",
+          "processtype": 3,
+          "processtypetext": "放板工艺",
+          "taskplates": [
+            "3B582C1B7F9B4137A0EDAD0EF90B5FB4"
+          ],
+          "timeout": 60,
+          "zone": "",
+          "waitnextready": false,
+          "isready": true,
+          "isskip": false
+        },
+        {
+          "id": "eb612bff85d54cdcb20f9e4489fa3472",
+          "occupy": [
+            [
+              "1213f4fa253a4911bd95cc757189887e StorageCarousel v2_1 work"
+            ]
+          ],
+          "release": [
+            [
+              "1213f4fa253a4911bd95cc757189887e StorageCarousel v2_1 work"
+            ],
+            [
+              "E784BFF9DC1047B0A3F4D54B7340D41E StorageCarousel v2_1"
+            ]
+          ],
+          "occupy_dependency": [],
+          "release_dependency": [],
+          "dependency2": -1,
+          "status": 0,
+          "priority": 0,
+          "time": 30,
+          "robotgettime": 0,
+          "robotputtime": 15,
+          "estduration": 30,
+          "pre": [
+            "cfc1dcbea6bf4128842936ebbd217268"
+          ],
+          "next": [],
+          "machine": "",
+          "position": "",
+          "algmachine": [],
+          "algposition": [],
+          "release_machine": [],
+          "release_position": [],
+          "dependency": -1,
+          "available": 0,
+          "start_time": 0,
+          "heuristic": 0,
+          "taskname": "Put In Hotel",
+          "plateprocess": "3B582C1B7F9B4137A0EDAD0EF90B5FB4",
+          "stepplatename": "",
+          "taskplatename": "泳道2",
+          "stepname": "",
+          "sequnceid": "",
+          "steps": [],
+          "sequncestepid": "",
+          "procedurids": [],
+          "nodeid": "DE3A52CA0DEC441CAD4A32CFEB3A1389",
+          "processtype": 3,
+          "processtypetext": "放板工艺",
+          "taskplates": [
+            "3B582C1B7F9B4137A0EDAD0EF90B5FB4"
+          ],
+          "timeout": 60,
+          "zone": null,
+          "waitnextready": false,
+          "isready": true,
+          "isskip": false
+        }
+      ],
+      "positions": [
+        {
+          "id": "191120B21D024A29A66D16465D3ED68D LiquidJanusG3.v2_1 Position 1",
+          "status": 0,
+          "machine": "1AB1E7301206413DAF343C98D2B5FAF8",
+          "positionname": "LiquidJanusG3.v2_1 Position 1",
+          "machinename": "LiquidJanusG3.v2_1",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "D8D15B1C85B247E0BA483E6627671EE4 LiquidJanusG3.v2_1 Position 2",
+          "status": 0,
+          "machine": "1AB1E7301206413DAF343C98D2B5FAF8",
+          "positionname": "LiquidJanusG3.v2_1 Position 2",
+          "machinename": "LiquidJanusG3.v2_1",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "3D3833263F1446B9BE9F017ADB65A65E LiquidJanusG3.v2_1 Position 3",
+          "status": 0,
+          "machine": "1AB1E7301206413DAF343C98D2B5FAF8",
+          "positionname": "LiquidJanusG3.v2_1 Position 3",
+          "machinename": "LiquidJanusG3.v2_1",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "4D65ADEB5D334DCC9F0AF5942F3F3177 LiquidJanusG3.v2_1 Position 4",
+          "status": 0,
+          "machine": "1AB1E7301206413DAF343C98D2B5FAF8",
+          "positionname": "LiquidJanusG3.v2_1 Position 4",
+          "machinename": "LiquidJanusG3.v2_1",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "23BDA919164841AE974AC1776BDF3769 LiquidJanusG3.v2_1 Position 5",
+          "status": 0,
+          "machine": "1AB1E7301206413DAF343C98D2B5FAF8",
+          "positionname": "LiquidJanusG3.v2_1 Position 5",
+          "machinename": "LiquidJanusG3.v2_1",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "89072077D0614B7C86D4E8E2E6FC5604 AlarmRaster_1",
+          "status": 0,
+          "machine": "9692B19CFB44410290E81D6C2012CA08",
+          "positionname": "AlarmRaster_1",
+          "machinename": "AlarmRaster_1",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "B895BA46996A435B8D59D6BE87D7436A LiquidJanusG3.v2_2 Position 1",
+          "status": 0,
+          "machine": "ACD12BA32F704C418E38627119AEA57D",
+          "positionname": "LiquidJanusG3.v2_2 Position 1",
+          "machinename": "LiquidJanusG3.v2_2",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "A9D118092999427DB6B0F748B1FED4C3 LiquidJanusG3.v2_2 Position 2",
+          "status": 0,
+          "machine": "ACD12BA32F704C418E38627119AEA57D",
+          "positionname": "LiquidJanusG3.v2_2 Position 2",
+          "machinename": "LiquidJanusG3.v2_2",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "BE97BE2F47D4483BB6EF29C471460971 LiquidJanusG3.v2_2 Position 3",
+          "status": 0,
+          "machine": "ACD12BA32F704C418E38627119AEA57D",
+          "positionname": "LiquidJanusG3.v2_2 Position 3",
+          "machinename": "LiquidJanusG3.v2_2",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "BFC3E3BB75EE467091C188AD13E5E772 LiquidJanusG3.v2_2 Position 4",
+          "status": 0,
+          "machine": "ACD12BA32F704C418E38627119AEA57D",
+          "positionname": "LiquidJanusG3.v2_2 Position 4",
+          "machinename": "LiquidJanusG3.v2_2",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "430D0CFAC61C4A0F9A0F13DA38B0E786 LiquidJanusG3.v2_2 Position 5",
+          "status": 0,
+          "machine": "ACD12BA32F704C418E38627119AEA57D",
+          "positionname": "LiquidJanusG3.v2_2 Position 5",
+          "machinename": "LiquidJanusG3.v2_2",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "53DE90B82FA0455C8328A3FB60EAA76E DENSO RC8_1",
+          "status": 0,
+          "machine": "B6DD661E75E342398FB41F4CCD40A475",
+          "positionname": "DENSO RC8_1",
+          "machinename": "DENSO RC8_1",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "2CE2AF73381C460AAB747464E627FC2B PCRSimulator_1",
+          "status": 0,
+          "machine": "BC85D4B6763144F3AA27D87674CF1BBD",
+          "positionname": "PCRSimulator_1",
+          "machinename": "PCRSimulator_1",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "1CE2DFA0BD3646DF88B8DFE7546C119D PCRSimulator_2",
+          "status": 0,
+          "machine": "DC2BE69C19984EB6A3A33D89F811338B",
+          "positionname": "PCRSimulator_2",
+          "machinename": "PCRSimulator_2",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "E784BFF9DC1047B0A3F4D54B7340D41E StorageCarousel v2_1",
+          "status": 0,
+          "machine": "ED1A45C9FAD0476FBD31D2FC432B3536",
+          "positionname": "StorageCarousel v2_1",
+          "machinename": "StorageCarousel v2_1",
+          "sourcetype": "plate"
+        },
+        {
+          "id": "29f09ebde603430b9c466e164cc863ca LiquidJanusG3.v2_1 work",
+          "status": 0,
+          "machine": "1AB1E7301206413DAF343C98D2B5FAF8",
+          "positionname": "LiquidJanusG3.v2_1 work",
+          "machinename": "LiquidJanusG3.v2_1",
+          "sourcetype": "work"
+        },
+        {
+          "id": "3f485481a8df4553ab697a295c00bde0 AlarmRaster_1 work",
+          "status": 0,
+          "machine": "9692B19CFB44410290E81D6C2012CA08",
+          "positionname": "AlarmRaster_1 work",
+          "machinename": "AlarmRaster_1",
+          "sourcetype": "work"
+        },
+        {
+          "id": "f1e06efc96a04beeab5c21b817563397 LiquidJanusG3.v2_2 work",
+          "status": 0,
+          "machine": "ACD12BA32F704C418E38627119AEA57D",
+          "positionname": "LiquidJanusG3.v2_2 work",
+          "machinename": "LiquidJanusG3.v2_2",
+          "sourcetype": "work"
+        },
+        {
+          "id": "b515b4fd635b4161b844df8db2788ac7 DENSO RC8_1 work",
+          "status": 0,
+          "machine": "B6DD661E75E342398FB41F4CCD40A475",
+          "positionname": "DENSO RC8_1 work",
+          "machinename": "DENSO RC8_1",
+          "sourcetype": "work"
+        },
+        {
+          "id": "ee364f6e73774cd6983dafb0965329e1 PCRSimulator_1 work",
+          "status": 0,
+          "machine": "BC85D4B6763144F3AA27D87674CF1BBD",
+          "positionname": "PCRSimulator_1 work",
+          "machinename": "PCRSimulator_1",
+          "sourcetype": "work"
+        },
+        {
+          "id": "cb8093960993493e9a912381a869e4ef PCRSimulator_2 work",
+          "status": 0,
+          "machine": "DC2BE69C19984EB6A3A33D89F811338B",
+          "positionname": "PCRSimulator_2 work",
+          "machinename": "PCRSimulator_2",
+          "sourcetype": "work"
+        },
+        {
+          "id": "1213f4fa253a4911bd95cc757189887e StorageCarousel v2_1 work",
+          "status": 0,
+          "machine": "ED1A45C9FAD0476FBD31D2FC432B3536",
+          "positionname": "StorageCarousel v2_1 work",
+          "machinename": "StorageCarousel v2_1",
+          "sourcetype": "work"
+        }
+      ],
+      "machines": [
+        {
+          "id": "1AB1E7301206413DAF343C98D2B5FAF8",
+          "name": "LiquidJanusG3.v2_1",
+          "type": "LiquidJanusG3.v2",
+          "instrumentcategory": 3,
+          "instrumentcategorytext": "液体工作站",
+          "taskstoragedetail": []
+        },
+        {
+          "id": "9692B19CFB44410290E81D6C2012CA08",
+          "name": "AlarmRaster_1",
+          "type": "AlarmRaster",
+          "instrumentcategory": 13,
+          "instrumentcategorytext": "警报器",
+          "taskstoragedetail": []
+        },
+        {
+          "id": "ACD12BA32F704C418E38627119AEA57D",
+          "name": "LiquidJanusG3.v2_2",
+          "type": "LiquidJanusG3.v2",
+          "instrumentcategory": 3,
+          "instrumentcategorytext": "液体工作站",
+          "taskstoragedetail": []
+        },
+        {
+          "id": "B6DD661E75E342398FB41F4CCD40A475",
+          "name": "DENSO RC8_1",
+          "type": "DENSO RC8",
+          "instrumentcategory": 1,
+          "instrumentcategorytext": "机械臂",
+          "taskstoragedetail": []
+        },
+        {
+          "id": "BC85D4B6763144F3AA27D87674CF1BBD",
+          "name": "PCRSimulator_1",
+          "type": "PCRSimulator",
+          "instrumentcategory": 8,
+          "instrumentcategorytext": "热循环器",
+          "taskstoragedetail": []
+        },
+        {
+          "id": "DC2BE69C19984EB6A3A33D89F811338B",
+          "name": "PCRSimulator_2",
+          "type": "PCRSimulator",
+          "instrumentcategory": 8,
+          "instrumentcategorytext": "热循环器",
+          "taskstoragedetail": []
+        },
+        {
+          "id": "ED1A45C9FAD0476FBD31D2FC432B3536",
+          "name": "StorageCarousel v2_1",
+          "type": "StorageCarousel v2",
+          "instrumentcategory": 2,
+          "instrumentcategorytext": "存储站",
+          "taskstoragedetail": [
+            {
+              "id": "7F914C477F6445ABA6738FB9B9902C3E",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate1",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 1,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "C92FD4940183400FBCDA452B89D955EF",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate2",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 2,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "C6DFB660F7034E41B36E834106EE346B",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate3",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 3,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "703AF529A09A42138F09EBC6E4901958",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate4",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 4,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "C6C8DF39185A463DBC0DF3E05AF7C581",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate5",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 5,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "3404F7EE8C1947C1BF15209305286031",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate6",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 6,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "7C122DAEF33542798B416F4DCC32439D",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate7",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 7,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "CC2B52B4924C44C6823074439521DB5B",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate8",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 8,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "A16BCA9090E44C2AA741DFA81CB3B3AF",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate9",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 9,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "EB8DF34593D6491CB8E62AA45735BE0C",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate10",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 10,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "B6AAC7B9734A4C62AB38CF986B3877EC",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate11",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 11,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "32B095B742D54AA5B27E39DD05909318",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate12",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 12,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "821203154AD54DD49D5D68EC3446A630",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate13",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 13,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "800835B40E2B45FD961B47ACD019E789",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate14",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 14,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "BD30273AC49148E3895A9DF99FEE7010",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate15",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 15,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "865DADE7BF7F4E3BBC2FB732904E7BCD",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate16",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 16,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "8E9DD9A496334143BD115A53968A3896",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate17",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 17,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "F3600DCFE16C4432BC9E85BD88982D29",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate18",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 18,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "676B071DA2944A058CAA34BA4AA9000D",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate19",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 19,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "18268D4C873E4DB88C63E9A077311C6B",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate20",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 20,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "8983A4823CB74C6D8214D2863AD4ACA9",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate21",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 21,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "0EAE505F1FA34DCEA1D13670F1C5699B",
+              "hotelname": "Hotel 1",
+              "storageconfigid": "0521AE561D6F4F65BCEEFD0AEDD5A0A8",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate22",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 1,
+              "shelf": 22,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "781D9AC0B570453F8EC91CE3632ABFA7",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate23",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 1,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "1AC805FB1568453BB3A2112DE0E96D8F",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate24",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 2,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "FAF4A68C35124CF1B7E0FEB13D35570A",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate25",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 3,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "EFFB0DD4C0184104B22D45C911E820E2",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate26",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 4,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "31F962F8809C4988828C7A5C80E93A97",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate27",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 5,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "5B8E665417DF4D60BD0B302BA6C104EC",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate28",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 6,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "6C9400F5E1F64A68B46FD0C1CEA32DEF",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate29",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 7,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "80493759FA6F46809A6287E6BEF6121D",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate30",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 8,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "B91DD8A0372743C78F476FC023113991",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate31",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 9,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "597B04452DB243F68EB4001CEFCA6569",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate32",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 10,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "209C57721DF64D989E01281271864CFF",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate33",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 11,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "40505DC3FD2540E88D7CAA671F18FEC1",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate34",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 12,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "EF72228CF4A749A9B3F6D5586CC0725B",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate35",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 13,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "20ABF5CC55F948EC80B1C353AC85B2A8",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate36",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 14,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "C1A917B93808435A9B22B92D465F2774",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate37",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 15,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "913CE50F5E7146D9A7C2D8A36A597FF3",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate38",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 16,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "75670D026A404E8DA133DAAAB7252B68",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate39",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 17,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "2467F98271354B0BAE1774F92CB00F61",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate40",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 18,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "061ADCBDF20B463182C4FD3CB28D41AA",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate41",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 19,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "48A9D3FAD93E4437BD270CDE82505137",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate42",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 20,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "03088FF3A6D64C9E9BB1322E1F3DC91B",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate43",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 21,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "BDC8BAC41E1E4CAD92B47CE917806862",
+              "hotelname": "Hotel 2",
+              "storageconfigid": "5640C77A412F475B931BBB13CDC67D96",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Plate44",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 2,
+              "shelf": 22,
+              "zone": "Zone 1"
+            },
+            {
+              "id": "659AA2764C014FA4AD6F42F3265C4A21",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination1",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 1,
+              "zone": "Destination"
+            },
+            {
+              "id": "6FE2EF6AF6EE42EBA8F017066B4046ED",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination2",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 2,
+              "zone": "Destination"
+            },
+            {
+              "id": "AA620C37730B496499FA8C3E14A3F125",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination3",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 3,
+              "zone": "Destination"
+            },
+            {
+              "id": "A69F48C38BFD4336ADC86AE916235541",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination4",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 4,
+              "zone": "Destination"
+            },
+            {
+              "id": "57B1B3D40D004F8F808DD6E8340C2791",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination5",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 5,
+              "zone": "Destination"
+            },
+            {
+              "id": "F7DFC90531EB43B58504F05F582DD4BD",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination6",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 6,
+              "zone": "Destination"
+            },
+            {
+              "id": "BD4CB0C642BF4A8BADAA70079691EAC3",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination7",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 7,
+              "zone": "Destination"
+            },
+            {
+              "id": "1DB10541B5C141C1965BD4A5815188F3",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination8",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 8,
+              "zone": "Destination"
+            },
+            {
+              "id": "9E4FC5AD310C469AB5ED13D990355684",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination9",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 9,
+              "zone": "Destination"
+            },
+            {
+              "id": "751C95B6343E49DFADF7E3015AD7729F",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination10",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 10,
+              "zone": "Destination"
+            },
+            {
+              "id": "9EF5D591947544158AC314FAF180A1A6",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination11",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 11,
+              "zone": "Destination"
+            },
+            {
+              "id": "8671BDCE70E146618C2964112878A4D8",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination12",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 12,
+              "zone": "Destination"
+            },
+            {
+              "id": "842A9F2D063841BDA6A3874B6D6B61E4",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination13",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 13,
+              "zone": "Destination"
+            },
+            {
+              "id": "51708BE723084E459BE8D1D96BD4EBBE",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination14",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 14,
+              "zone": "Destination"
+            },
+            {
+              "id": "90F2C86487F545B7820D5BE08E33CF36",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination15",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 15,
+              "zone": "Destination"
+            },
+            {
+              "id": "8E5AC3786DC84663AC8D250805EFFED6",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination16",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 16,
+              "zone": "Destination"
+            },
+            {
+              "id": "983DF61AF5114A548696DB5194D8A1C6",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination17",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 17,
+              "zone": "Destination"
+            },
+            {
+              "id": "2FA31B1BF4E84640A422AE33045141D4",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination18",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 18,
+              "zone": "Destination"
+            },
+            {
+              "id": "07A53844ADB74A938D64832DA185F7DA",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination19",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 19,
+              "zone": "Destination"
+            },
+            {
+              "id": "C4551F2D69DF4CAFA83805202D7F47F6",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination20",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 20,
+              "zone": "Destination"
+            },
+            {
+              "id": "A813F658B0614998A49854B363350459",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination21",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 21,
+              "zone": "Destination"
+            },
+            {
+              "id": "047C910191E841DEAAE769DB3A98267B",
+              "hotelname": "Hotel 3",
+              "storageconfigid": "D037A4FDD4F640D2851A0A3296EEB56D",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination22",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 3,
+              "shelf": 22,
+              "zone": "Destination"
+            },
+            {
+              "id": "AA8179FC64474487B37691793F424E0A",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination23",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 1,
+              "zone": "Destination"
+            },
+            {
+              "id": "87E1EADE638F457DA297DE694076B63E",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination24",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 2,
+              "zone": "Destination"
+            },
+            {
+              "id": "D00AC016F96447DA8CE24A4D1C10F518",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination25",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 3,
+              "zone": "Destination"
+            },
+            {
+              "id": "0CF5BD6972C643968BD116AE2EB85D93",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination26",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 4,
+              "zone": "Destination"
+            },
+            {
+              "id": "4B440D7852FD42E8BE38C1EEE870F6DA",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination27",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 5,
+              "zone": "Destination"
+            },
+            {
+              "id": "05F2EA8B0780451980509E801A924937",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination28",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 6,
+              "zone": "Destination"
+            },
+            {
+              "id": "B3323522F25B478E996C64C9F9FE5F86",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination29",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 7,
+              "zone": "Destination"
+            },
+            {
+              "id": "71384788334741E38B7853C65BC952D0",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination30",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 8,
+              "zone": "Destination"
+            },
+            {
+              "id": "96338D3605674077BFAEF48D11CF28C3",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination31",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 9,
+              "zone": "Destination"
+            },
+            {
+              "id": "404041C0BFF34E0AA407A75A42353687",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination32",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 10,
+              "zone": "Destination"
+            },
+            {
+              "id": "599A3C98C6A44772A0A3B4F9EA8220F2",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination33",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 11,
+              "zone": "Destination"
+            },
+            {
+              "id": "4DDE4C2DB0C54373AEE34142AAE2AF65",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination34",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 12,
+              "zone": "Destination"
+            },
+            {
+              "id": "118CC5BD468D4424A7D1E6BE0358136A",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination35",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 13,
+              "zone": "Destination"
+            },
+            {
+              "id": "CE951123766A4091A96B1A5D7458584B",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination36",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 14,
+              "zone": "Destination"
+            },
+            {
+              "id": "84E5AEC3EC384FD6801833E344E229CC",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination37",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 15,
+              "zone": "Destination"
+            },
+            {
+              "id": "C03693994C3342B285B51D596730C334",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination38",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 16,
+              "zone": "Destination"
+            },
+            {
+              "id": "5552D5646D344D6684BE305B7FEFE62F",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination39",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 17,
+              "zone": "Destination"
+            },
+            {
+              "id": "8384722DCC7E4DFE861270ACDF98CB07",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination40",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 18,
+              "zone": "Destination"
+            },
+            {
+              "id": "9BF99E19A1FF447A87FEB1074ACACDA6",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination41",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 19,
+              "zone": "Destination"
+            },
+            {
+              "id": "1A5AC08954B142AC90E732914A1E3D60",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination42",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 20,
+              "zone": "Destination"
+            },
+            {
+              "id": "74608D738B8347039D550496DF2DB710",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination43",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 21,
+              "zone": "Destination"
+            },
+            {
+              "id": "15A0DCAA78A842EA80ACB120FC7F7EC0",
+              "hotelname": "Hotel 4",
+              "storageconfigid": "76F81E9CD08F4130B3540EA9FE5D624E",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Destination44",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 4,
+              "shelf": 22,
+              "zone": "Destination"
+            },
+            {
+              "id": "115245820F6442C08A5412297ABB09B9",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Source1",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 1,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "5D423F660E984D7D9AFE79FD2ADE9407",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Source2",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 2,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "07160EC689D34342A2747B082851D18F",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Source3",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 3,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "78A57FA202D5458BBEE272B29F3A24E6",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Source4",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 4,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "D2C853698E334CBAAAB69B6B1209792C",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Source5",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 5,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "BF5ADEC757DB41DD845FE7FE0C916C5C",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Source6",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 6,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "BB3866572C2E44F7B6EC09A13B72C04C",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Source7",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 7,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "90AE73DBFC514A38B7BBDC8D9762A0EC",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Source8",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 8,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "9BB7CA15B4B445339088F5A9341A0611",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Source9",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 9,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "E7788D76750142708E6A6D0ECC5BAFF9",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Source10",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 10,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "C547851D5E3A4E1BA9D73D7612AB95DF",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": "Source11",
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 11,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "F971B8E6404C4998A17CEB21BC5F5472",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": null,
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 12,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "B453F03D90E4402AAB81C098FCF56210",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": null,
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 13,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "EBAD16D0374E4906BC5C6A09091E0F2D",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": null,
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 14,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "9B62AD64B3E74BA0AFD1E14695EB890C",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": null,
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 15,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "BDB63DE8AB284CD4814B5FE4FB4B195D",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": null,
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 16,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "78AD00FA2CD54F47A659F163B9741DB5",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": null,
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 17,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "706E4DDE206C4CD8B8D17912706F771D",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": null,
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 18,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "0B0BCA11C1C84C529CB2DC736E180ECA",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": null,
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 19,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "13B2654EAFC04EA5AED6A25769B50DCB",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": null,
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 20,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "2A3B96EDB9114D6F9B147435EDDC00C6",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": null,
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 21,
+              "zone": "Zone 2"
+            },
+            {
+              "id": "089DF377B49B41888CE9D1C794FC8302",
+              "hotelname": "Hotel 5",
+              "storageconfigid": "4A92C6479D44438986112956FB4453F7",
+              "projectinstrumentid": "ED1A45C9FAD0476FBD31D2FC432B3536",
+              "barcode": null,
+              "previousbarcode": null,
+              "labware": null,
+              "labwareid": "6CFFFE7DCD0811ECB179922E1603DFB5",
+              "physicalposition": 5,
+              "shelf": 22,
+              "zone": "Zone 2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "runingassasys": []
+}

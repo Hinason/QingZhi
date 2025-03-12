@@ -1,7 +1,7 @@
 # machine_loader.py
 # 从 machine_system 中读取machine的数据并创建对应的simulation_machine
 
-from Simulation.machines import *
+from Simulation.Machines import *
 
 class MachineLoader:
     MACHINE_TYPES = {
@@ -62,7 +62,4 @@ class MachineLoader:
     def load_position(self, position_system):
         positions = position_system.get_all_positions()
         for position in positions:
-            if "plate" == position.sourcetype:            # "plate" 说明是机器上的position
-                self.machines[position.machine].positions[position.id] = 0
-            elif "work" == position.sourcetype:            # "work" 说明是机器本身
-                self.machines[position.machine].busy = False
+            self.machines[position.machine].add_position(position)

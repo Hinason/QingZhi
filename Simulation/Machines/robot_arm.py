@@ -1,4 +1,4 @@
-from Simulation.machines.simulation_machine import simulation_machine
+from Simulation.Machines.simulation_machine import simulation_machine
 
 class robot_arm(simulation_machine):
     """

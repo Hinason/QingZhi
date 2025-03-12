@@ -15,7 +15,7 @@ def load_machines_from_json(file_path):
         data = json.load(file)
     machine_system = MachineSystem()
     for assay in data['assaysmodel']:
-        for machine_data in assay['machines']:
+        for machine_data in assay['Machines']:
             machine_system.add_machine(machine_data)
     return machine_system
 
@@ -42,7 +42,7 @@ def load_positions_from_json(file_path):
 
 
 if __name__ == "__main__":
-    file_path = './TestData/UnitTest/normal.json'  # 替换正确的JSON文件路径
+    file_path = './TestData/UnitTest/20250120.json'  # 替换正确的JSON文件路径
 
     machine_system = load_machines_from_json(file_path)
     task_system = load_tasks_from_json(file_path)
@@ -64,12 +64,17 @@ if __name__ == "__main__":
     # 此处使用算法调度scheduled_tasks
     # 主要是给每一个 task 确定开始时间(start_time)以及结束时间(end_time)
     # 由于 duration 是一个固定值, 因此只需要确定 start_time 即可, end_time=start_time+duration
+    scheduled_tasks = scheduleState.taskSystem.get_all_tasks()
     cnt = 0
-    for item in scheduleState.taskSystem.get_all_tasks():
-        print(f"name: {item.taskName} id: {item.id} begin at {item.beginTime} end at {item.endTime} last {item.duration}")
+    for item in scheduled_tasks:
+        print(f"#name: {item.taskName} id: {item.id} begin at {item.beginTime} end at {item.endTime} last {item.duration}")
         print(item.realOccupy)
+        print(item.realRelease)
         cnt = cnt + 1
     print(f"total task num is {cnt}")
+
+    Simulator = simulator(machine_system, position_system, scheduled_tasks)
+    Simulator.run_simulation()
 
 
 
